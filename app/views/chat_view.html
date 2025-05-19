@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GraphRAG</title>
+    <style>
+      /* Reset cơ bản */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        /* background: #f9f9f9; */
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Container chat */
+      .chat-container {
+        width: 100%;
+        max-width: 800px;
+        height: 100vh;
+        background: #ffffff;
+        border-radius: 12px;
+        /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        /* padding-bottom: 30px; */
+      }
+
+      /* Header */
+      .chat-header {
+        padding: 20px 24px;
+        background: #ffffff;
+        /* border-bottom: 1px solid #e0e0e0; */
+        display: flex;
+        align-items: center;
+      }
+      .chat-header img {
+        height: 24px;
+        margin-right: 12px;
+      }
+      .chat-header h1 {
+        font-size: 1.25rem;
+        color: #111;
+        font-weight: 600;
+      }
+
+      /* Chat messages area */
+      .chat-messages {
+        flex: 1;
+        padding: 24px;
+        overflow-y: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        /* background: #f9f9f9; */
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+      }
+      .message {
+        max-width: 80%;
+        padding: 14px 18px;
+        border-radius: 16px;
+        position: relative;
+        line-height: 1.5;
+        word-break: break-word;
+        font-size: 0.95rem;
+      }
+      .message.user {
+        align-self: flex-end;
+        background: #f4f4f4;
+        /* color: #fff; */
+        border-bottom-right-radius: 4px;
+      }
+      .message.bot {
+        align-self: flex-start;
+        /* background: #e5e5ea; */
+        color: #111;
+        border-bottom-left-radius: 4px;
+      }
+      /* .message.user::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: -8px;
+        border-top: 8px solid #10a37f;
+        border-left: 8px solid transparent;
+      }
+      .message.bot::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: -8px;
+        border-top: 8px solid #e5e5ea;
+        border-right: 8px solid transparent;
+      } */
+
+      /* Input area */
+      .chat-input {
+        display: flex;
+        align-items: center;
+        padding: 16px 24px;
+        background: #ffffff;
+        border-radius: 25px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+
+      }
+      .chat-input textarea {
+        flex: 1;
+        padding: 12px 16px;
+        /* border: 1px solid #d1d1d6; */
+        border-radius: 8px;
+        font-size: 1rem;
+        outline: none;
+        /* background: #f2f2f7; */
+        color: #111;
+        border: none;
+      }
+      .chat-input button {
+        margin-left: 12px;
+        padding: 10px 15px;
+        border: none;
+        background: #212121;
+        color: #fff;
+        font-size: 1rem;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background 0.2s ease;
+      }
+      .chat-input button:disabled {
+        background: #212121;
+        cursor: default;
+      }
+
+      /* Scrollbar tùy chỉnh */
+      .chat-messages::-webkit-scrollbar {
+        width: 8px;
+        display: none;
+      }
+      .chat-messages::-webkit-scrollbar-thumb {
+        background: #c4c4c4;
+        border-radius: 4px;
+      }
+      .logo-group {
+        display: flex;
+        align-items: center;
+      }
+      .logo-group img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+      textarea {
+        width: 300px;
+        min-height: 40px;
+        max-height: 150px; /* chiều cao tối đa */
+        overflow-y: auto; /* hiển thị scroll khi vượt quá max-height */
+        resize: none; /* tắt resize thủ công nếu muốn */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        <div class="logo-group">
+          <a href="https://qnu.edu.vn/" target="_blank">
+            <img src="./../static/image/logo_qnu.png" alt="Logo QNU" />
+          </a>
+          <a href="https://kcntt.qnu.edu.vn/" target="_blank">
+            <img src="./../static/image/logo_kcntt.png" alt="Logo CNTT" />
+          </a>
+        </div>
+        <h1>GraphRAG</h1>
+      </div>
+      <div class="chat-messages" id="chatBox"></div>
+      <div class="chat-input">
+        <textarea id="autoResize" placeholder="Nhập nội dung..."></textarea>
+        <button id="sendBtn">Gửi</button>
+      </div>
+      <p
+        style="
+          text-align: center;
+          margin: 15px 0 5px 0;
+          font-size: 12px;
+          color: #afafaf;
+        "
+      >
+        Made with by <a style="color: #afafaf;" href="https://www.facebook.com/dothanhhauqnu" target="_blank">Đỗ Thành Hậu</a>
+      </p>
+    </div>
+    <script>
+      const chatBox = document.getElementById("chatBox");
+      const userInput = document.getElementById("autoResize");
+      const sendBtn = document.getElementById("sendBtn");
+      const textarea = document.getElementById("autoResize");
+      textarea.addEventListener("input", () => {
+        textarea.style.height = "auto"; // reset chiều cao
+        textarea.style.height = textarea.scrollHeight + "px"; // đặt chiều cao theo nội dung
+      });
+      function appendMessage(text, sender) {
+        const msgDiv = document.createElement("div");
+        msgDiv.classList.add("message", sender);
+        msgDiv.textContent = text;
+        chatBox.appendChild(msgDiv);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
+
+      async function sendMessage() {
+        const text = userInput.value.trim();
+        if (!text) return;
+        appendMessage(text, "user");
+        userInput.value = "";
+        userInput.disabled = true;
+        sendBtn.disabled = true;
+        try {
+          appendMessage("Đang xử lý...", "bot");
+          const response = await fetch("/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ message: text }),
+          });
+          const data = await response.json();
+          const loading = document.querySelector(".message.bot:last-child");
+          if (loading) loading.remove();
+          appendMessage(data.response, "bot");
+        } catch {
+          const loading = document.querySelector(".message.bot:last-child");
+          if (loading) loading.remove();
+          appendMessage("Lỗi kết nối. Vui lòng thử lại.", "bot");
+        } finally {
+          userInput.disabled = false;
+          sendBtn.disabled = false;
+          userInput.focus();
+        }
+      }
+
+      sendBtn.addEventListener("click", sendMessage);
+      userInput.addEventListener("keypress", (e) => {
+        if (e.key === "Enter" && !sendBtn.disabled) sendMessage();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+# Tệp cài đặt Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+bin/
+
+vercel.json
+
+# Môi trường ảo
+venv/
+env/
+ENV/
+*.env
+
+# Tệp cấu hình cục bộ của IDE (ví dụ: VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Tệp cấu hình cục bộ của hệ điều hành
+.DS_Store   # MacOS
+Thumbs.db   # Windows
+
+# Các tệp cơ sở dữ liệu SQLite (nếu dùng SQLite)
+*.sqlite3
+*.db
+
+# Tệp log
+*.log
+
+# Thư mục tạm thời
+tmp/
+temp/
+
+# Các tệp liên quan đến các công cụ test
+.coverage
+nosetests.xml
+test_*.xml
+
+# Thư mục tĩnh của Flask (nếu không cần phải theo dõi)
+instance/
+
+# Tệp cấu hình của Flask
+instance/*
+
+a.txt

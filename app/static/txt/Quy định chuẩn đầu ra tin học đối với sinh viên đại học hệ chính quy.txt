@@ -1,0 +1,18 @@
+Tên quy định: Quy định chuẩn đầu ra tin học đối với sinh viên đại học hệ chính quy
+Điều 1. Phạm vi và đối tượng áp dụng
+1. Văn bản này quy định Chuẩn đầu ra tin học đối với sinh viên đại học hệ chính quy Trường Đại học Quy Nhơn
+2. Quy định này áp dụng từ khóa tuyển sinh năm 2015 (khóa 38) trở đi.
+3. Quy định này không áp dụng đối với sinh viên ngành Sư phạm Tin học, Công nghệ thông tin.
+Điều 2. Chuẩn đầu ra tin học
+1. Chuẩn đầu ra tin học được xác định theo Chuẩn kỹ năng sử dụng công nghệ thông tin quy định tại Thông tư số 03/2014/TT-BTTTT ngày 11/03/2014 của Bộ Thông tin và Truyền thông.
+2. Chuẩn đầu ra tin học là điều kiện để xét công nhận tốt nghiệp.
+3. Trước khi xét tốt nghiệp, sinh viên phải đạt một trong các chứng chỉ sau đây:
+a) Chứng chỉ ứng dụng công nghệ thông tin cơ bản do Trường Đại học Quy Nhơn cấp.
+b) Chứng chỉ tin học quốc tế IC3 (Internet and Computing Core Certification).
+c) Chứng chỉ tin học quốc tế ICDL (International Computer Driving Licence) - đạt ít nhất 6 mô đun sau: ICDL.01, ICDL.02, ICDL.03, ICDL.04, ICDL.05, ICDL.08.
+d) Chứng chỉ tin học quốc tế MOS (Microsoft Office Specialist) - đạt 3 chứng chỉ Word/Excel/PowerPoint.
+4. Các trường hợp đặc biệt do Hiệu trưởng quyết định.
+Điều 3. Tổ chức thực hiện
+1. Các ông (bà) Trưởng phòng Khảo thí và Đảm bảo chất lượng, Đào tạo đại học, Công tác sinh viên và các Trưởng đơn vị có liên quan chịu trách nhiệm triển khai và hướng dẫn thực hiện Quy định này.
+2. Trung tâm tin học Trường Đại học Quy Nhơn phối hợp với các đơn vị liên quan tổ chức thi và cấp chứng chỉ Chuẩn đầu ra tin học cho sinh viên.
+Trong quá trình thực hiện, nếu có vấn đề chưa phù hợp, các đơn vị đề xuất với Nhà trường (qua Phòng Khảo thí và Đảm bảo chất lượng) để bổ sung, điều chỉnh.

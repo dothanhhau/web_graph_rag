@@ -1,0 +1,279 @@
+{
+    "entities": {
+        "Khái_niệm": {
+            "properties": [
+                "cách_tính",
+                "tín_chỉ",
+                "xử_lý_bất_đồng",
+                "làm_tròn",
+                "khối_lượng",
+                "điểm_bao_gồm",
+                "mức",
+                "chấm_trắc_nghiệm",
+                "công_thức",
+                "điều_kiện",
+                "điểm",
+                "khốiLượngVượtQuá",
+                "định_nghĩa",
+                "vai_trò",
+                "yêu_cầu",
+                "công_bố_điểm",
+                "không_tính_vào_tbc",
+                "đượcCấpTheo",
+                "duyệt_bởi",
+                "trọng_số",
+                "nguồn_đề",
+                "giá_trị",
+                "xácĐịnhTheo",
+                "quy_định",
+                "id",
+                "mô_tả",
+                "thời_gian",
+                "mục_đích",
+                "thang_điểm",
+                "các_loại",
+                "mã_số",
+                "số_lượng_tối_thiểu",
+                "phạm_vi",
+                "kết_cấu",
+                "quy_đổi"
+            ],
+            "sample_ids": [
+                "Chương Trình Đào Tạo",
+                "Thời Gian Học Tập",
+                "Hình Thức Tổ Chức Đào Tạo",
+                "Phương Thức Tổ Chức Đào Tạo",
+                "Lập Kế Hoạch Giảng Dạy"
+            ]
+        },
+        "Chủ_thể": {
+            "properties": [
+                "dân_tộc",
+                "điều_kiện",
+                "số_thành_viên",
+                "hình_thức",
+                "đối_tượng",
+                "nguyên_nhân",
+                "tiêu_chuẩn",
+                "định_nghĩa",
+                "xác_nhận",
+                "id",
+                "vai_trò",
+                "hình_thức_học",
+                "thành_phần",
+                "nơi_học"
+            ],
+            "sample_ids": [
+                "Sinh Viên",
+                "Giảng Viên",
+                "Đơn Vị",
+                "Tổ Chức",
+                "Cá Nhân"
+            ]
+        },
+        "Tài_liệu": {
+            "properties": [
+                "nội_dung",
+                "mô_tả",
+                "mẫu",
+                "id"
+            ],
+            "sample_ids": [
+                "Đề Cương Chi Tiết Học Phần",
+                "Hợp Đồng Liên Kết Đào Tạo",
+                "Quy Định Về Liên Kết",
+                "Báo Cáo Tự Đánh Giá Chất Lượng",
+                "Quy Chế Về Tuyển Sinh"
+            ]
+        },
+        "Hoạt_động": {
+            "properties": [
+                "ngành",
+                "điều_kiện",
+                "hình_thức",
+                "id"
+            ],
+            "sample_ids": [
+                "Liên Kết Đào Tạo",
+                "Rút Bớt Học Phần",
+                "Đăng Ký Học Phần",
+                "Tổ Chức Giảng Dạy Và Học Tập",
+                "Dạy Và Học Trực Tuyến"
+            ]
+        },
+        "Tổ_chức": {
+            "properties": [
+                "vai_trò",
+                "id"
+            ],
+            "sample_ids": [
+                "Trường Đại Học Quy Nhơn",
+                "Bộ Giáo Dục Và Đào Tạo",
+                "Lực Lượng Vũ Trang",
+                "Cơ Quan Có Thẩm Quyền",
+                "Cơ Sở Khám Bệnh, Chữa Bệnh"
+            ]
+        },
+        "Điều": {
+            "properties": [
+                "id"
+            ],
+            "sample_ids": [
+                "Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng",
+                "Điều 6",
+                "Điều 7",
+                "Điều 8",
+                "Điều 9"
+            ]
+        },
+        "Thời_gian": {
+            "properties": [
+                "bao_gồm",
+                "thờiGianNộp",
+                "quy_định",
+                "id"
+            ],
+            "sample_ids": [
+                "Thời Gian Giảng Dạy",
+                "Học Kỳ 8",
+                "Học Kỳ 6",
+                "Thời Hạn Nộp Danh Sách",
+                "30 Ngày Trước Khi Bắt Đầu Học Kỳ Mới"
+            ]
+        },
+        "Văn_bản": {
+            "properties": [
+                "ngàyBanHành",
+                "ngườiBanHành",
+                "id"
+            ],
+            "sample_ids": [
+                "Quy Chế",
+                "Văn Bản",
+                "Thông Tư Số 10/2016/Tt-Bgdđt",
+                "Thông Tư Liên Tịch Số 09/2016/Ttlt-Bgdđt-Btc-Blđtbxh",
+                "Nghị Định Số 86/2015/Nđ-Cp"
+            ]
+        },
+        "Yêu_cầu": {
+            "properties": [
+                "mô_tả",
+                "id"
+            ],
+            "sample_ids": [
+                "Tiêu Chuẩn Chất Lượng",
+                "Môi Trường Sư Phạm",
+                "Cơ Sở Vật Chất",
+                "Thiết Bị",
+                "Thư Viện"
+            ]
+        },
+        "Quy_định": {
+            "properties": [
+                "tối_đa",
+                "id",
+                "căn_cứ",
+                "mô_tả"
+            ],
+            "sample_ids": [
+                "Quy Tắc Quy Đổi",
+                "Quy Định Về Học Phí Của Sinh Viên Đại Học Hệ Chính Quy",
+                "Quy Định Về Miễn, Giảm Học Phí",
+                "Mức Vốn Cho Vay",
+                "Trả Nợ Gốc Và Lãi Tiền Vay"
+            ]
+        }
+    },
+    "relationships": {
+        "QUY_ĐỊNH": {
+            "from": [
+                "Điều"
+            ],
+            "to": [
+                "Khái_niệm"
+            ],
+            "properties": []
+        },
+        "BAO_GỒM": {
+            "from": [
+                "Quy_chế"
+            ],
+            "to": [
+                "Chương"
+            ],
+            "properties": []
+        },
+        "ÁP_DỤNG_CHO": {
+            "from": [
+                "Khái_niệm"
+            ],
+            "to": [
+                "Chủ_thể"
+            ],
+            "properties": []
+        },
+        "YÊU_CẦU": {
+            "from": [
+                "Chủ_thể"
+            ],
+            "to": [
+                "Tài_liệu"
+            ],
+            "properties": []
+        },
+        "LIÊN_QUAN_ĐẾN": {
+            "from": [
+                "Khái_niệm"
+            ],
+            "to": [
+                "Khái_niệm"
+            ],
+            "properties": []
+        },
+        "ÁP_DỤNG": {
+            "from": [
+                "Điều"
+            ],
+            "to": [
+                "Chủ_thể"
+            ],
+            "properties": []
+        },
+        "BAN_HÀNH": {
+            "from": [
+                "Chủ_thể"
+            ],
+            "to": [
+                "Khái_niệm"
+            ],
+            "properties": []
+        },
+        "CẦN_CHUẨN_BỊ": {
+            "from": [
+                "Chủ_thể"
+            ],
+            "to": [
+                "Hồ_sơ"
+            ],
+            "properties": []
+        },
+        "HƯỚNG_DẪN": {
+            "from": [
+                "Chủ_thể"
+            ],
+            "to": [
+                "Loại_học_phần"
+            ],
+            "properties": []
+        },
+        "PHÂN_LOẠI": {
+            "from": [
+                "Hoạt_động"
+            ],
+            "to": [
+                "Khái_niệm"
+            ],
+            "properties": []
+        }
+    }
+}

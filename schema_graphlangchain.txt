@@ -1,0 +1,254 @@
+Node Labels:
+- **Khái_niệm**
+  - `định_nghĩa`: STRING Available options: ['Được xây dựng theo đơn vị tín chỉ, cấu trúc từ các môn học hoặc học phần, bao gồm mục tiêu, khối lượng kiến thức, cấu trúc, nội dung, phương pháp và hình thức đánh giá.', 'Tập hợp hoạt động giảng dạy và học tập được thiết kế nhằm thực hiện một số mục tiêu cụ thể, trang bị kiến thức kỹ năng thuộc một phạm vi chuyên môn hẹp trong chương trình đào tạo.', 'Đơn vị xác định khối lượng học tập của chương trình đào tạo, của mỗi thành phần hoặc của mỗi học phần trong chương trình đào tạo.', 'Thể hiện thời gian, địa điểm, hoạt động dạy và học của từng lớp thuộc các khóa, hình thức và chương trình đào tạo.', 'Chỉ tiết hóa việc tổ chức thực hiện các chương trình đào tạo theo năm học, học kỳ, phù hợp với hình thức đào tạo và phương thức tổ chức đào tạo.', 'Thể hiện những mốc thời gian chính của các hoạt động đào tạo trong năm học cho tất cả hình thức, chương trình đào tạo.', 'Được tổ chức ngoài các học kỳ chính, do Hiệu trưởng quyết định.', 'Bao gồm kế hoạch mở lớp, hình thức dạy và học (trực tiếp hoặc trực tuyến), lịch học, lịch thi của các học phần được tổ chức trong học kỳ cho các khóa, chương trình đào tạo và hình thức đào tạo.', 'Điểm không đạt', 'Điểm đạt']
+  - `phạm_vi`: STRING Available options: ['Áp dụng chung đối với các hình thức, phương thức tổ chức đào tạo và đối tượng người học khác nhau.', 'Trong phạm vi quỹ học bổng của trường']
+  - `mô_tả`: STRING Available options: ['Chương trình đào tạo theo học', 'Bao gồm các sinh viên của một khóa, ngành đào tạo, thông thường được duy trì suốt khóa học. Trường hợp các ngành có đông sinh viên sẽ được chia thành nhiều lớp sinh viên.', 'Gồm các sinh viên đăng ký học cùng một học phần, cùng một thời khóa biểu.', 'Là khoa quản lý chương trình đào tạo và tổ chức, quản lý quá trình đào tạo sinh viên đã được tuyển sinh theo ngành đào tạo.', 'Khoa quản lý học phần do Hiệu trưởng quyết định và quản lý về chuyên môn đối với mỗi học phần cụ thể trong chương trình đào tạo.', 'Điểm tổng hợp đánh giá học phần gồm hai thành phần điểm đánh giá quá trình học tập và điểm thi kết thúc học phần.', 'Điểm trung bình cộng của điểm các bài thực hành trong học kỳ được làm tròn đến một chữ số thập phân.', 'Như thực tập, thực tế, đề án môn học, đồ án môn học, khoa quản lý học phần đề xuất việc đánh giá học phần.', 'Gồm các số từ 0 đến 10 (với một số lẻ thập phân) được sử dụng để đánh giá và ghi điểm đánh giá quá trình, điểm thi kết thúc học phần và điểm học phần.', 'Dùng để xếp loại học phần theo một cách khác tương ứng với điểm học phần trong thang điểm 10.']
+  - `id`: STRING Available options: ['Chương Trình Đào Tạo', 'Thời Gian Học Tập', 'Hình Thức Tổ Chức Đào Tạo', 'Phương Thức Tổ Chức Đào Tạo', 'Lập Kế Hoạch Giảng Dạy', 'Tổ Chức Giảng Dạy', 'Đánh Giá Kết Quả Học Tập', 'Cấp Bằng Tốt Nghiệp', 'Học Phần', 'Khung Trình Độ Quốc Gia Việt Nam']
+  - `thời_gian`: STRING Available options: ['Một học kỳ', '02 hoặc 03 học kỳ chính với tổng số tối thiểu 30 tuần lên lớp.']
+  - `kết_cấu`: STRING Available options: ['Gắn với một mức trình độ theo năm học thiết kế và được kết cấu riêng như một phần của môn học hoặc tổ hợp từ nhiều môn học.']
+  - `mã_số`: STRING Available options: ['Mã học phần do Trường quy định.']
+  - `điểm`: STRING Available options: ['a_i']
+  - `tín_chỉ`: STRING Available options: ['n_i']
+  - `khối_lượng`: STRING Available options: ['1 đến 4 tín chỉ']
+  - `vai_trò`: STRING Available options: ['Làm chuẩn đầu ra cho chương trình đào tạo.']
+  - `mục_đích`: STRING Available options: ['Định hướng cho sinh viên.', 'xét thôi học, cảnh báo kết quả học tập, xếp hạng học lực sinh viên, xếp hạng tốt nghiệp', 'Khuyến khích học tập']
+  - `giá_trị`: STRING Available options: ['150 tín chỉ cho ngành kỹ sư, 138 tín chỉ cho ngành sư phạm, 120 tín chỉ cho ngành cử nhân kỹ thuật, 135 tín chỉ cho các ngành còn lại.']
+  - `quy_đổi`: STRING Available options: ['1 tín chỉ tương đương 50 giờ học tập định mức.']
+  - `yêu_cầu`: STRING Available options: ['Tối thiểu 15 giờ giảng hoặc 30 giờ thực hành, thí nghiệm, thảo luận đối với hoạt động dạy học trên lớp; 45 giờ làm tiểu luận, bài tập lớn hoặc đồ án, khoá luận tốt nghiệp, thực tập tại cơ sở.', 'Phù hợp với nội dung và chuẩn đầu ra học phần', 'Hai giảng viên đảm nhiệm (lý thuyết, tiểu luận)', 'Hai giảng viên thực hiện']
+  - `quy_định`: STRING Available options: ['Hoạt động theo Quy định về công tác sinh viên.', 'Khoản 1 và khoản 2 Điều 5']
+  - `số_lượng_tối_thiểu`: STRING Available options: ['60 sinh viên với các học phần chung toàn trường, 25 sinh viên với các học phần chuyên ngành.']
+  - `trọng_số`: STRING Available options: ['30%, 40% hoặc 50% điểm học phần', '70%, 60% hoặc 50% điểm học phần']
+  - `nguồn_đề`: STRING Available options: ['Ngân hàng đề thi hoặc ra đề theo quy định Hiệu trưởng']
+  - `duyệt_bởi`: STRING Available options: ['Hiệu trưởng']
+  - `các_loại`: STRING Available options: ['Tự luận, trắc nghiệm, trắc nghiệm trên máy tính, vấn đáp, thực hành']
+  - `chấm_trắc_nghiệm`: STRING Available options: ['Phần mềm thực hiện']
+  - `xử_lý_bất_đồng`: STRING Available options: ['Trưởng bộ môn hoặc Trưởng khoa quyết định']
+  - `công_bố_điểm`: STRING Available options: ['Công khai sau mỗi buổi thi']
+  - `cách_tính`: STRING Available options: ['Trung bình cộng các điểm thành phần']
+  - `làm_tròn`: STRING Available options: ['1 chữ số thập phân', '2 chữ số thập phân']
+  - `thang_điểm`: STRING Available options: ['10']
+  - `điểm_bao_gồm`: STRING Available options: ['A+, A, B+, B, C, D, F', 'A+, A, B+, B, C, D']
+  - `công_thức`: STRING Available options: ['A = (Σ (i = 1 -> n) [a_i * n_i]) / (Σ (i = 1 -> n) [n_i])']
+  - `không_tính_vào_tbc`: STRING Available options: ['Điểm TBC học kỳ, điểm TBC tích lũy']
+  - `điều_kiện`: STRING Available options: ['Điểm trung bình năm học từ 1.0 (năm thứ nhất), từ 1.2 (năm thứ hai), từ 1.4 (năm thứ ba trở đi); Số tín chỉ nợ đọng không vượt quá 16']
+  - `đượcCấpTheo`: STRING Available options: ['ngành đào tạo chính (đơn ngành hoặc song ngành)']
+  - `xácĐịnhTheo`: STRING Available options: ['điểm trung bình chung tích lũy của toàn khóa học']
+  - `khốiLượngVượtQuá`: STRING Available options: ['5% so với tổng số tín chỉ quy định cho toàn chương trình']
+  - `mức`: STRING Available options: ['từ mức cảnh cáo trở lên']
+  - `nội_dung`: STRING Available options: ['công nhận lẫn nhau về quy trình đào tạo, nội dung đào tạo và giá trị của tín chỉ']
+- **Chủ_thể**
+  - `id`: STRING Available options: ['Sinh Viên', 'Giảng Viên', 'Đơn Vị', 'Tổ Chức', 'Cá Nhân', 'Bộ Giáo Dục Và Đào Tạo', 'Trường', 'Khoa', 'Hiệu Trưởng', 'Cố Vấn Học Tập']
+  - `vai_trò`: STRING Available options: ['Chủ động và có trách nhiệm trong học tập', 'Hướng dẫn đối với ngành đào tạo giáo viên', 'Quy định mã học phần và yêu cầu nội dung đề cương chi tiết học phần.', 'Hướng dẫn sinh viên chọn học phần tự chọn và đề xuất học phần tương đương, thay thế.', 'Quy định mức học bổng, xác định số lượng suất học bổng', 'Thực hiện nhiệm vụ và quyền hạn theo quy định.', 'Xem xét công nhận, chuyển đổi tín chỉ', 'Phát huy năng lực chuyên môn và trách nhiệm nghề nghiệp', 'Xem xét công nhận, chuyển đổi tín chỉ trên cơ sở đối sánh chuẩn đầu ra, nội dung và khối lượng học tập']
+  - `số_thành_viên`: STRING Available options: ['03']
+  - `thành_phần`: STRING Available options: ['Chủ tịch, ủy viên phản biện, thư ký']
+  - `điều_kiện`: STRING Available options: ['có hoàn cảnh khó khăn', 'Thuộc diện hộ cận nghèo theo quy định của Thủ tướng Chính phủ.', 'Thuộc hộ nghèo, hộ cận nghèo', 'Có hộ khẩu thường trú tại vùng kinh tế - xã hội khó khăn hoặc đặc biệt khó khăn.', 'Cha hoặc mẹ bị tai nạn lao động hoặc mắc bệnh nghề nghiệp được hưởng trợ cấp thường xuyên.', 'mồ côi cả cha lẫn mẹ hoặc chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động']
+  - `đối_tượng`: STRING Available options: ['Đang học trong các đại học, học viện, trường đại học, trường cao đẳng, trường trung cấp chuyên nghiệp hệ giáo dục chính quy công lập và ngoài công lập']
+  - `nơi_học`: STRING Available options: ['trường đại học, cao đẳng, trung cấp chuyên nghiệp, cơ sở đào tạo nghề']
+  - `định_nghĩa`: STRING Available options: ['Người hoạt động cách mạng trước ngày 01/01/1945, từ ngày 01/01/1945 đến khởi nghĩa tháng Tám năm 1945, Anh hùng Lực lượng vũ trang Nhân dân, Anh hùng Lao động trong thời kỳ kháng chiến, liệt sĩ, thương binh, người hưởng chính sách như thương binh, bệnh binh, người hoạt động kháng chiến bị nhiễm chất độc hóa học.']
+  - `hình_thức_học`: STRING Available options: ['Đại học, cao đẳng hệ chính quy']
+  - `dân_tộc`: STRING Available options: ['La Hủ, La Ha, Pà Thẻn, Lự, Ngái, Chứt, Lô Lô, Mảng, Cống, Cờ Lao, Bố Y, Si La, Pu Péo, Rơ Măm, Brâu, Ơ Đu.']
+  - `hình_thức`: STRING Available options: ['ngừng học, buộc thôi học, học lưu ban, học lại, học bổ sung']
+  - `tiêu_chuẩn`: STRING Available options: ['theo quy định của pháp luật', 'mức thu nhập bình quân đầu người tối đa bằng 150% mức thu nhập bình quân đầu người của hộ nghèo']
+  - `xác_nhận`: STRING Available options: ['Ủy ban Nhân dân xã, phường, thị trấn nơi cư trú']
+  - `nguyên_nhân`: STRING Available options: ['tai nạn, bệnh tật, thiên tai, hỏa hoạn, dịch bệnh']
+- **Tài_liệu**
+  - `nội_dung`: STRING Available options: ['Mục tiêu, chuẩn đầu ra, số lượng tín chỉ, điều kiện tiên quyết, phương pháp và hình thức tổ chức dạy học, kế hoạch giảng dạy chi tiết, đánh giá kết quả học tập, tài liệu phục vụ môn học, điều kiện thí nghiệm, thực hành, thực tập phục vụ học phần.']
+  - `id`: STRING Available options: ['Đề Cương Chi Tiết Học Phần', 'Hợp Đồng Liên Kết Đào Tạo', 'Quy Định Về Liên Kết', 'Báo Cáo Tự Đánh Giá Chất Lượng', 'Quy Chế Về Tuyển Sinh', 'Đề Cương Chi Tiết', 'Đề Cương Đồ Án, Khoá Luận Tốt Nghiệp', 'Mẫu Quy Định', 'Quyết Định', 'Đơn Xin Nghỉ Học Tạm Thời']
+  - `mô_tả`: STRING Available options: ['Quy định phương pháp đánh giá, hình thức đánh giá và trọng số của mỗi điểm thành phần.']
+  - `mẫu`: STRING Available options: ['thống nhất của Trường']
+- **Hoạt_động**
+  - `hình_thức`: STRING Available options: ['vừa làm vừa học']
+  - `ngành`: STRING Available options: ['theo quy định']
+  - `id`: STRING Available options: ['Liên Kết Đào Tạo', 'Rút Bớt Học Phần', 'Đăng Ký Học Phần', 'Tổ Chức Giảng Dạy Và Học Tập', 'Dạy Và Học Trực Tuyến', 'Phân Công Giảng Viên Giảng Dạy', 'Lấy Ý Kiến Phản Hồi Của Người Học', 'Làm Đồ Án Hoặc Khoá Luận Tốt Nghiệp', 'Duyệt Đề Cương', 'Đánh Giá Đồ Án, Khoá Luận Tốt Nghiệp']
+  - `điều_kiện`: STRING Available options: ['a) Hội đồng chuyên môn ít nhất 3 thành viên; b) Đồng thuận của hội đồng và người học; c) Ghi hình, ghi âm đầy đủ']
+- **Tổ_chức**
+  - `id`: STRING Available options: ['Trường Đại Học Quy Nhơn', 'Bộ Giáo Dục Và Đào Tạo', 'Lực Lượng Vũ Trang', 'Cơ Quan Có Thẩm Quyền', 'Cơ Sở Khám Bệnh, Chữa Bệnh', 'Trường', 'Khoa Quản Lý Ngành Đào Tạo', 'Phòng Đào Tạo Đại Học', 'Chính Phủ', 'Thủ Tướng Chính Phủ']
+  - `vai_trò`: STRING Available options: ['Ban hành quy chế đào tạo và đánh giá kết quả rèn luyện', 'thực hiện cho vay đối với học sinh, sinh viên']
+- **Điều**
+  - `id`: STRING Available options: ['Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng', 'Điều 6', 'Điều 7', 'Điều 8', 'Điều 9', 'Điều 11. Đánh Giá Và Tính Điểm Học Phần', 'Điều 13', 'Điều 14', 'Điều 15', 'Điều 11']
+- **Thời_gian**
+  - `id`: STRING Available options: ['Thời Gian Giảng Dạy', 'Học Kỳ 8', 'Học Kỳ 6', 'Thời Hạn Nộp Danh Sách', '30 Ngày Trước Khi Bắt Đầu Học Kỳ Mới', 'Thời Gian Làm Đồ Án, Khoá Luận Tốt Nghiệp', 'Thời Gian Thực Tập Chuyên Môn Cuối Khoá', 'Học Kỳ Tiếp Theo', 'Học Kỳ', 'Năm Học']
+  - `thờiGianNộp`: STRING Available options: ['Từ ngày 15/09 đến 15/10 hàng năm', 'Từ ngày 15/01 đến 15/02 hàng năm']
+  - `quy_định`: STRING Available options: ['tối đa bằng 2 lần thời hạn phát tiền vay (đào tạo không quá một năm), bằng thời hạn phát tiền vay (đào tạo khác)']
+  - `bao_gồm`: STRING Available options: ['thời hạn phát tiền vay và thời hạn trả nợ']
+- **Văn_bản**
+  - `id`: STRING Available options: ['Quy Chế', 'Văn Bản', 'Thông Tư Số 10/2016/Tt-Bgdđt', 'Thông Tư Liên Tịch Số 09/2016/Ttlt-Bgdđt-Btc-Blđtbxh', 'Nghị Định Số 86/2015/Nđ-Cp', 'Quyết Định Miễn Giảm Học Phí', 'Quy Chế Đào Tạo Đại Học Và Cao Đẳng Hệ Chính Quy', 'Quy Chế Đào Tạo Trung Cấp Chuyên Nghiệp Hệ Chính Quy', 'Quy Chế Đánh Giá Kết Quả Rèn Luyện', 'Quyết Định Số 539/Qđ-Ttg']
+  - `ngàyBanHành`: STRING Available options: ['01/4/2013', '10/12/2013', '18/12/2013', '08/5/2014', '08/4/2014', '26/6/2014', '27/12/2008', '01/10/2013']
+  - `ngườiBanHành`: STRING Available options: ['Thủ tướng Chính phủ', 'Bộ trưởng, Chủ nhiệm Ủy ban Dân tộc', 'Chính phủ']
+- **Yêu_cầu**
+  - `id`: STRING Available options: ['Tiêu Chuẩn Chất Lượng', 'Môi Trường Sư Phạm', 'Cơ Sở Vật Chất', 'Thiết Bị', 'Thư Viện', 'Cán Bộ Quản Lý', 'Quyền Lợi Chính Đáng', 'Điều Kiện Đăng Ký Làm Đồ Án Hoặc Khoá Luận Tốt Nghiệp', '10 Tín Chỉ Chưa Đạt', 'Điểm Trung Bình Chung Học Tập Từ 7,00 Trở Lên']
+  - `mô_tả`: STRING Available options: ['Khối lượng tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của chương trình đào tạo']
+- **Quy_định**
+  - `mô_tả`: STRING Available options: ['Quy tắc quy đổi giữa các thang điểm.']
+  - `id`: STRING Available options: ['Quy Tắc Quy Đổi', 'Quy Định Về Học Phí Của Sinh Viên Đại Học Hệ Chính Quy', 'Quy Định Về Miễn, Giảm Học Phí', 'Mức Vốn Cho Vay', 'Trả Nợ Gốc Và Lãi Tiền Vay', 'Điều Chỉnh Kỳ Hạn Trả Nợ', 'Gia Hạn Trả Nợ', 'Chuyển Nợ Quá Hạn', 'Xử Lý Rủi Ro Do Nguyên Nhân Khách Quan', 'Xử Lý Vi Phạm']
+  - `căn_cứ`: STRING Available options: ['mức thu học phí của từng trường và sinh hoạt phí theo vùng']
+  - `tối_đa`: STRING Available options: ['1.500.000 đồng/tháng/sinh viên']
+
+Relationship properties:
+- **QUY_ĐỊNH**
+  - No properties
+- **BAO_GỒM**
+  - No properties
+- **LIÊN_QUAN_ĐẾN**
+  - No properties
+- **ÁP_DỤNG_CHO**
+  - `thời_hạn`: STRING Available options: ['60 ngày kể từ ngày học đầu tiên của học kỳ', '15 ngày kể từ ngày kết thúc đăng ký các học phần']
+  - `hệ_số`: STRING Available options: ['1.5', '2.5']
+- **YÊU_CẦU**
+  - No properties
+- **PHÂN_LOẠI**
+  - No properties
+- **DỰA_TRÊN**
+  - No properties
+- **ÁP_DỤNG**
+  - No properties
+- **CẦN_CÓ**
+  - No properties
+- **PHẢI_ĐÁP_ỨNG**
+  - No properties
+- **THAM_GIA**
+  - No properties
+- **THAM_CHIẾU**
+  - No properties
+- **CÓ**
+  - No properties
+- **TỔ_CHỨC**
+  - No properties
+- **THEO_QUY_ĐỊNH**
+  - No properties
+- **PHỐI_HỢP_VỚI**
+  - No properties
+- **QUẢN_LÝ**
+  - No properties
+- **DO**
+  - No properties
+- **TRONG_TRƯỜNG_HỢP**
+  - No properties
+- **PHẢI_HOÀN_THÀNH**
+  - No properties
+
+The relationships:
+(:Quy_chế)-[:BAO_GỒM]->(:Chương)
+(:Chương)-[:BAO_GỒM]->(:Điều)
+(:Điều)-[:QUY_ĐỊNH]->(:Khái_niệm)
+(:Điều)-[:ÁP_DỤNG]->(:Chủ_thể)
+(:Điều)-[:ÁP_DỤNG]->(:Tổ_chức)
+(:Khái_niệm)-[:BAO_GỒM]->(:Khái_niệm)
+(:Khái_niệm)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Khái_niệm)-[:CÓ]->(:Khái_niệm)
+(:Hình_thức_đào_tạo)-[:QUY_ĐỊNH]->(:Khái_niệm)
+(:Khái_niệm)-[:BAO_GỒM]->(:Loại_học_phần)
+(:Khái_niệm)-[:LIÊN_QUAN_ĐẾN]->(:Khái_niệm)
+(:Chủ_thể)-[:QUY_ĐỊNH]->(:Khái_niệm)
+(:Chủ_thể)-[:YÊU_CẦU]->(:Tài_liệu)
+(:Khái_niệm)-[:BAO_GỒM]->(:Chủ_thể)
+(:Khái_niệm)-[:QUẢN_LÝ]->(:Khái_niệm)
+(:Khái_niệm)-[:QUẢN_LÝ]->(:Chủ_thể)
+(:Chủ_thể)-[:THAM_GIA]->(:Phương_thức_đào_tạo)
+(:Khái_niệm)-[:BAO_GỒM]->(:Hình_thức_đào_tạo)
+(:Hình_thức_đào_tạo)-[:QUY_ĐỊNH]->(:Thời_gian)
+(:Hình_thức_đào_tạo)-[:THAM_CHIẾU]->(:Văn_bản)
+(:Văn_bản)-[:BAO_GỒM]->(:Điều)
+(:Khái_niệm)-[:ÁP_DỤNG_CHO]->(:Ngành_đào_tạo)
+(:Hoạt_động)-[:ÁP_DỤNG_CHO]->(:Khái_niệm)
+(:Hoạt_động)-[:PHẢI_ĐÁP_ỨNG]->(:Yêu_cầu)
+(:Chủ_thể)-[:QUẢN_LÝ]->(:Chủ_thể)
+(:Chủ_thể)-[:PHẢI_ĐÁP_ỨNG]->(:Yêu_cầu)
+(:Chủ_thể)-[:THAM_GIA]->(:Chủ_thể)
+(:Khái_niệm)-[:BAO_GỒM]->(:Loại_đào_tạo)
+(:Chủ_thể)-[:QUẢN_LÝ]->(:Hệ_thống)
+(:Chủ_thể)-[:QUẢN_LÝ]->(:Phần_mềm)
+(:Phòng_ban)-[:QUY_ĐỊNH]->(:Quy_trình)
+(:Phòng_ban)-[:TỔ_CHỨC]->(:Đợt_đăng_ký)
+(:Chủ_thể)-[:QUY_ĐỊNH]->(:Thời_biểu)
+(:Hoạt_động)-[:CÓ]->(:Khái_niệm)
+(:Hoạt_động)-[:TỔ_CHỨC]->(:Chủ_thể)
+(:Khái_niệm)-[:ÁP_DỤNG]->(:Chủ_thể)
+(:Khái_niệm)-[:THAM_CHIẾU]->(:Tài_liệu)
+(:Khái_niệm)-[:ÁP_DỤNG]->(:Phương_pháp)
+(:Điều)-[:QUY_ĐỊNH]->(:Chủ_thể)
+(:Khái_niệm)-[:THAM_CHIẾU]->(:Quy_định)
+(:Khái_niệm)-[:LIÊN_QUAN_ĐẾN]->(:Chủ_thể)
+(:Chủ_thể)-[:TỔ_CHỨC]->(:Khái_niệm)
+(:Chủ_thể)-[:CÓ]->(:Khái_niệm)
+(:Điều)-[:QUY_ĐỊNH]->(:Hoạt_động)
+(:Hoạt_động)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Yêu_cầu)-[:ÁP_DỤNG_CHO]->(:Ngành_đào_tạo)
+(:Yêu_cầu)-[:YÊU_CẦU]->(:Yêu_cầu)
+(:Chủ_thể)-[:TỔ_CHỨC]->(:Hoạt_động)
+(:Khái_niệm)-[:BAO_GỒM]->(:Học_phần)
+(:Hoạt_động)-[:LIÊN_QUAN_ĐẾN]->(:Thời_gian)
+(:Hoạt_động)-[:DỰA_TRÊN]->(:Khái_niệm)
+(:Hoạt_động)-[:BAO_GỒM]->(:Hoạt_động)
+(:Hoạt_động)-[:PHÂN_LOẠI]->(:Khái_niệm)
+(:Hoạt_động)-[:BAO_GỒM]->(:Khái_niệm)
+(:Khái_niệm)-[:DỰA_TRÊN]->(:Khái_niệm)
+(:Khái_niệm)-[:PHÂN_LOẠI]->(:Khái_niệm)
+(:Khái_niệm)-[:ÁP_DỤNG]->(:Phương_thức_đào_tạo)
+(:Phương_thức_đào_tạo)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Phương_thức_đào_tạo)-[:QUY_ĐỊNH]->(:Hình_thức_xử_lý)
+(:Phương_thức_đào_tạo)-[:QUY_ĐỊNH]->(:Khái_niệm)
+(:Yêu_cầu)-[:ÁP_DỤNG_CHO]->(:Khái_niệm)
+(:Chủ_thể)-[:PHẢI_HOÀN_THÀNH]->(:Khái_niệm)
+(:Chủ_thể)-[:DO]->(:Chủ_thể)
+(:Hoạt_động)-[:TRONG_TRƯỜNG_HỢP]->(:Tổ_chức)
+(:Hoạt_động)-[:TRONG_TRƯỜNG_HỢP]->(:Sự_kiện)
+(:Hoạt_động)-[:TRONG_TRƯỜNG_HỢP]->(:Tình_trạng)
+(:Hoạt_động)-[:TRONG_TRƯỜNG_HỢP]->(:Thời_gian)
+(:Điều)-[:QUY_ĐỊNH]->(:Quy_trình)
+(:Quy_trình)-[:YÊU_CẦU]->(:Chủ_thể)
+(:Quy_trình)-[:YÊU_CẦU]->(:Tổ_chức)
+(:Quy_trình)-[:YÊU_CẦU]->(:Tài_liệu)
+(:Hoạt_động)-[:LIÊN_QUAN_ĐẾN]->(:Khái_niệm)
+(:Hoạt_động)-[:LIÊN_QUAN_ĐẾN]->(:Tổ_chức)
+(:Hoạt_động)-[:YÊU_CẦU]->(:Tài_liệu)
+(:Điều)-[:BAO_GỒM]->(:Hoạt_động)
+(:Khái_niệm)-[:QUY_ĐỊNH]->(:Yêu_cầu)
+(:Hoạt_động)-[:LIÊN_QUAN_ĐẾN]->(:Chương_trình_đào_tạo)
+(:Hoạt_động)-[:QUY_ĐỊNH]->(:Thời_gian)
+(:Thời_gian)-[:THAM_CHIẾU]->(:Điều)
+(:Điều)-[:BAO_GỒM]->(:Khoản)
+(:Điều)-[:THAM_CHIẾU]->(:Điều)
+(:Điều)-[:THAM_CHIẾU]->(:Văn_bản)
+(:Điều)-[:THAM_CHIẾU]->(:Tổ_chức)
+(:Chủ_thể)-[:THAM_GIA]->(:Hoạt_động)
+(:Chủ_thể)-[:THAM_GIA]->(:Khái_niệm)
+(:Hình_thức_xử_lý)-[:THEO_QUY_ĐỊNH]->(:Văn_bản_quy_định)
+(:Quy_định)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Khái_niệm)-[:ÁP_DỤNG_CHO]->(:Khái_niệm)
+(:Khái_niệm)-[:THEO_QUY_ĐỊNH]->(:Quy_chế)
+(:Quy_chế)-[:ÁP_DỤNG]->(:Chương_trình_đào_tạo)
+(:Khái_niệm)-[:THEO_QUY_ĐỊNH]->(:Tổ_chức)
+(:Chủ_thể)-[:THEO_QUY_ĐỊNH]->(:Điều)
+(:Hoạt_động)-[:BAO_GỒM]->(:Phương_thức)
+(:Phương_thức)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Tổ_chức)-[:QUẢN_LÝ]->(:Tài_khoản)
+(:Khái_niệm)-[:YÊU_CẦU]->(:Tài_liệu)
+(:Tổ_chức)-[:CÓ]->(:Văn_bản)
+(:Văn_bản)-[:ÁP_DỤNG]->(:Chủ_thể)
+(:Chủ_thể)-[:ÁP_DỤNG]->(:Văn_bản_pháp_luật)
+(:Chủ_thể)-[:CẦN_CÓ]->(:Tài_liệu)
+(:Chủ_thể)-[:PHỐI_HỢP_VỚI]->(:Chủ_thể)
+(:Chủ_thể)-[:PHẢI_HOÀN_THÀNH]->(:Yêu_cầu)
+(:Khái_niệm)-[:BAO_GỒM]->(:Mức_học_bổng)
+(:Chủ_thể)-[:QUẢN_LÝ]->(:Quỹ)
+(:Cơ_sở_giáo_dục)-[:ÁP_DỤNG]->(:Văn_bản_pháp_luật)
+(:Khái_niệm)-[:ÁP_DỤNG_CHO]->(:Khối_ngành)
+(:Khái_niệm)-[:ÁP_DỤNG_CHO]->(:Trình_độ_đào_tạo)
+(:Quy_định)-[:LIÊN_QUAN_ĐẾN]->(:Khái_niệm)
+(:Quyết_định)-[:ÁP_DỤNG]->(:Chủ_thể)
+(:Quyết_định)-[:ÁP_DỤNG]->(:Tổ_chức)
+(:Chế_độ)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Chủ_thể)-[:BAO_GỒM]->(:Chủ_thể)
+(:Chế_độ)-[:QUY_ĐỊNH]->(:Mức_trợ_cấp)
+(:Chế_độ)-[:QUY_ĐỊNH]->(:Thời_gian)
+(:Chủ_thể)-[:THEO_QUY_ĐỊNH]->(:Văn_bản)
+(:Quyết_định)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Quyết_định)-[:QUY_ĐỊNH]->(:Chính_sách)
+(:Chính_sách)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Điều_kiện)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Thời_gian)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Lãi_suất)-[:ÁP_DỤNG_CHO]->(:Chủ_thể)
+(:Chủ_thể)-[:QUY_ĐỊNH]->(:Hồ_sơ)
+(:Chủ_thể)-[:QUY_ĐỊNH]->(:Quy_định)
+(:Chủ_thể)-[:QUY_ĐỊNH]->(:Ưu_đãi)

@@ -1,0 +1,681 @@
+Regulation - Quy Chế Đào Tạo Trình Độ Đại Học - {}
+Chapter - Chương I: Những Quy Định Chung - {}
+Article - Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng - {}
+Program - Chương Trình Đào Tạo - {}
+Duration - Thời Gian Học Tập - {}
+Form - Hình Thức Tổ Chức Đào Tạo - {}
+Method - Phương Thức Tổ Chức Đào Tạo - {}
+Planning - Lập Kế Hoạch - {}
+Teaching - Tổ Chức Giảng Dạy - {}
+Evaluation - Đánh Giá Kết Quả Học Tập - {}
+Graduation - Cấp Bằng Tốt Nghiệp - {}
+Person - Giảng Viên - {}
+Person - Sinh Viên - {}
+Organization - Đơn Vị - {}
+Organization - Tổ Chức - {}
+Person - Cá Nhân - {}
+Organization - Trường Đại Học Quy Nhơn - {}
+
+(Regulation: Quy Chế Đào Tạo Trình Độ Đại Học) - (CONTAINS:{}) - (Chapter:Chương I: Những Quy Định Chung)
+(Chapter: Chương I: Những Quy Định Chung) - (CONTAINS:{}) - (Article:Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (REGULATES:{}) - (Program:Chương Trình Đào Tạo)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (REGULATES:{}) - (Duration:Thời Gian Học Tập)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (REGULATES:{}) - (Form:Hình Thức Tổ Chức Đào Tạo)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (REGULATES:{}) - (Method:Phương Thức Tổ Chức Đào Tạo)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (REGULATES:{}) - (Planning:Lập Kế Hoạch)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (REGULATES:{}) - (Teaching:Tổ Chức Giảng Dạy)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (REGULATES:{}) - (Evaluation:Đánh Giá Kết Quả Học Tập)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (REGULATES:{}) - (Graduation:Cấp Bằng Tốt Nghiệp)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (APPLIES_TO:{}) - (Person:Giảng Viên)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (APPLIES_TO:{}) - (Person:Sinh Viên)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (APPLIES_TO:{}) - (Organization:Đơn Vị)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (APPLIES_TO:{}) - (Organization:Tổ Chức)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (APPLIES_TO:{}) - (Person:Cá Nhân)
+(Article: Điều 1. Phạm Vi Điều Chỉnh Và Đối Tượng Áp Dụng) - (APPLIES_TO:{}) - (Organization:Trường Đại Học Quy Nhơn)
+Organization - Bộ Giáo Dục Và Đào Tạo - {}
+Framework - Khung Trình Độ Quốc Gia Việt Nam - {}
+Program - Chương Trình Đào Tạo - {}
+Component - Học Phần - {}
+Program - Ngành Đào Tạo Kỹ Sư - {}
+Program - Ngành Đào Tạo Cử Nhân Kỹ Thuật - {}
+Program - Ngành Sư Phạm - {}
+Program - Ngành Còn Lại - {}
+Method - Hình Thức Đào Tạo Chính Quy - {}
+Method - Hình Thức Đào Tạo Vừa Làm Vừa Học - {}
+Person - Sinh Viên - {}
+Component - Giáo Dục Thể Chất - {}
+Component - Giáo Dục Quốc Phòng - An Ninh - {}
+
+(Program: Chương Trình Đào Tạo) - (REGULATED_BY:{}) - (Organization:Bộ Giáo Dục Và Đào Tạo)
+(Program: Chương Trình Đào Tạo) - (ALIGNED_WITH:{}) - (Framework:Khung Trình Độ Quốc Gia Việt Nam)
+(Program: Chương Trình Đào Tạo) - (CONSISTS_OF:{}) - (Component:Học Phần)
+(Program: Chương Trình Đào Tạo) - (INCLUDES:{}) - (Program:Ngành Đào Tạo Kỹ Sư)
+(Program: Chương Trình Đào Tạo) - (INCLUDES:{}) - (Program:Ngành Đào Tạo Cử Nhân Kỹ Thuật)
+(Program: Chương Trình Đào Tạo) - (INCLUDES:{}) - (Program:Ngành Sư Phạm)
+(Program: Chương Trình Đào Tạo) - (INCLUDES:{}) - (Program:Ngành Còn Lại)
+(Program: Chương Trình Đào Tạo) - (APPLIES_TO:{}) - (Method:Hình Thức Đào Tạo Chính Quy)
+(Program: Chương Trình Đào Tạo) - (APPLIES_TO:{}) - (Method:Hình Thức Đào Tạo Vừa Làm Vừa Học)
+(Program: Chương Trình Đào Tạo) - (TARGETS:{}) - (Person:Sinh Viên)
+(Program: Chương Trình Đào Tạo) - (EXCLUDES:{}) - (Component:Giáo Dục Thể Chất)
+(Program: Chương Trình Đào Tạo) - (EXCLUDES:{}) - (Component:Giáo Dục Quốc Phòng - An Ninh)
+Concept - Học Phần - {}
+Concept - Tín Chỉ - {}
+Concept - Đề Cương Chi Tiết Học Phần - {}
+Concept - Học Phần Bắt Buộc - {}
+Concept - Học Phần Tự Chọn - {}
+Concept - Học Phần Trước - {}
+Concept - Học Phần Tương Đương - {}
+Concept - Học Phần Thay Thế - {}
+Concept - Học Phần Điều Kiện - {}
+Concept - Giáo Dục Thể Chất - {}
+Concept - Giáo Dục Quốc Phòng - An Ninh - {}
+Organization - Trường - {}
+Organization - Khoa - {}
+Person - Hiệu Trưởng - {}
+Person - Sinh Viên - {}
+Person - Giảng Viên - {}
+
+(Concept: Học Phần) - (HAS:{}) - (Concept:Tín Chỉ)
+(Concept: Học Phần) - (HAS:{}) - (Concept:Đề Cương Chi Tiết Học Phần)
+(Concept: Học Phần) - (TYPE_OF:{}) - (Concept:Học Phần Bắt Buộc)
+(Concept: Học Phần) - (TYPE_OF:{}) - (Concept:Học Phần Tự Chọn)
+(Concept: Học Phần) - (TYPE_OF:{}) - (Concept:Học Phần Trước)
+(Concept: Học Phần) - (TYPE_OF:{}) - (Concept:Học Phần Tương Đương)
+(Concept: Học Phần) - (TYPE_OF:{}) - (Concept:Học Phần Thay Thế)
+(Concept: Học Phần) - (TYPE_OF:{}) - (Concept:Học Phần Điều Kiện)
+(Concept: Học Phần Điều Kiện) - (INCLUDES:{}) - (Concept:Giáo Dục Thể Chất)
+(Concept: Học Phần Điều Kiện) - (INCLUDES:{}) - (Concept:Giáo Dục Quốc Phòng - An Ninh)
+(Organization: Trường) - (REGULATES:{}) - (Concept:Học Phần)
+(Organization: Khoa) - (MANAGES:{}) - (Concept:Học Phần)
+(Person: Hiệu Trưởng) - (APPROVES:{}) - (Concept:Học Phần)
+(Person: Sinh Viên) - (TAKES:{}) - (Concept:Học Phần)
+(Person: Giảng Viên) - (TEACHES:{}) - (Concept:Đề Cương Chi Tiết Học Phần)
+Class - Lớp Sinh Viên - {}
+Person - Sinh Viên - {}
+Course - Khóa Học - {}
+Field - Ngành Đào Tạo - {}
+Regulation - Quy Định Về Công Tác Sinh Viên - {}
+Person - Cố Vấn Học Tập - {}
+Class - Lớp Học Phần - {}
+Course - Học Phần - {}
+Schedule - Thời Khóa Biểu - {}
+Organization - Nhà Trường - {}
+Department - Khoa Quản Lý Ngành Đào Tạo - {}
+Department - Khoa Quản Lý Học Phần - {}
+Person - Hiệu Trưởng - {}
+
+(Class: Lớp Sinh Viên) - (CONSISTS_OF:{}) - (Person:Sinh Viên)
+(Class: Lớp Sinh Viên) - (BELONGS_TO:{}) - (Course:Khóa Học)
+(Class: Lớp Sinh Viên) - (BELONGS_TO:{}) - (Field:Ngành Đào Tạo)
+(Class: Lớp Sinh Viên) - (GOVERNED_BY:{}) - (Regulation:Quy Định Về Công Tác Sinh Viên)
+(Class: Lớp Sinh Viên) - (HAS_ADVISOR:{}) - (Person:Cố Vấn Học Tập)
+(Class: Lớp Học Phần) - (CONSISTS_OF:{}) - (Person:Sinh Viên)
+(Class: Lớp Học Phần) - (BELONGS_TO:{}) - (Course:Học Phần)
+(Class: Lớp Học Phần) - (HAS_SCHEDULE:{}) - (Schedule:Thời Khóa Biểu)
+(Class: Lớp Học Phần) - (MANAGED_BY:{}) - (Organization:Nhà Trường)
+(Department: Khoa Quản Lý Ngành Đào Tạo) - (MANAGES:{}) - (Field:Ngành Đào Tạo)
+(Department: Khoa Quản Lý Học Phần) - (MANAGES:{}) - (Course:Học Phần)
+(Department: Khoa Quản Lý Học Phần) - (REPORTS_TO:{}) - (Person:Hiệu Trưởng)
+Phương thức đào tạo - Đào Tạo Theo Niên Chế - {}
+Phương thức đào tạo - Đào Tạo Theo Tín Chỉ - {}
+Person - Sinh Viên - {}
+Program - Chương Trình Đào Tạo - {}
+Person - Hiệu Trưởng - {}
+Organization - Trường Đại Học Quy Nhơn - {}
+
+(Phương thức đào tạo: Đào Tạo Theo Niên Chế) - (HỌC:{}) - (Person:Sinh Viên)
+(Phương thức đào tạo: Đào Tạo Theo Tín Chỉ) - (HỌC:{}) - (Person:Sinh Viên)
+(Phương thức đào tạo: Đào Tạo Theo Niên Chế) - (THEO:{}) - (Program:Chương Trình Đào Tạo)
+(Phương thức đào tạo: Đào Tạo Theo Tín Chỉ) - (THEO:{}) - (Program:Chương Trình Đào Tạo)
+(Person: Hiệu Trưởng) - (QUYẾT_ĐỊNH:{}) - (Phương thức đào tạo:Phương Thức Tổ Chức Đào Tạo)
+(Organization: Trường Đại Học Quy Nhơn) - (GIẢNG_DẠY:{}) - (Phương thức đào tạo:Đào Tạo Theo Tín Chỉ)
+Organization - Trường Đại Học Quy Nhơn - {}
+Organization - Bộ Giáo Dục Và Đào Tạo - {}
+Concept - Đào Tạo Chính Quy - {}
+Concept - Đào Tạo Vừa Làm Vừa Học - {}
+Concept - Các Ngành Đào Tạo Ưu Tiên - {}
+
+(Concept: Đào Tạo Chính Quy) - (LOCATION:{}) - (Organization:Trường Đại Học Quy Nhơn)
+(Concept: Đào Tạo Vừa Làm Vừa Học) - (LOCATION:{}) - (Organization:Trường Đại Học Quy Nhơn)
+(Concept: Các Ngành Đào Tạo Ưu Tiên) - (GUIDANCE:{}) - (Organization:Bộ Giáo Dục Và Đào Tạo)
+Concept - Liên Kết Đào Tạo - {}
+Concept - Vừa Làm Vừa Học - {}
+Organization - Trường Đại Học Quy Nhơn - {}
+Organization - Cơ Sở Phối Hợp Đào Tạo - {}
+Organization - Ủy Ban Nhân Dân Cấp Tỉnh - {}
+Concept - Chương Trình Đào Tạo - {}
+Person - Giảng Viên Cơ Hữu - {}
+Person - Sinh Viên - {}
+Document - Hợp Đồng Liên Kết Đào Tạo - {}
+Document - Quy Định Về Liên Kết - {}
+Document - Báo Cáo Tự Đánh Giá Chất Lượng - {}
+Document - Quy Chế Về Tuyển Sinh - {}
+Document - Quy Chế Về Đào Tạo - {}
+
+(Concept: Liên Kết Đào Tạo) - (ÁP_DỤNG:{}) - (Concept:Vừa Làm Vừa Học)
+(Concept: Liên Kết Đào Tạo) - (THUỘC:{}) - (Organization:Trường Đại Học Quy Nhơn)
+(Concept: Liên Kết Đào Tạo) - (THUỘC:{}) - (Organization:Cơ Sở Phối Hợp Đào Tạo)
+(Concept: Liên Kết Đào Tạo) - (YÊU_CẦU:{}) - (Concept:Chương Trình Đào Tạo)
+(Concept: Liên Kết Đào Tạo) - (YÊU_CẦU:{}) - (Person:Giảng Viên Cơ Hữu)
+(Concept: Liên Kết Đào Tạo) - (YÊU_CẦU:{}) - (Document:Hợp Đồng Liên Kết Đào Tạo)
+(Concept: Liên Kết Đào Tạo) - (YÊU_CẦU:{}) - (Document:Quy Định Về Liên Kết)
+(Concept: Liên Kết Đào Tạo) - (YÊU_CẦU:{}) - (Document:Báo Cáo Tự Đánh Giá Chất Lượng)
+(Organization: Trường Đại Học Quy Nhơn) - (BÁO_CÁO:{}) - (Organization:Ủy Ban Nhân Dân Cấp Tỉnh)
+(Organization: Trường Đại Học Quy Nhơn) - (QUẢN_LÝ:{}) - (Person:Sinh Viên)
+(Organization: Trường Đại Học Quy Nhơn) - (PHỐI_HỢP:{}) - (Organization:Cơ Sở Phối Hợp Đào Tạo)
+(Organization: Cơ Sở Phối Hợp Đào Tạo) - (CÓ:{}) - (Person:Giảng Viên Cơ Hữu)
+(Organization: Cơ Sở Phối Hợp Đào Tạo) - (QUẢN_LÝ:{}) - (Person:Sinh Viên)
+(Document: Hợp Đồng Liên Kết Đào Tạo) - (THUỘC:{}) - (Organization:Trường Đại Học Quy Nhơn)
+(Document: Hợp Đồng Liên Kết Đào Tạo) - (THUỘC:{}) - (Organization:Cơ Sở Phối Hợp Đào Tạo)
+(Document: Quy Chế Về Tuyển Sinh) - (THUỘC:{}) - (Organization:Trường Đại Học Quy Nhơn)
+(Document: Quy Chế Về Đào Tạo) - (THUỘC:{}) - (Organization:Trường Đại Học Quy Nhơn)
+Concept - Kế Hoạch Giảng Dạy Và Học Tập - {}
+Concept - Kế Hoạch Năm Học - {}
+Concept - Kế Hoạch Học Kỳ - {}
+Concept - Thời Khóa Biểu - {}
+Person - Hiệu Trưởng - {}
+Person - Sinh Viên - {}
+
+(Concept: Kế Hoạch Giảng Dạy Và Học Tập) - (INCLUDES:{}) - (Concept:Kế Hoạch Năm Học)
+(Concept: Kế Hoạch Giảng Dạy Và Học Tập) - (INCLUDES:{}) - (Concept:Kế Hoạch Học Kỳ)
+(Concept: Kế Hoạch Giảng Dạy Và Học Tập) - (INCLUDES:{}) - (Concept:Thời Khóa Biểu)
+(Person: Hiệu Trưởng) - (DECIDES:{}) - (Concept:Kế Hoạch Học Kỳ)
+(Concept: Kế Hoạch Học Kỳ) - (AFFECTS:{}) - (Person:Sinh Viên)
+Organization - Nhà Trường - {}
+Person - Sinh Viên - {}
+Organization - Phòng Đào Tạo Đại Học - {}
+Organization - Khoa Quản Lý Ngành Đào Tạo - {}
+Person - Cố Vấn Học Tập - {}
+Organization - Phòng Công Tác Chính Trị Và Sinh Viên - {}
+System - Hệ Thống Đăng Ký Học Tập - {}
+System - Phần Mềm Quản Lý Đào Tạo - {}
+System - Website Của Phòng Đào Tạo Đại Học - {}
+System - Bảng Tin Của Khoa - {}
+Location - Giảng Đường - {}
+Concept - Học Kỳ - {}
+Concept - Học Phần - {}
+Concept - Tín Chỉ - {}
+Concept - Giáo Dục Quốc Phòng - An Ninh - {}
+Person - Lớp Trưởng - {}
+
+(Organization: Nhà Trường) - (THÔNG_BÁO:{}) - (Person:Sinh Viên)
+(Organization: Nhà Trường) - (QUẢN_LÝ:{}) - (System:Hệ Thống Đăng Ký Học Tập)
+(Person: Sinh Viên) - (SỬ_DỤNG:{}) - (System:Hệ Thống Đăng Ký Học Tập)
+(Person: Sinh Viên) - (ĐĂNG_KÝ:{}) - (Concept:Học Phần)
+(Organization: Nhà Trường) - (QUẢN_LÝ:{}) - (System:Phần Mềm Quản Lý Đào Tạo)
+(Organization: Phòng Đào Tạo Đại Học) - (QUY_ĐỊNH:{}) - (Concept:Học Kỳ)
+(Organization: Khoa Quản Lý Ngành Đào Tạo) - (THÔNG_BÁO:{}) - (Person:Sinh Viên)
+(Person: Cố Vấn Học Tập) - (HƯỚNG_DẪN:{}) - (Person:Sinh Viên)
+(Organization: Phòng Đào Tạo Đại Học) - (THÔNG_BÁO:{}) - (Person:Sinh Viên)
+(Person: Sinh Viên) - (THEO_DÕI:{}) - (System:Website Của Phòng Đào Tạo Đại Học)
+(Person: Sinh Viên) - (THEO_DÕI:{}) - (System:Bảng Tin Của Khoa)
+(Person: Sinh Viên) - (THEO_DÕI:{}) - (Location:Giảng Đường)
+(Person: Sinh Viên) - (ĐĂNG_KÝ:{}) - (Concept:Tín Chỉ)
+(Person: Sinh Viên) - (KHÔNG_TÍNH:{}) - (Concept:Giáo Dục Quốc Phòng - An Ninh)
+(Person: Lớp Trưởng) - (THEO_DÕI:{}) - (Person:Sinh Viên)
+Person - Đội Ngũ Giảng Viên - {}
+Person - Sinh Viên - {}
+Organization - Trường - {}
+Organization - Bộ Giáo Dục Và Đào Tạo - {}
+Organization - Phòng Đào Tạo Đại Học - {}
+Organization - Khoa Quản Lý Ngành Đào Tạo - {}
+Organization - Khoa Quản Lý Học Phần - {}
+Person - Hiệu Trưởng - {}
+Organization - Phòng Khảo Thí Và Bảo Đảm Chất Lượng - {}
+Person - Trưởng Khoa - {}
+Person - Trưởng Đơn Vị - {}
+Concept - Lớp Học Trực Tuyến - {}
+Concept - Lớp Học Trực Tiếp - {}
+Concept - Chương Trình Đào Tạo - {}
+Concept - Học Phần - {}
+Concept - Đề Cương Chi Tiết Học Phần - {}
+Concept - Kế Hoạch Giảng Dạy - {}
+Concept - Học Phí - {}
+Concept - Khảo Sát Trực Tuyến - {}
+Concept - Hệ Thống Phần Mềm Khảo Sát - {}
+
+(Organization: Trường) - (TỔ_CHỨC_GIẢNG_DẠY:{}) - (Person:Đội Ngũ Giảng Viên)
+(Organization: Trường) - (TỔ_CHỨC_HỌC_TẬP:{}) - (Person:Sinh Viên)
+(Organization: Trường) - (TỔ_CHỨC:{}) - (Concept:Lớp Học Trực Tuyến)
+(Organization: Trường) - (TỔ_CHỨC:{}) - (Concept:Lớp Học Trực Tiếp)
+(Organization: Trường) - (TUÂN_THỦ:{}) - (Organization:Bộ Giáo Dục Và Đào Tạo)
+(Organization: Phòng Đào Tạo Đại Học) - (LẬP_KẾ_HOẠCH:{}) - (Concept:Kế Hoạch Giảng Dạy)
+(Organization: Khoa Quản Lý Ngành Đào Tạo) - (ĐỀ_XUẤT:{}) - (Concept:Kế Hoạch Giảng Dạy)
+(Organization: Khoa Quản Lý Học Phần) - (PHÂN_CÔNG:{}) - (Person:Đội Ngũ Giảng Viên)
+(Organization: Phòng Đào Tạo Đại Học) - (BÁO_CÁO:{}) - (Person:Hiệu Trưởng)
+(Organization: Phòng Khảo Thí Và Bảo Đảm Chất Lượng) - (BÁO_CÁO:{}) - (Person:Hiệu Trưởng)
+(Organization: Phòng Khảo Thí Và Bảo Đảm Chất Lượng) - (GỬI_KẾT_QUẢ:{}) - (Person:Trưởng Khoa)
+(Organization: Phòng Khảo Thí Và Bảo Đảm Chất Lượng) - (GỬI_KẾT_QUẢ:{}) - (Person:Trưởng Đơn Vị)
+(Person: Đội Ngũ Giảng Viên) - (GIẢNG_DẠY:{}) - (Person:Sinh Viên)
+(Person: Sinh Viên) - (NỘP:{}) - (Concept:Học Phí)
+(Person: Sinh Viên) - (PHẢN_HỒI:{}) - (Concept:Khảo Sát Trực Tuyến)
+(Person: Đội Ngũ Giảng Viên) - (XEM_KẾT_QUẢ:{}) - (Concept:Hệ Thống Phần Mềm Khảo Sát)
+Process - Đánh Giá Kết Quả Học Tập - {}
+Process - Cấp Bằng Tốt Nghiệp - {}
+Concept - Điểm Học Phần - {}
+Concept - Điểm Đánh Giá Quá Trình Học Tập - {}
+Concept - Điểm Thi Kết Thúc Học Phần - {}
+Concept - Học Phần Lý Thuyết - {}
+Concept - Học Phần Thực Hành - {}
+Concept - Học Phần Đặc Thù - {}
+Person - Giảng Viên - {}
+Organization - Khoa - {}
+Organization - Phòng Khảo Thí Và Bảo Đảm Chất Lượng - {}
+Person - Hiệu Trưởng - {}
+Concept - Thang Điểm 10 - {}
+Concept - Thang Điểm Chữ - {}
+Concept - Thang Điểm 4 - {}
+Concept - Điểm Trung Bình Chung Học Kỳ - {}
+Concept - Điểm Trung Bình Chung Tích Lũy - {}
+Concept - Xếp Loại Tốt Nghiệp - {}
+Organization - Phòng Đào Tạo Đại Học - {}
+Person - Trưởng Khoa - {}
+
+(Process: Đánh Giá Kết Quả Học Tập) - (LEADS_TO:{}) - (Process:Cấp Bằng Tốt Nghiệp)
+(Concept: Điểm Học Phần) - (PART_OF:{}) - (Process:Đánh Giá Kết Quả Học Tập)
+(Concept: Điểm Đánh Giá Quá Trình Học Tập) - (PART_OF:{}) - (Concept:Điểm Học Phần)
+(Concept: Điểm Thi Kết Thúc Học Phần) - (PART_OF:{}) - (Concept:Điểm Học Phần)
+(Concept: Học Phần Lý Thuyết) - (RELATED_TO:{}) - (Concept:Điểm Học Phần)
+(Concept: Học Phần Thực Hành) - (RELATED_TO:{}) - (Concept:Điểm Học Phần)
+(Concept: Học Phần Đặc Thù) - (RELATED_TO:{}) - (Concept:Điểm Học Phần)
+(Person: Giảng Viên) - (EVALUATES:{}) - (Concept:Điểm Đánh Giá Quá Trình Học Tập)
+(Organization: Khoa) - (PROPOSES:{}) - (Process:Đánh Giá Kết Quả Học Tập)
+(Organization: Phòng Khảo Thí Và Bảo Đảm Chất Lượng) - (SUBMITS:{}) - (Process:Đánh Giá Kết Quả Học Tập)
+(Person: Hiệu Trưởng) - (DECIDES:{}) - (Process:Đánh Giá Kết Quả Học Tập)
+(Concept: Thang Điểm 10) - (USED_FOR:{}) - (Concept:Điểm Học Phần)
+(Concept: Thang Điểm Chữ) - (USED_FOR:{}) - (Concept:Điểm Học Phần)
+(Concept: Thang Điểm 4) - (USED_FOR:{}) - (Concept:Điểm Trung Bình Chung Học Kỳ)
+(Concept: Thang Điểm 4) - (USED_FOR:{}) - (Concept:Điểm Trung Bình Chung Tích Lũy)
+(Concept: Thang Điểm 4) - (USED_FOR:{}) - (Concept:Xếp Loại Tốt Nghiệp)
+(Organization: Phòng Đào Tạo Đại Học) - (MANAGES:{}) - (Process:Đánh Giá Kết Quả Học Tập)
+(Person: Trưởng Khoa) - (APPROVES:{}) - (Process:Đánh Giá Kết Quả Học Tập)
+Person - Giảng Viên Phụ Trách Học Phần - {}
+Person - Sinh Viên - {}
+Organization - Khoa Quản Lý Học Phần - {}
+Organization - Trường - {}
+Activity - Đánh Giá Quá Trình Học Tập - {}
+Activity - Thi Kết Thúc Học Phần - {}
+
+(Person: Giảng Viên Phụ Trách Học Phần) - (THÔNG_BÁO:{}) - (Person:Sinh Viên)
+(Person: Giảng Viên Phụ Trách Học Phần) - (GỬI:{}) - (Organization:Khoa Quản Lý Học Phần)
+(Person: Giảng Viên Phụ Trách Học Phần) - (TỔ_CHỨC:{}) - (Activity:Đánh Giá Quá Trình Học Tập)
+(Person: Giảng Viên Phụ Trách Học Phần) - (TỔ_CHỨC:{}) - (Activity:Thi Kết Thúc Học Phần)
+(Organization: Trường) - (TỔ_CHỨC:{}) - (Activity:Thi Kết Thúc Học Phần)
+Regulation - Điều 13 - {}
+Exam - Đề Thi Kết Thúc Học Phần - {}
+Person - Hiệu Trưởng - {}
+Examformat - Hình Thức Thi Tự Luận - {}
+Examformat - Hình Thức Thi Trắc Nghiệm - {}
+Examformat - Hình Thức Thi Trắc Nghiệm Trên Máy Tính - {}
+Examformat - Hình Thức Thi Vấn Đáp - {}
+Examformat - Hình Thức Thi Thực Hành - {}
+Person - Giảng Viên - {}
+Software - Phần Mềm Chấm Thi - {}
+Person - Trưởng Bộ Môn - {}
+Person - Trưởng Khoa - {}
+Person - Sinh Viên - {}
+Program - Đào Tạo Vừa Làm Vừa Học - {}
+
+(Regulation: Điều 13) - (GOVERNED_BY:{}) - (Exam:Đề Thi Kết Thúc Học Phần)
+(Exam: Đề Thi Kết Thúc Học Phần) - (APPROVED_BY:{}) - (Person:Hiệu Trưởng)
+(Exam: Đề Thi Kết Thúc Học Phần) - (HAS_FORMAT:{}) - (Examformat:Hình Thức Thi Tự Luận)
+(Exam: Đề Thi Kết Thúc Học Phần) - (HAS_FORMAT:{}) - (Examformat:Hình Thức Thi Trắc Nghiệm)
+(Exam: Đề Thi Kết Thúc Học Phần) - (HAS_FORMAT:{}) - (Examformat:Hình Thức Thi Trắc Nghiệm Trên Máy Tính)
+(Exam: Đề Thi Kết Thúc Học Phần) - (HAS_FORMAT:{}) - (Examformat:Hình Thức Thi Vấn Đáp)
+(Exam: Đề Thi Kết Thúc Học Phần) - (HAS_FORMAT:{}) - (Examformat:Hình Thức Thi Thực Hành)
+(Examformat: Hình Thức Thi Vấn Đáp) - (CONDUCTED_BY:{}) - (Person:Giảng Viên)
+(Examformat: Hình Thức Thi Trắc Nghiệm Trên Máy Tính) - (GRADED_BY:{}) - (Software:Phần Mềm Chấm Thi)
+(Examformat: Hình Thức Thi Vấn Đáp) - (REPORTED_TO:{}) - (Person:Trưởng Bộ Môn)
+(Examformat: Hình Thức Thi Vấn Đáp) - (REPORTED_TO:{}) - (Person:Trưởng Khoa)
+(Exam: Đề Thi Kết Thúc Học Phần) - (TAKEN_BY:{}) - (Person:Sinh Viên)
+(Exam: Đề Thi Kết Thúc Học Phần) - (APPLICABLE_TO:{}) - (Program:Đào Tạo Vừa Làm Vừa Học)
+Regulation - Điều 14 - {}
+Project - Đồ Án Tốt Nghiệp - {}
+Thesis - Khóa Luận Tốt Nghiệp - {}
+Student - Sinh Viên - {}
+Engineering_program - Ngành Đào Tạo Kỹ Sư - {}
+Other_program - Ngành Đào Tạo Còn Lại - {}
+Department - Khoa Quản Lý Ngành Đào Tạo - {}
+Institution - Nhà Trường - {}
+Instructor - Giảng Viên Hướng Dẫn - {}
+Project_outline - Đề Cương Đồ Án - {}
+Thesis_outline - Đề Cương Khóa Luận Tốt Nghiệp - {}
+Internship - Thực Tập Chuyên Môn Cuối Khóa - {}
+
+(Regulation: Điều 14) - (REGULATES:{}) - (Project:Đồ Án Tốt Nghiệp)
+(Regulation: Điều 14) - (REGULATES:{}) - (Thesis:Khóa Luận Tốt Nghiệp)
+(Student: Sinh Viên) - (REGISTERS_FOR:{}) - (Project:Đồ Án Tốt Nghiệp)
+(Student: Sinh Viên) - (REGISTERS_FOR:{}) - (Thesis:Khóa Luận Tốt Nghiệp)
+(Engineering_program: Ngành Đào Tạo Kỹ Sư) - (REQUIRES:{}) - (Project:Đồ Án Tốt Nghiệp)
+(Other_program: Ngành Đào Tạo Còn Lại) - (REQUIRES:{}) - (Thesis:Khóa Luận Tốt Nghiệp)
+(Department: Khoa Quản Lý Ngành Đào Tạo) - (MANAGES:{}) - (Student:Sinh Viên)
+(Department: Khoa Quản Lý Ngành Đào Tạo) - (ASSIGNS:{}) - (Instructor:Giảng Viên Hướng Dẫn)
+(Department: Khoa Quản Lý Ngành Đào Tạo) - (SUBMITS_TO:{}) - (Institution:Nhà Trường)
+(Instructor: Giảng Viên Hướng Dẫn) - (GUIDES:{}) - (Project_outline:Đề Cương Đồ Án)
+(Instructor: Giảng Viên Hướng Dẫn) - (GUIDES:{}) - (Thesis_outline:Đề Cương Khóa Luận Tốt Nghiệp)
+(Internship: Thực Tập Chuyên Môn Cuối Khóa) - (COMBINES_WITH:{}) - (Project:Đồ Án Tốt Nghiệp)
+(Internship: Thực Tập Chuyên Môn Cuối Khóa) - (COMBINES_WITH:{}) - (Thesis:Khóa Luận Tốt Nghiệp)
+Person - Hiệu Trưởng - {}
+Organization - Hội Đồng Đánh Giá - {}
+Organization - Khoa - {}
+Organization - Phòng Khảo Thí Và Bảo Đảm Chất Lượng - {}
+Concept - Đồ Án, Khoá Luận Tốt Nghiệp - {}
+Concept - Điểm Đánh Giá - {}
+Organization - Hội Đồng Chuyên Môn - {}
+Person - Người Hướng Dẫn - {}
+Person - Người Học - {}
+
+(Person: Hiệu Trưởng) - (QUYẾT_ĐỊNH_THÀNH_LẬP:{}) - (Organization:Hội Đồng Đánh Giá)
+(Organization: Khoa) - (ĐỀ_XUẤT:{}) - (Organization:Hội Đồng Đánh Giá)
+(Organization: Phòng Khảo Thí Và Bảo Đảm Chất Lượng) - (TRÌNH:{}) - (Person:Hiệu Trưởng)
+(Organization: Hội Đồng Đánh Giá) - (ĐÁNH_GIÁ:{}) - (Concept:Đồ Án, Khoá Luận Tốt Nghiệp)
+(Organization: Hội Đồng Đánh Giá) - (CHẤM:{}) - (Concept:Điểm Đánh Giá)
+(Person: Người Hướng Dẫn) - (CHẤM:{}) - (Concept:Điểm Đánh Giá)
+(Organization: Hội Đồng Chuyên Môn) - (ĐÁNH_GIÁ:{}) - (Concept:Đồ Án, Khoá Luận Tốt Nghiệp)
+(Organization: Hội Đồng Chuyên Môn) - (ĐỒNG_THUẬN:{}) - (Person:Người Học)
+(Organization: Hội Đồng Chuyên Môn) - (GHI_HÌNH,_GHI_ÂM:{}) - (Event:Buổi Bảo Vệ Trực Tuyến)
+Rule - Điều 16 - {}
+Rule - Điều 5 - {}
+Person - Sinh Viên - {}
+Course - Học Phần Tự Chọn - {}
+Grade - Điểm F - {}
+Grade - Điểm A+ - {}
+Grade - Điểm A - {}
+Grade - Điểm B+ - {}
+Grade - Điểm B - {}
+Grade - Điểm C - {}
+Grade - Điểm D - {}
+Grade - Điểm Trung Bình Chung Tích Lũy - {}
+
+(Rule: Điều 16) - (REFERENCES:{}) - (Rule:Điều 5)
+(Rule: Điều 16) - (APPLIES_TO:{}) - (Person:Sinh Viên)
+(Rule: Điều 16) - (APPLIES_TO:{}) - (Course:Học Phần Tự Chọn)
+(Rule: Điều 16) - (MENTIONS:{}) - (Grade:Điểm F)
+(Rule: Điều 16) - (MENTIONS:{}) - (Grade:Điểm A+)
+(Rule: Điều 16) - (MENTIONS:{}) - (Grade:Điểm A)
+(Rule: Điều 16) - (MENTIONS:{}) - (Grade:Điểm B+)
+(Rule: Điều 16) - (MENTIONS:{}) - (Grade:Điểm B)
+(Rule: Điều 16) - (MENTIONS:{}) - (Grade:Điểm C)
+(Rule: Điều 16) - (MENTIONS:{}) - (Grade:Điểm D)
+(Rule: Điều 16) - (MENTIONS:{}) - (Grade:Điểm Trung Bình Chung Tích Lũy)
+Concept - Điểm Trung Bình Chung Học Kỳ - {}
+Concept - Điểm Trung Bình Chung Tích Lũy - {}
+Concept - Học Phần - {}
+Concept - Tín Chỉ - {}
+Concept - Thang Điểm 4 - {}
+Concept - Thang Điểm 10 - {}
+Concept - Giáo Dục Thể Chất - {}
+Concept - Giáo Dục Quốc Phòng - An Ninh - {}
+Organization - Trường - {}
+Organization - Bộ Giáo Dục Và Đào Tạo - {}
+Person - Sinh Viên - {}
+
+(Concept: Điểm Trung Bình Chung Học Kỳ) - (TÍNH_TỪ:{}) - (Concept:Học Phần)
+(Concept: Điểm Trung Bình Chung Tích Lũy) - (TÍNH_TỪ:{}) - (Concept:Học Phần)
+(Concept: Học Phần) - (CÓ:{}) - (Concept:Tín Chỉ)
+(Concept: Học Phần) - (ĐƯỢC_TÍNH_THEO:{}) - (Concept:Thang Điểm 4)
+(Concept: Giáo Dục Thể Chất) - (ĐƯỢC_TÍNH_THEO:{}) - (Concept:Thang Điểm 10)
+(Concept: Giáo Dục Quốc Phòng - An Ninh) - (ĐƯỢC_TÍNH_THEO:{}) - (Concept:Thang Điểm 10)
+(Organization: Trường) - (CẤP_CHỨNG_CHỈ:{}) - (Person:Sinh Viên)
+(Organization: Trường) - (THEO_QUY_ĐỊNH_CỦA:{}) - (Organization:Bộ Giáo Dục Và Đào Tạo)
+Regulation - Điều 18 - {}
+Term - Học Kỳ - {}
+Term - Năm Học - {}
+Person - Sinh Viên - {}
+Concept - Khối Lượng Kiến Thức Tích Lũy - {}
+Concept - Số Tín Chỉ - {}
+Concept - Kế Hoạch Đào Tạo - {}
+Concept - Ngành - {}
+Concept - Học Lực - {}
+Concept - Điểm Trung Bình Chung Học Kỳ - {}
+Concept - Điểm Trung Bình Chung Năm Học - {}
+Concept - Điểm Trung Bình Chung Tích Lũy - {}
+Grade - Xuất Sắc - {}
+Grade - Giỏi - {}
+Grade - Khá - {}
+Grade - Trung Bình - {}
+Grade - Yếu - {}
+Grade - Kém - {}
+Concept - Trình Độ Năm Học - {}
+Variable - N - {}
+Variable - Y - {}
+Term - Học Kỳ Phụ - {}
+Term - Học Kỳ Chính - {}
+
+(Regulation: Điều 18) - (RELATED_TO:{}) - (Term:Học Kỳ)
+(Regulation: Điều 18) - (RELATED_TO:{}) - (Term:Năm Học)
+(Regulation: Điều 18) - (RELATED_TO:{}) - (Person:Sinh Viên)
+(Person: Sinh Viên) - (RELATED_TO:{}) - (Concept:Khối Lượng Kiến Thức Tích Lũy)
+(Person: Sinh Viên) - (RELATED_TO:{}) - (Concept:Số Tín Chỉ)
+(Person: Sinh Viên) - (RELATED_TO:{}) - (Concept:Kế Hoạch Đào Tạo)
+(Person: Sinh Viên) - (RELATED_TO:{}) - (Concept:Ngành)
+(Person: Sinh Viên) - (RELATED_TO:{}) - (Concept:Học Lực)
+(Concept: Học Lực) - (RELATED_TO:{}) - (Concept:Điểm Trung Bình Chung Học Kỳ)
+(Concept: Học Lực) - (RELATED_TO:{}) - (Concept:Điểm Trung Bình Chung Năm Học)
+(Concept: Học Lực) - (RELATED_TO:{}) - (Concept:Điểm Trung Bình Chung Tích Lũy)
+(Concept: Điểm Trung Bình Chung Tích Lũy) - (RELATED_TO:{}) - (Grade:Xuất Sắc)
+(Concept: Điểm Trung Bình Chung Tích Lũy) - (RELATED_TO:{}) - (Grade:Giỏi)
+(Concept: Điểm Trung Bình Chung Tích Lũy) - (RELATED_TO:{}) - (Grade:Khá)
+(Concept: Điểm Trung Bình Chung Tích Lũy) - (RELATED_TO:{}) - (Grade:Trung Bình)
+(Concept: Điểm Trung Bình Chung Tích Lũy) - (RELATED_TO:{}) - (Grade:Yếu)
+(Concept: Điểm Trung Bình Chung Tích Lũy) - (RELATED_TO:{}) - (Grade:Kém)
+(Person: Sinh Viên) - (RELATED_TO:{}) - (Concept:Trình Độ Năm Học)
+(Concept: Trình Độ Năm Học) - (RELATED_TO:{}) - (Variable:N)
+(Concept: Trình Độ Năm Học) - (RELATED_TO:{}) - (Variable:Y)
+(Term: Học Kỳ Phụ) - (RELATED_TO:{}) - (Term:Học Kỳ Chính)
+Training method - Đào Tạo Theo Tín Chỉ - {}
+Training method - Đào Tạo Theo Niên Chế - {}
+Person - Sinh Viên - {}
+Organization - Phòng Công Tác Chính Trị Và Sinh Viên - {}
+Person - Hiệu Trưởng - {}
+Document - Quy Chế - {}
+Article - Điều 19 - {}
+Article - Điều 2 - {}
+Course - Khóa Học - {}
+Academic term - Học Kỳ - {}
+Academic year - Năm Học - {}
+Training program - Chương Trình Đào Tạo Hình Thức Vừa Làm Vừa Học - {}
+Training program - Chương Trình Đào Tạo Ở Trình Độ Thấp Hơn - {}
+Course - Khóa Mới - {}
+
+(Training method: Đào Tạo Theo Tín Chỉ) - (HAS_STUDENT:{}) - (Person:Sinh Viên)
+(Training method: Đào Tạo Theo Tín Chỉ) - (HAS_TERM:{}) - (Academic term:Học Kỳ)
+(Training method: Đào Tạo Theo Tín Chỉ) - (HAS_COURSE:{}) - (Course:Khóa Học)
+(Training method: Đào Tạo Theo Tín Chỉ) - (GOVERNED_BY:{}) - (Document:Quy Chế)
+(Training method: Đào Tạo Theo Tín Chỉ) - (CONTAINS:{}) - (Article:Điều 19)
+(Training method: Đào Tạo Theo Niên Chế) - (HAS_STUDENT:{}) - (Person:Sinh Viên)
+(Training method: Đào Tạo Theo Niên Chế) - (HAS_YEAR:{}) - (Academic year:Năm Học)
+(Training method: Đào Tạo Theo Niên Chế) - (GOVERNED_BY:{}) - (Document:Quy Chế)
+(Training method: Đào Tạo Theo Niên Chế) - (CONTAINS:{}) - (Article:Điều 19)
+(Person: Sinh Viên) - (NOTIFIED_BY:{}) - (Organization:Phòng Công Tác Chính Trị Và Sinh Viên)
+(Person: Sinh Viên) - (APPROVED_BY:{}) - (Person:Hiệu Trưởng)
+(Person: Sinh Viên) - (TRANSFERRED_TO:{}) - (Training program:Chương Trình Đào Tạo Hình Thức Vừa Làm Vừa Học)
+(Person: Sinh Viên) - (TRANSFERRED_TO:{}) - (Training program:Chương Trình Đào Tạo Ở Trình Độ Thấp Hơn)
+(Person: Sinh Viên) - (ENROLLED_IN:{}) - (Course:Khóa Mới)
+(Document: Quy Chế) - (CONTAINS:{}) - (Article:Điều 2)
+Organization - Trường Đại Học Quy Nhơn - {}
+Organization - Hội Đồng Chuyên Môn - {}
+Organization - Bộ Giáo Dục Và Đào Tạo - {}
+Concept - Kết Quả Học Tập - {}
+Concept - Chương Trình Đào Tạo - {}
+Concept - Học Phần - {}
+Concept - Tín Chỉ - {}
+Concept - Chuẩn Đầu Ra - {}
+Concept - Khối Lượng Học Tập - {}
+Concept - Đánh Giá Học Phần - {}
+Concept - Điều Kiện Bảo Đảm Chất Lượng - {}
+
+(Organization: Trường Đại Học Quy Nhơn) - (CÔNG_NHẬN:{}) - (Concept:Kết Quả Học Tập)
+(Organization: Trường Đại Học Quy Nhơn) - (CHUYỂN_ĐỔI:{}) - (Concept:Tín Chỉ)
+(Organization: Hội Đồng Chuyên Môn) - (CÔNG_NHẬN:{}) - (Concept:Kết Quả Học Tập)
+(Organization: Hội Đồng Chuyên Môn) - (CHUYỂN_ĐỔI:{}) - (Concept:Tín Chỉ)
+(Organization: Hội Đồng Chuyên Môn) - (ĐỐI_SÁNH:{}) - (Concept:Chuẩn Đầu Ra)
+(Organization: Hội Đồng Chuyên Môn) - (ĐỐI_SÁNH:{}) - (Concept:Khối Lượng Học Tập)
+(Organization: Hội Đồng Chuyên Môn) - (ĐỐI_SÁNH:{}) - (Concept:Đánh Giá Học Phần)
+(Organization: Hội Đồng Chuyên Môn) - (ĐỐI_SÁNH:{}) - (Concept:Điều Kiện Bảo Đảm Chất Lượng)
+(Organization: Bộ Giáo Dục Và Đào Tạo) - (HƯỚNG_DẪN:{}) - (Concept:Chương Trình Đào Tạo)
+Organization - Trường - {}
+Person - Sinh Viên - {}
+Organization - Phòng Đào Tạo Đại Học - {}
+Organization - Hội Đồng Xét Tốt Nghiệp - {}
+Person - Hiệu Trưởng - {}
+Person - Phó Hiệu Trưởng - {}
+Person - Trưởng Phòng Đào Tạo Đại Học - {}
+Person - Trưởng Khoa - {}
+Person - Trưởng Phòng Liên Quan - {}
+
+(Person: Sinh Viên) - (XÉT_TỐT_NGHIỆP:{}) - (Organization:Trường)
+(Person: Sinh Viên) - (GỬI_ĐƠN:{}) - (Organization:Phòng Đào Tạo Đại Học)
+(Organization: Hội Đồng Xét Tốt Nghiệp) - (CHỦ_TỊCH:{}) - (Person:Hiệu Trưởng)
+(Organization: Hội Đồng Xét Tốt Nghiệp) - (CHỦ_TỊCH:{}) - (Person:Phó Hiệu Trưởng)
+(Organization: Hội Đồng Xét Tốt Nghiệp) - (THƯ_KÝ:{}) - (Person:Trưởng Phòng Đào Tạo Đại Học)
+(Organization: Hội Đồng Xét Tốt Nghiệp) - (THÀNH_VIÊN:{}) - (Person:Trưởng Khoa)
+(Organization: Hội Đồng Xét Tốt Nghiệp) - (THÀNH_VIÊN:{}) - (Person:Trưởng Phòng Liên Quan)
+(Organization: Hội Đồng Xét Tốt Nghiệp) - (LẬP_DANH_SÁCH:{}) - (Person:Sinh Viên)
+(Person: Hiệu Trưởng) - (CÔNG_NHẬN_TỐT_NGHIỆP:{}) - (Person:Sinh Viên)
+Object - Bằng Tốt Nghiệp Đại Học - {'hạngTốtNghiệp': 'xác định theo điểm trung bình chung tích lũy của toàn khóa học', 'giảmHạng': 'nếu thuộc trường hợp khối lượng học phần học lại vượt quá 5% hoặc bị kỷ luật từ mức cảnh cáo trở lên'}
+Object - Bảng Điểm - {'ghiChép': 'kết quả học tập theo từng học phần', 'chuyênNgành': 'ghi chuyên ngành hoặc ngành phụ nếu có'}
+Person - Hiệu Trưởng - {'quyếtĐịnh': 'công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 tháng'}
+Person - Sinh Viên Chưa Tốt Nghiệp - {'điềuKiện': 'hoàn thiện các điều kiện còn thiếu trong thời hạn 03 năm', 'giấyChứngNhận': 'cấp giấy chứng nhận các học phần đã học'}
+Object - Chương Trình Đào Tạo - {'chuyểnĐổi': 'sinh viên có nguyện vọng được làm đơn xin chuyển qua các chương trình khác'}
+Object - Quy Chế - {'điều': '18, 24'}
+
+(Object: Bằng Tốt Nghiệp Đại Học) - (QUY_ĐỊNH:{}) - (Object:Quy Chế)
+(Person: Hiệu Trưởng) - (CẤP:{}) - (Object:Bằng Tốt Nghiệp Đại Học)
+(Person: Sinh Viên Chưa Tốt Nghiệp) - (CHUYỂN_ĐỔI:{}) - (Object:Chương Trình Đào Tạo)
+(Person: Sinh Viên Chưa Tốt Nghiệp) - (GHI_NHẬN:{}) - (Object:Bảng Điểm)
+(Object: Bảng Điểm) - (PHỤ_LỤC:{}) - (Object:Bằng Tốt Nghiệp Đại Học)
+Person - Sinh Viên - {}
+Organization - Lực Lượng Vũ Trang - {}
+Organization - Cơ Quan Có Thẩm Quyền - {}
+Organization - Cơ Sở Khám Bệnh, Chữa Bệnh - {}
+Organization - Khoa Quản Lý Ngành Đào Tạo - {}
+Organization - Phòng Đào Tạo Đại Học - {}
+Person - Hiệu Trưởng - {}
+Document - Quy Chế - {}
+Procedure - Thủ Tục Xin Nghỉ Học Tạm Thời - {}
+Procedure - Thủ Tục Xin Trở Lại Học - {}
+Procedure - Thủ Tục Xin Thôi Học - {}
+
+(Person: Sinh Viên) - (AFFILIATED_WITH:{}) - (Organization:Lực Lượng Vũ Trang)
+(Person: Sinh Viên) - (AFFILIATED_WITH:{}) - (Organization:Cơ Quan Có Thẩm Quyền)
+(Person: Sinh Viên) - (AFFILIATED_WITH:{}) - (Organization:Cơ Sở Khám Bệnh, Chữa Bệnh)
+(Person: Sinh Viên) - (AFFILIATED_WITH:{}) - (Organization:Khoa Quản Lý Ngành Đào Tạo)
+(Person: Sinh Viên) - (AFFILIATED_WITH:{}) - (Organization:Phòng Đào Tạo Đại Học)
+(Person: Sinh Viên) - (AFFILIATED_WITH:{}) - (Person:Hiệu Trưởng)
+(Person: Sinh Viên) - (SUBJECT_TO:{}) - (Document:Quy Chế)
+(Person: Sinh Viên) - (FOLLOWS:{}) - (Procedure:Thủ Tục Xin Nghỉ Học Tạm Thời)
+(Person: Sinh Viên) - (FOLLOWS:{}) - (Procedure:Thủ Tục Xin Trở Lại Học)
+(Person: Sinh Viên) - (FOLLOWS:{}) - (Procedure:Thủ Tục Xin Thôi Học)
+(Person: Hiệu Trưởng) - (APPROVES:{}) - (Procedure:Thủ Tục Xin Nghỉ Học Tạm Thời)
+(Person: Hiệu Trưởng) - (APPROVES:{}) - (Procedure:Thủ Tục Xin Trở Lại Học)
+(Person: Hiệu Trưởng) - (APPROVES:{}) - (Procedure:Thủ Tục Xin Thôi Học)
+Person - Sinh Viên - {}
+Person - Trưởng Đơn Vị Chuyên Môn - {}
+Person - Hiệu Trưởng - {}
+Organization - Bộ Giáo Dục Và Đào Tạo - {}
+Concept - Chương Trình Đào Tạo - {}
+Concept - Ngành Đào Tạo - {}
+Organization - Trường - {}
+Concept - Hình Thức Chính Quy - {}
+Concept - Hình Thức Vừa Làm Vừa Học - {}
+Document - Quy Chế - {}
+
+(Person: Sinh Viên) - (HỌC:{}) - (Concept:Chương Trình Đào Tạo)
+(Person: Sinh Viên) - (HỌC:{}) - (Concept:Ngành Đào Tạo)
+(Person: Sinh Viên) - (THUỘC:{}) - (Organization:Trường)
+(Person: Sinh Viên) - (HỌC:{}) - (Concept:Hình Thức Chính Quy)
+(Person: Sinh Viên) - (HỌC:{}) - (Concept:Hình Thức Vừa Làm Vừa Học)
+(Person: Trưởng Đơn Vị Chuyên Môn) - (ĐỒNG_Ý:{}) - (Person:Sinh Viên)
+(Person: Hiệu Trưởng) - (ĐỒNG_Ý:{}) - (Person:Sinh Viên)
+(Organization: Bộ Giáo Dục Và Đào Tạo) - (QUY_ĐỊNH:{}) - (Concept:Chương Trình Đào Tạo)
+(Organization: Bộ Giáo Dục Và Đào Tạo) - (QUY_ĐỊNH:{}) - (Concept:Ngành Đào Tạo)
+(Document: Quy Chế) - (ÁP_DỤNG:{}) - (Person:Sinh Viên)
+Organization - Trường - {}
+Person - Hiệu Trưởng - {}
+Person - Sinh Viên - {}
+Concept - Học Phần - {}
+Concept - Tín Chỉ - {}
+Concept - Chương Trình Đào Tạo - {}
+Organization - Cơ Sở Đào Tạo - {}
+
+(Organization: Trường) - (TRAO_ĐỔI:{}) - (Person:Sinh Viên)
+(Organization: Trường) - (QUY_ĐỊNH:{}) - (Concept:Học Phần)
+(Organization: Trường) - (QUY_ĐỊNH:{}) - (Concept:Tín Chỉ)
+(Organization: Trường) - (QUY_ĐỊNH:{}) - (Concept:Chương Trình Đào Tạo)
+(Person: Sinh Viên) - (HỌC:{}) - (Concept:Học Phần)
+(Person: Sinh Viên) - (HỌC:{}) - (Organization:Cơ Sở Đào Tạo)
+(Person: Hiệu Trưởng) - (ĐỒNG_Ý:{}) - (Person:Sinh Viên)
+(Person: Hiệu Trưởng) - (HỢP_TÁC:{}) - (Organization:Cơ Sở Đào Tạo)
+(Organization: Trường) - (HỢP_TÁC:{}) - (Organization:Cơ Sở Đào Tạo)
+Regulation - Điều 26 - {}
+Program - Học Cùng Lúc Hai Chương Trình - {}
+Person - Sinh Viên - {}
+Program - Chương Trình Thứ Nhất - {}
+Program - Chương Trình Thứ Hai - {}
+Metric - Điểm Trung Bình Tích Lũy - {}
+Metric - Học Lực - {}
+Requirement - Điều Kiện Trúng Tuyển - {}
+Status - Cảnh Báo Kết Quả Học Tập - {}
+Duration - Thời Gian Tối Đa - {}
+Regulation - Quy Chế - {}
+Course - Học Phần - {}
+Process - Xét Tốt Nghiệp - {}
+
+(Regulation: Điều 26) - (DESCRIBES:{}) - (Program:Học Cùng Lúc Hai Chương Trình)
+(Program: Học Cùng Lúc Hai Chương Trình) - (APPLIES_TO:{}) - (Person:Sinh Viên)
+(Program: Học Cùng Lúc Hai Chương Trình) - (INCLUDES:{}) - (Program:Chương Trình Thứ Nhất)
+(Program: Học Cùng Lúc Hai Chương Trình) - (INCLUDES:{}) - (Program:Chương Trình Thứ Hai)
+(Person: Sinh Viên) - (HAS:{}) - (Metric:Điểm Trung Bình Tích Lũy)
+(Person: Sinh Viên) - (HAS:{}) - (Metric:Học Lực)
+(Person: Sinh Viên) - (MUST_MEET:{}) - (Requirement:Điều Kiện Trúng Tuyển)
+(Person: Sinh Viên) - (CAN_HAVE:{}) - (Status:Cảnh Báo Kết Quả Học Tập)
+(Program: Học Cùng Lúc Hai Chương Trình) - (HAS:{}) - (Duration:Thời Gian Tối Đa)
+(Duration: Thời Gian Tối Đa) - (DEFINED_BY:{}) - (Regulation:Quy Chế)
+(Program: Chương Trình Thứ Hai) - (INCLUDES:{}) - (Course:Học Phần)
+(Person: Sinh Viên) - (MUST_COMPLETE:{}) - (Process:Xét Tốt Nghiệp)
+Organization - Chính Phủ - {}
+Person - Thủ Tướng Chính Phủ - {}
+Organization - Trường - {}
+Person - Người Đã Tốt Nghiệp Trình Độ Đào Tạo Giáo Dục Nghề Nghiệp - {}
+Person - Người Đã Tốt Nghiệp Đại Học - {}
+Person - Người Học Liên Thông - {}
+Person - Sinh Viên - {}
+Document - Quy Chế - {}
+Document - Điều 20 - {}
+
+(Person: Người Đã Tốt Nghiệp Trình Độ Đào Tạo Giáo Dục Nghề Nghiệp) - (HỌC_LIÊN_THÔNG:{}) - (Organization:Đại Học)
+(Person: Người Đã Tốt Nghiệp Đại Học) - (HỌC_LIÊN_THÔNG:{}) - (Organization:Đại Học)
+(Person: Người Học Liên Thông) - (THUỘC_NHÓM:{}) - (Person:Sinh Viên)
+(Document: Quy Chế) - (CHỨA:{}) - (Document:Điều 20)
+Person - Sinh Viên - {}
+Organization - Bộ Giáo Dục Và Đào Tạo - {}
+Document - Quy Chế Thi Tốt Nghiệp Trung Học Phổ Thông - {}
+Person - Người Học - {}
+
+(Person: Sinh Viên) - (SUBJECT_TO:{}) - (Document:Quy Chế Thi Tốt Nghiệp Trung Học Phổ Thông)
+(Organization: Bộ Giáo Dục Và Đào Tạo) - (ISSUED_BY:{}) - (Document:Quy Chế Thi Tốt Nghiệp Trung Học Phổ Thông)
+(Person: Sinh Viên) - (RELATED_TO:{}) - (Person:Người Học)
+Organization - Phòng Đào Tạo Đại Học - {}
+Organization - Các Khoa - {}
+Organization - Các Đơn Vị Liên Quan - {}
+Person - Sinh Viên - {}
+Person - Giảng Viên - {}
+Person - Viên Chức - {}
+Organization - Các Tổ Chức - {}
+Person - Cá Nhân Liên Quan - {}
+Organization - Trường Đại Học Quy Nhơn - {}
+Organization - Phòng Thanh Tra Pháp Chế - {}
+Person - Hiệu Trưởng - {}
+Organization - Nhà Trường - {}
+
+(Organization: Phòng Đào Tạo Đại Học) - (HƯỚNG_DẪN:{}) - (Person:Sinh Viên)
+(Organization: Phòng Đào Tạo Đại Học) - (HƯỚNG_DẪN:{}) - (Person:Giảng Viên)
+(Organization: Phòng Đào Tạo Đại Học) - (HƯỚNG_DẪN:{}) - (Person:Viên Chức)
+(Organization: Phòng Đào Tạo Đại Học) - (HƯỚNG_DẪN:{}) - (Organization:Các Tổ Chức)
+(Organization: Phòng Đào Tạo Đại Học) - (HƯỚNG_DẪN:{}) - (Person:Cá Nhân Liên Quan)
+(Organization: Phòng Thanh Tra Pháp Chế) - (KIỂM_TRA:{}) - (Organization:Trường Đại Học Quy Nhơn)
+(Organization: Phòng Thanh Tra Pháp Chế) - (BÁO_CÁO:{}) - (Person:Hiệu Trưởng)
+(Organization: Các Đơn Vị Chức Năng) - (THAM_MƯU:{}) - (Organization:Nhà Trường)
+(Organization: Các Đơn Vị) - (PHẢN_ÁNH:{}) - (Organization:Nhà Trường)
+(Person: Cá Nhân Liên Quan) - (PHẢN_ÁNH:{}) - (Organization:Nhà Trường)

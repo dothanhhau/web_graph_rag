@@ -1,0 +1,65 @@
+Tên quy định: Quy định về việc kiểm tra, đánh giá năng lực tiếng Anh đầu khoá
+Điều 1. Đối tượng và mục đích
+1. Đối tượng
+Quy định này áp dụng cho sinh viên năm thứ nhất hệ đại học chính quy các ngành không chuyên ngữ.
+2. Mục đích
+Đánh giá năng lực tiếng Anh, xét miễn học các học phần Tiếng Anh 1, Tiếng Anh 2 trong chương trình đào tạo.
+
+Điều 2. Hình thức và cấu trúc đề kiểm tra
+1. Hình thức kiểm tra
+Tổ chức kiểm tra trực tiếp tại Trường và làm bài trên máy tính.
+2. Cấu trúc đề kiểm tra
+Đề kiểm tra có 04 phần, gồm 100 câu hỏi trắc nghiệm, mỗi câu 01 điểm, tính theo thang điểm 100, thời gian làm bài 75 phút, cụ thể như sau:
+- Phần 1 là Language use (Từ vựng và Ngữ pháp). Số câu là 40. Mỗi câu có 01 khoảng trống, mỗi khoảng trống có 04 phương án A, B, C, D để sinh viên lựa chọn.
+- Phần 2 là Cloze test (Điền từ vào chỗ trống). Số câu là 15. Mỗi câu có 01 khoảng trống, mỗi khoảng trống có 04 phương án A, B, C, D để sinh viên lựa chọn.
+- Phần 3 là Reading comprehension (Đọc hiểu). Số câu là 25. Mỗi câu có 01 khoảng trống, mỗi khoảng trống có 04 phương án A, B, C, D để sinh viên lựa chọn.
+- Phần 4 là Writing (Viết). Số câu là 20. Mỗi câu có các từ hoặc cụm từ cho sẵn với các gạch chéo (/), có 04 phương án A, B, C, D ở dạng câu hoàn chỉnh để sinh viên lựa chọn.
+
+Điều 3. Chuyển đổi điểm
+1. Đối với sinh viên tham gia kiểm tra, đánh giá năng lực tiếng Anh đầu khóa, điểm quy đổi như sau:
+Số câu đúng và điểm quy đổi được tính như sau: 
+- Số câu đúng từ 91 đến 100 thì điểm quy đổi theo thang điểm 10 là từ 9,1 đến 10. Điểm quy đổi cho TA1 là 10. Điểm quy đổi cho TA2 là 10.
+- Số câu đúng từ 81 đến 90 thì điểm quy đổi theo thang điểm 10 là từ 8,1 đến 9,0. Điểm quy đổi cho TA1 là 10. Điểm quy đổi cho TA2 là 10.
+- Số câu đúng từ 71 đến 80 thì điểm quy đổi theo thang điểm 10 là từ 7,1 đến 8,0. Điểm quy đổi cho TA1 là 10. Điểm quy đổi cho TA2 là 9.
+- Số câu đúng từ 61 đến 70 thì điểm quy đổi theo thang điểm 10 là từ 6,1 đến 7,0. Điểm quy đổi cho TA1 là 9. Điểm quy đổi cho TA2 là 8.
+- Số câu đúng từ 50 đến 60 thì điểm quy đổi theo thang điểm 10 là từ 5,0 đến 6,0. Điểm quy đổi cho TA1 là 8. Điểm quy đổi cho TA2 không xét.
+- Số câu đúng dưới 50 thì không xét ở cả thang điểm 10. TA1 và TA2.
+2. Đối với sinh viên có Chứng chỉ tiếng Anh Quốc tế và Chứng chỉ quốc gia còn thời hạn trong vòng 2 năm kể từ ngày cấp theo loại chứng chỉ, điểm quy đổi như sau:
+Quy đổi điểm các kỳ thi tiếng Anh sang khung năng lực ngoại ngữ 6 bậc (CEFR):
+- Bậc C2 (Bậc 6) là IELTS từ 7,5 trở lên. TOEIC từ 910 trở lên. TOEFL PBT từ 600 trở lên. TOEFL CBT từ 250 trở lên. TOEFL iBT từ 100 trở lên. TOEFL ITP từ 630 trở lên. Cambridge CPE, CAE (80-100). APTIS C2. Điểm quy đổi TA1 là 10. TA2 là 10.
+- Bậc C1 (Bậc 5) là IELTS từ 7,0 đến 6,0. TOEIC từ 850 đến 540. TOEFL PBT từ 577 đến 213. TOEFL iBT từ 95 đến 80. TOEFL ITP 550. Cambridge CAE (60-79), FCE (80-100). APTIS C1. Điểm quy đổi TA1 là 10. TA2 là 10.
+- Bậc B2 (Bậc 4) là IELTS từ 5,5 đến 5,0. TOEIC từ 600 đến 480. TOEFL PBT từ 527 đến 173. TOEFL iBT từ 71 đến 61. TOEFL ITP 500. Cambridge FCE (60-79), PET (80-100). APTIS B2. Điểm quy đổi TA1 là 10. TA2 là 10.
+- Bậc B1 (Bậc 3) là IELTS 4,5. TOEIC 450. TOEFL PBT từ 477 đến 126. TOEFL iBT từ 53 đến 42. TOEFL ITP 450. Cambridge FCE (45-59), PET (65-79), KET (90-100). APTIS B1. Điểm quy đổi TA1 là 10. TA2 là 9.
+- Bậc A2 (Bậc 2) là IELTS 4,0. TOEIC 400. TOEFL PBT 340. TOEFL iBT 96. TOEFL ITP 31. Cambridge PET (45-64), KET (70-89). APTIS A2. Điểm quy đổi TA1 là 9. TA2 là Không xét.
+- Bậc A1 (Bậc 1) là IELTS dưới 3,5. TOEIC dưới 400. TOEFL PBT dưới 340. TOEFL iBT dưới 96. TOEFL ITP dưới 31. Cambridge KET (45-69). APTIS A1. Điểm quy đổi TA1 là Không xét. TA2 là Không xét.
+3. Đối với sinh viên đạt giải trong các kỳ thi học sinh giỏi cấp tỉnh, cấp quốc gia năm lớp 12 môn tiếng Anh, điểm quy đổi như sau:
+- Khuyến khích cấp tỉnh thì điểm quy đổi TA1 là 9 và điểm quy đổi TA2 là 9.
+- Giải ba cấp tỉnh thì điểm quy đổi TA1 là 10 và điểm quy đổi TA2 là 9.
+- Giải nhì cấp tỉnh thì điểm quy đổi TA1 là 10 và điểm quy đổi TA2 là 10.
+- Giải nhất cấp tỉnh thì điểm quy đổi TA1 và TA2 đều là 10.
+- Khuyến khích cấp quốc gia thì điểm quy đổi TA1 và TA2 đều là 10.
+- Giải ba cấp quốc gia thì điểm quy đổi TA1 và TA2 đều là 10.
+- Giải nhì cấp quốc gia thì điểm quy đổi TA1 và TA2 đều là 10.
+- Giải nhất cấp quốc gia thì điểm quy đổi TA1 và TA2 đều là 10.
+
+Điều 4. Trách nhiệm của các đơn vị liên quan
+1. Phòng Khảo thí và Bảo đảm chất lượng
+- Làm đầu mối triển khai thực hiện việc tổ chức kiểm tra, đánh giá.
+- Đầu khóa học, xây dựng kế hoạch kiểm tra, đánh giá và thông báo cho sinh viên.
+- Thu nhận, kiểm tra chứng chỉ, giấy chứng nhận đạt giải của sinh viên để chuyển đổi điểm các học phần Tiếng Anh 1, Tiếng Anh 2 cho sinh viên đạt yêu cầu.
+2. Các Khoa/Bộ môn thuộc Trường
+- Căn cứ Quy định này, các Khoa/Bộ môn quản lý sinh viên có trách nhiệm tổ chức cho sinh viên đăng ký tham dự kiểm tra, đánh giá khi có kế hoạch, thông báo của Trường, lập và gửi danh sách về Phòng Khảo thí và Bảo đảm chất lượng.
+- Khoa Ngoại ngữ cử giảng viên ra đề thi, phối hợp với phòng Khảo thí và Bảo đảm chất lượng giám sát coi thi, chấm thi theo kế hoạch, nhiệm vụ được Nhà trường phân công.
+3. Phòng Hành chính - Tổng hợp
+- Chuẩn bị cơ sở vật chất, phòng máy tính để tổ chức kiểm tra, đánh giá.
+4. Phòng Đào tạo đại học
+- Căn cứ kết quả chuyển đổi điểm được quy định tại Điều 3 của Quy định này, Phòng Đào tạo đại học xét miễn học học phần Tiếng Anh 1, Tiếng Anh 2 cho sinh viên đạt yêu cầu.
+5. Phòng Thanh tra - Pháp chế
+- Cử viên chức, thanh tra, kiểm tra, giám sát công tác tổ chức kiểm tra, đánh giá, coi thi, chấm thi, xét kết quả theo quy định.
+6. Phòng Kế hoạch - Tài chính
+- Căn cứ kết quả chuyển đổi điểm, Phòng Kế hoạch - Tài chính xét miễn học phí các học phần tương ứng cho sinh viên.
+- Thanh toán thù lao cho viên chức tham gia công tác tổ chức kiểm tra, đánh giá, ra đề, coi thi, chấm thi.
+
+Điều 5. Tổ chức thực hiện
+- Căn cứ Quy định này, các đơn vị liên quan có trách nhiệm tổ chức kiểm tra, đánh giá trình độ Tiếng Anh đầu khóa cho sinh viên theo nhiệm vụ được phân công.
+- Trong quá trình thực hiện Quy định này, nếu có vấn đề phát sinh, vướng mắc, Phòng Khảo thí và Bảo đảm chất lượng có trách nhiệm phối hợp với các đơn vị liên quan trình Hiệu trưởng xem xét, quyết định điều chỉnh cho phù hợp với tình hình thực tế và các quy định hiện hành.

@@ -1,0 +1,300 @@
+Tên quy định: Quy định về việc lấy ý kiến phản hồi của các bên liên quan
+Chương I: QUY ĐỊNH CHUNG  
+Điều 1. Phạm vi và đối tượng áp dụng  
+1. Văn bản này quy định mục đích, yêu cầu, quy trình tổ chức thực hiện và trách nhiệm của các đơn vị, cá nhân trong công tác lấy ý kiến phản hồi của các bên liên quan tại Trường Đại học Quy Nhơn (ĐHQN) về chất lượng hoạt động giảng dạy, chương trình đào tạo, chuẩn đầu ra của học phần, chuẩn đầu ra của chương trình đào tạo (CTĐT), tình hình việc làm, các hoạt động, dịch vụ hỗ trợ đào tạo và các hoạt động liên quan khác.  
+2. Đối tượng áp dụng của Quy định này bao gồm các đơn vị, giảng viên (GV), nhân viên (NV) và người học thuộc các bậc, hệ đào tạo của Trường ĐHQN và nhà sử dụng lao động.  
+
+Điều 2. Mục đích  
+1. Góp phần thực hiện Quy chế dân chủ trong nhà trường.  
+2. Thực hiện các quy định của Bộ Giáo dục và Đào tạo, mục tiêu chính sách bảo đảm chất lượng giáo dục của Trường ĐHQN.  
+3. Phục vụ công tác tự đánh giá, kiểm định chất lượng cơ sở giáo dục (CSGD) và kiểm định chất lượng chương trình đào tạo của Nhà trường.  
+
+Điều 3. Yêu cầu  
+1. Công tác lấy ý kiến phản hồi từ các bên liên quan được tiến hành định kỳ hoặc đột xuất tùy vào mục đích và loại khảo sát.  
+2. Bên được lấy ý kiến cần hiểu rõ mục đích, ý nghĩa của các loại khảo sát ý kiến; cần trung thực, khách quan và có thái độ đúng mực trong việc cung cấp thông tin phản hồi.  
+3. Bên tiếp nhận thông tin phản hồi từ các bên liên quan cần phải tôn trọng và có tinh thần cầu thị đối với các ý kiến góp ý mang tính xây dựng với mục tiêu nâng cao chất lượng đào tạo của Nhà trường.  
+4. Kết quả xử lý thông tin phản hồi từ các bên liên quan phải đảm bảo tính chính xác, tin cậy, được bảo mật và sử dụng đúng mục đích.  
+5. Kết quả khảo sát được gửi đến lãnh đạo Nhà trường, khoa, giảng viên tùy theo mục đích, ý nghĩa của từng loại khảo sát.  
+6. Các đơn vị có liên quan cần chủ động hoặc phối hợp với các đơn vị chức năng triển khai các loại khảo sát đúng mục đích, đối tượng để công tác lấy ý kiến phản hồi có tính chất khách quan, đảm bảo độ tin cậy và mang lại hiệu quả cao.  
+
+Điều 4. Công cụ khảo sát  
+Bộ công cụ khảo sát (Phiếu khảo sát) do Phòng Khảo thí và Bảo đảm chất lượng (KT&BĐCL) và các đơn vị phối hợp xây dựng và được Hội đồng Đảm bảo chất lượng giáo dục của Trường góp ý và thông qua. Nội dung của các loại phiếu khảo sát có thể được thay đổi tùy theo mục tiêu khảo sát của năm học. Các phần mềm được sử dụng để hỗ trợ khảo sát: Phần mềm E-survey; Google Forms; SPSS; Excel.  
+
+Điều 5. Quy trình lấy ý kiến
+1. Lập kế hoạch khảo sát;
+2. Phê duyệt kế hoạch khảo sát;
+3. Tổ chức khảo sát;
+4. Thu thập, xử lý thông tin phản hồi;
+5. Báo cáo kết quả khảo sát đến các bên liên quan;
+6. Lập kế hoạch và thực hiện cải tiến chất lượng;
+7. Lưu trữ các văn bản và dữ liệu khảo sát.
+
+Điều 6. Công tác lưu trữ dữ liệu, kết quả khảo sát
+Dữ liệu, kết quả của từng đợt khảo sát được lưu trữ bằng văn bản và file mềm tại Phòng KT&BĐCL và các đơn vị liên quan để phục vụ cho công tác kiểm định chất lượng cấp CSGD và cấp CTĐT.
+
+Chương II: CÁC LOẠI KHẢO SÁT
+Điều 7. Các loại khảo sát
+7.1. Khảo sát ý kiến người học về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của GV.
+1. Mục đích:
+a. Giúp Nhà trường, khoa (bộ môn) thu thập thông tin và mức độ hài lòng của người học về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của GV;
+b. Giúp Nhà trường, khoa (bộ môn) có thêm cơ sở để xây dựng kế hoạch bồi dưỡng GV, nhân viên, cải tiến chất lượng đào tạo; phòng ngừa những tiêu cực trong hoạt động giảng dạy, hướng dẫn; phát hiện và nhân rộng những gương tích cực, điển hình trong đội ngũ GV;
+c. Tạo thêm kênh thông tin giúp GV tự điều chỉnh hoạt động giảng dạy, hướng dẫn nhằm hoàn thiện và phát huy năng lực cá nhân; góp phần nâng cao tinh thần trách nhiệm của GV trong việc thực hiện mục tiêu đào tạo của Nhà trường;
+d. Tăng cường tinh thần trách nhiệm của người học với quyền lợi, nghĩa vụ học tập và rèn luyện của bản thân; tạo điều kiện để người học phản ánh tâm tư, nguyện vọng, ý kiến của mình về hoạt động giảng dạy, hướng dẫn của GV cũng như các hoạt động khác của Nhà trường.
+2. Đối tượng khảo sát:
+Hoạt động giảng dạy học phần lý thuyết và hoạt động hướng dẫn thực hành, thí nghiệm của GV trong 01 học kỳ của năm học.
+3. Đối tượng tham gia khảo sát:
+Tất cả người học các hệ, bậc đào tạo của Trường ĐHQN.
+4. Hình thức khảo sát:
+Người học đăng nhập vào tài khoản cá nhân (online) để trả lời Phiếu khảo sát đối với các học phần đã học sau khi có điểm thi học phần.
+5. Nội dung khảo sát:
+a. Về hoạt động giảng dạy các học phần lý thuyết:
+Công tác chuẩn bị giảng dạy, nội dung và phương pháp giảng dạy; Học liệu phục vụ giảng dạy, học tập và thời gian giảng dạy của GV; Trách nhiệm và sự nhiệt tình của GV; Khả năng khuyến khích sáng tạo và tư duy độc lập của người học; Sự công bằng, khách quan của GV trong kiểm tra đánh giá quá trình và đánh giá kết quả học tập; Năng lực của GV trong tư vấn và tổ chức, hướng dẫn hoạt động học tập và nghiên cứu của người học; Tác phong sư phạm của GV; Mức độ hài lòng của người học và các ý kiến góp ý khác.
+b. Về hoạt động hướng dẫn thực hành, thí nghiệm:
+Nội dung và phương pháp hướng dẫn thực hành, thí nghiệm của GV; Tài liệu phục vụ thực hành, thí nghiệm; Trách nhiệm, thái độ, sự nhiệt tình của GV đối với người học; Sự công bằng của GV trong hoạt động kiểm tra đánh giá kết quả học tập; Năng lực của GV trong tư vấn, tổ chức, hướng dẫn cho người học về an toàn lao động, cách xử lý tình huống liên quan đến nội dung thực hành; Mức độ hài lòng của người học và các ý kiến góp ý khác.
+6. Công cụ khảo sát:
+a. Phiếu khảo sát hoạt động giảng dạy học phần lý thuyết trình độ đại học: BM01a_DHỌN_KS.HĐGD (thường xuyên được cập nhật, điều chỉnh).
+b. Phiếu khảo sát hoạt động hướng dẫn thực hành, thí nghiệm trình độ đại học: BM0Ib_DHQN_KS.HDTH (thường xuyên được cập nhật, điều chỉnh).
+c. Phiếu khảo sát hoạt động giảng dạy học phần trình độ thạc sĩ: BM0Ic_DHỌN_KS.HĐGD (thường xuyên được cập nhật, điều chỉnh).
+7. Thời gian khảo sát:
+a. Sau kỳ thi kết thúc học phần ở mỗi học kỳ đối với sinh viên.
+b. Sau khi kết thúc mỗi học phần, chuyên đề đối với học viên hệ vừa làm vừa học, học viên cao học, nghiên cứu sinh.
+8. Quy trình khảo sát:
+Bước 1: Chuẩn bị khảo sát
+Phòng Khảo thí và Đảm bảo chất lượng (KT&ĐBCL) tiến hành rà soát, chỉnh sửa các Phiếu khảo sát. Sau đó, đơn vị này lập kế hoạch khảo sát và trình Hiệu trưởng phê duyệt. Thời gian thực hiện công việc này là trước kỳ học thứ hai theo phân công mẫu hoặc vào kỳ/khoa khi tổ chức các học phần mới hoặc chuyên đề. Các biểu mẫu liên quan bao gồm BM01a_ĐHQN_KS.HĐGD, BM01b_ĐHQN_KS.HĐTH, BM01c_ĐHQN_KS.HĐGD và BM01e_ĐHQN_KS.HĐGD.
+Bước 2: Phê duyệt và thông báo khảo sát
+Sau khi kế hoạch khảo sát được Hiệu trưởng phê duyệt, Phòng KT&ĐBCL chịu trách nhiệm thông báo kế hoạch này đến các Khoa, Bộ môn, giảng viên và người học. Việc thông báo sẽ được thực hiện ngay sau khi kế hoạch khảo sát chính thức được phê duyệt. Các công cụ sử dụng trong bước này bao gồm phần mềm E-Survey và hệ thống Công thông tin sinh viên/viên chức để truyền tải thông tin đến các đối tượng liên quan.
+Bước 3: Thực hiện khảo sát
+Phòng KT&ĐBCL triển khai khảo sát cho sinh viên, học viên thông qua tài khoản cá nhân, với thời gian khảo sát kéo dài trong vòng 60 ngày. Đồng thời, Phòng Công tác sinh viên (CTSV) và Phòng Đào tạo đại học (ĐTĐH) tuyên truyền về mục đích, yêu cầu, cũng như hướng dẫn cho sinh viên, học viên và giảng viên thực hiện khảo sát theo đúng kế hoạch, thời gian tối đa trong vòng 01 tuần sau khi nhận được thông báo. Trung tâm Công nghệ thông tin và Truyền thông (CNTT&TT) đảm bảo hạ tầng kỹ thuật, đặc biệt là đường truyền Internet và các công cụ kỹ thuật hỗ trợ cho người tham gia khảo sát.
+Bước 4: Hoàn thành khảo sát và công bố kết quả
+Phòng KT&ĐBCL sẽ trích xuất dữ liệu khảo sát sau khi kết thúc, tiến hành phân tích, tổng hợp và lập báo cáo gửi đến Hiệu trưởng, các Khoa (Bộ môn) và chủ nhiệm đề tài (CĐT). Thời gian hoàn thành bước này là 30 ngày sau khi kết thúc khảo sát. Báo cáo sẽ bao gồm các nội dung tổng hợp toàn bộ ý kiến thu thập được và kết quả phân tích chi tiết gửi đến các đơn vị liên quan.
+Bước 5: Cải tiến chất lượng
+Dựa trên kết quả khảo sát, các Khoa/Bộ môn và giảng viên tổ chức họp thảo luận nhằm đưa ra các biện pháp cải tiến chất lượng đào tạo. Nội dung các cuộc họp sẽ được lập biên bản theo mẫu BM09_ĐHQN_BCCTCL để ghi nhận các hành động cải tiến cụ thể. Thời gian hoàn thành bước này là trong vòng 15 ngày kể từ khi có kết quả khảo sát.
+Bước 6: Lưu trữ hồ sơ
+Cuối cùng, Phòng KT&ĐBCL và các Khoa/Bộ môn có trách nhiệm lưu trữ toàn bộ hồ sơ liên quan đến khảo sát cũng như biên bản cải tiến chất lượng trong thời gian tối thiểu là 05 năm. Hồ sơ sẽ được lưu trữ song song ở dạng bản cứng và trên hệ thống CSDL của nhà trường.
+
+7.2. Khảo sát ý kiến phản hồi của người học về mức độ đạt được chuẩn đầu ra của học phần
+1. Mục đích:
+a. Giúp Trường, khoa/bộ môn đánh giá mức độ đạt được chuẩn đầu ra của học phần đề thực hiện các hoạt động cải tiến và nâng cao chất lượng giảng dạy học phần.
+2. Đối tượng khảo sát: mức độ đạt được chuẩn đầu ra học phần của người học.
+3, Đối tượng tham gia khảo sát: người học hệ chính quy các CTĐT trình độ đại học, thạc sĩ tại Trường ĐHỌN.
+4. Hình thức khảo sát: trực tuyến bằng phần mềm E-Survey hoặc Google Forms.
+5. Nội dung khảo sát: Mức độ đạt được của người học đối với từng chuẩn đầu ra học phân, lý do và đề xuất biện pháp cải tiến.
+6. Công cụ khảo sát: Phiếu khảo sát người học về mức độ đạt được chuẩn đầu ra của học phần: BM02a_ĐHQN_CĐR.HP.
+7. Thời gian khảo sát: Sau khi người học học xong học phần.
+8. Quy trình khảo sát:
+BƯỚC 1: CHUẨN BỊ KHẢO SÁT
+Phòng KT&ĐBCL phối hợp với các Khoa/Bộ môn lập kế hoạch khảo sát, trình Hiệu trưởng phê duyệt theo từng học kỳ. Đồng thời, nhập/cập nhật nội dung chuẩn đầu ra các học phần lên phần mềm khảo sát. Thời gian thực hiện trước kỳ thi kết thúc học phần của mỗi học kỳ hoặc sau khi kết thúc mỗi môn học, chuyên đề. Các biểu mẫu sử dụng gồm Phiếu khảo sát theo mẫu BM02a_DHQN_CDR_HP.
+BƯỚC 2: PHÊ DUYỆT VÀ THÔNG BÁO KẾ HOẠCH KHẢO SÁT
+Sau khi nhận được kế hoạch từ Phòng KT&ĐBCL, Hiệu trưởng phê duyệt kế hoạch khảo sát và Phiếu khảo sát. Ngay sau đó, Phòng KT&ĐBCL sẽ thông báo kế hoạch khảo sát đến các Khoa/Bộ môn, giảng viên và người học. Công việc này sẽ hoàn tất sau khi kế hoạch khảo sát được phê duyệt. Các công cụ hỗ trợ chính là Công thông tin sinh viên/học viên.
+BƯỚC 3: TỔ CHỨC KHẢO SÁT
+Phòng KT&ĐBCL phối hợp cùng Khoa/Bộ môn triển khai khảo sát cho sinh viên, học viên thông qua tài khoản cá nhân trên phần mềm E-Survey hoặc Google Forms, trong thời gian tối đa là 60 ngày kể từ ngày kế hoạch được phê duyệt. Bên cạnh đó, Khoa/Bộ môn, Phòng CTSV và Phòng ĐTĐH sẽ phổ biến mục đích, yêu cầu của việc lấy ý kiến người học về môn học để người học thực hiện khảo sát đúng yêu cầu, đúng thời gian quy định. Trung tâm CNTT&TT đảm bảo hạ tầng kỹ thuật và kết nối Internet trong suốt quá trình thực hiện khảo sát.
+BƯỚC 4: HOÀN THÀNH KHẢO SÁT VÀ BÁO CÁO KẾT QUẢ
+Khoa/Bộ môn thu nhận thông tin phản hồi từ sinh viên, học viên. Sau đó, thực hiện phân tích, xử lý dữ liệu, lập báo cáo kết quả khảo sát và trình Hiệu trưởng phê duyệt. Thời gian hoàn thành là 30 ngày sau khi kết thúc khảo sát. Báo cáo bao gồm các dữ liệu khảo sát và báo cáo tổng hợp theo mẫu BM02a_DHQN_CDR_HP.
+BƯỚC 5: CẢI TIẾN CHẤT LƯỢNG
+Trong vòng 15 ngày sau khi có kết quả khảo sát, Khoa/Bộ môn và giảng viên tổ chức họp nội bộ để thảo luận và đề xuất biện pháp cải tiến chất lượng học phần. Kết quả cuộc họp được ghi nhận trong biên bản họp và gửi về Phòng KT&ĐBCL theo đúng quy định. Đồng thời, các công văn gửi Nhà trường (bao gồm báo cáo và kế hoạch cải tiến) cũng sẽ được lập theo biểu mẫu BM02b_DHQN_CDR_HP.
+BƯỚC 6: TỔNG HỢP VÀ LƯU TRỮ
+Cuối cùng, Phòng KT&ĐBCL cùng Khoa/Bộ môn tổng hợp và lưu trữ toàn bộ hồ sơ khảo sát và biên bản cải tiến chất lượng. Thời gian lưu trữ hồ sơ tối thiểu là 05 năm, bao gồm cả hồ sơ văn bản và dữ liệu trên CSDL khảo sát.
+
+7.3. Khảo sát ý kiến người học sắp tốt nghiệp về CTĐT
+1. Mục đích:
+a. Giúp Nhà trường, khoa, phòng chức năng thu thập thông tin và mức độ hài lòng của người học sắp tốt nghiệp về CTĐT của khóa học để có cơ sở xây dựng kế hoạch cải tiến chất lượng CTĐT.
+b. Tạo điêu kiện đê người học phản ánh tâm tư, nguyện vọng, ý kiên của mình vê CTĐT của Nhà trường trước khi tốt nghiệp.
+c. Giúp Nhà trường, khoa, phòng chức năng thu thập đầy đủ thông tin phục vụ cho công tác tự đánh giá, kiểm định chất lượng cấp CSGD, CTĐT theo yêu cầu của các tiêu chí chất lượng của Bộ GD&ĐT, AUN-QA hoặc các tổ chức khác.
+2. Đối tượng khảo sát: Chương trình đào tạo các trình độ đại học, thạc sĩ của Trường ĐHỌN.
+3. Đối tượng tham gia khảo sát: Người học sắp tốt nghiệp các bậc, hệ đào tạo của Trường.
+4. Hình thức khảo sát: Người học đăng nhập vào tài khoản cá nhân trên website của Trường để trả lời các nội dung khảo sát trong thời gian quy định hoặc trả lời Phiếu khảo sát trực tiếp, qua email.
+5. Nội dung khảo sát:
+CTĐT, chương trình dạy học, hoạt động giảng dạy, kiểm tra đánh giá, cơ sở vật chất, các dịch vụ tư vấn, hỗ trợ sinh viên, môi trường, cảnh quan, an toàn, mức độ hài lòng của người học về CTĐT và các ý kiến góp ý khác.
+6. Công cụ khảo sát:
+a. Phiếu khảo sát sinh viên hệ chính quy sắp tốt nghiệp về CTPI: BM03a_DHQN_ KS.SVNC (thường xuyên được cập nhật, điều chỉnh).
+b. Phiếu khảo sát học viên trình độ thạc sĩ sắp tốt nghiệp về CTĐT: BM03b_DHQN_KS.HVSTN (thường xuyên được cập nhật, điều chỉnh).
+c. Phiếu khảo sát học viên hệ vừa làm vừa học sắp tốt nghiệp về CTĐT:DHQN KS.HVNCBM03c(thường xuyên được cập nhật, điều chỉnh).
+7. Thời điểm khảo sát:
+a. Vào học kỳ cuối của CTĐT đối với sinh viên.
+b. Vào Lễ tốt nghiệp của học viên cao học, nghiên cứu sinh.
+8. Quy trình khảo sát:
+BƯỚC 1: CHUẨN BỊ KHẢO SÁT
+Phòng KT&ĐBCL chịu trách nhiệm rà soát, chỉnh sửa và cập nhật phiếu khảo sát. Sau đó, phòng này lập kế hoạch khảo sát và trình Hiệu trưởng phê duyệt. Công việc này được thực hiện vào học kỳ cuối của các chương trình đào tạo (CTĐT). Các phiếu khảo sát sử dụng sẽ theo các mẫu BM03a_DHQN_KS.SVNC, BM03b_DHQN_KS.HVSTN, và BM03c_DHQN_KS.HVNC.
+BƯỚC 2: PHÊ DUYỆT VÀ THÔNG BÁO KẾ HOẠCH KHẢO SÁT
+Hiệu trưởng thực hiện phê duyệt kế hoạch khảo sát và Phiếu khảo sát sau khi nhận được đề xuất từ Phòng KT&ĐBCL. Sau khi được phê duyệt, Phòng KT&ĐBCL sẽ thông báo kế hoạch khảo sát đến các Khoa, Bộ môn, giảng viên và người học. Các công việc này sẽ hoàn tất ngay sau khi kế hoạch được duyệt. Văn bản sử dụng là Kế hoạch khảo sát.
+BƯỚC 3: TỔ CHỨC KHẢO SÁT
+Phòng KT&ĐBCL triển khai khảo sát cho sinh viên, học viên thông qua tài khoản cá nhân trên hệ thống phần mềm E-Survey hoặc Cổng thông tin sinh viên/học viên. Thời gian khảo sát tối đa là 60 ngày. Trong vòng 01 tuần sau khi nhận được kế hoạch, các Khoa, Phòng CTSV và Phòng ĐTSDH sẽ tuyên truyền mục đích, yêu cầu của việc lấy ý kiến phản hồi từ người học về CTĐT, đồng thời cử người phụ trách chính thực hiện khảo sát. Trung tâm CNTT&TT sẽ đảm bảo hạ tầng kỹ thuật và đường truyền trong suốt thời gian diễn ra khảo sát.
+BƯỚC 4: HOÀN THÀNH KHẢO SÁT, BÁO CÁO KẾT QUẢ
+Sau khi khảo sát kết thúc, Phòng KT&ĐBCL thực hiện trích xuất dữ liệu khảo sát, nhập liệu, tổng hợp và phân tích kết quả. Báo cáo kết quả khảo sát sau đó được trình Hiệu trưởng phê duyệt và thông tin sẽ được gửi đến Khoa/Bộ môn/CTĐT có liên quan. Thời gian thực hiện là trong vòng 30 ngày sau khi kết thúc khảo sát. Kết quả được tổng hợp trong báo cáo theo biểu mẫu chuẩn.
+BƯỚC 5: CẢI TIẾN CHẤT LƯỢNG
+Khoa/Bộ môn và giảng viên chịu trách nhiệm họp nội bộ để thảo luận kết quả khảo sát và đề xuất các biện pháp cải tiến chất lượng học tập. Trong vòng 15 ngày sau khi có kết quả khảo sát, các đơn vị cần nộp báo cáo về việc sử dụng kết quả khảo sát và kế hoạch cải tiến chất lượng cho Trường thông qua Phòng KT&ĐBCL. Biên bản họp và báo cáo sử dụng biểu mẫu BM09_DHQN_BCCTCL.
+BƯỚC 6: LƯU TRỮ
+Cuối cùng, toàn bộ hồ sơ khảo sát, biên bản cải tiến chất lượng sẽ được Phòng KT&ĐBCL và Khoa/Bộ môn lưu trữ đầy đủ trong vòng 05 năm. Dữ liệu sẽ được lưu tại hồ sơ văn bản và CSDL khảo sát.
+
+7.4. Khảo sát ý kiên phản hôi của người học về mức độ đạt được chuân đầu ra của chương trình đào tạo
+1. Mục đích:
+a. Giúp Trường, khoa/bộ môn thu thập thông tin về mức độ đạt được chuẩn đầu ra của chương trình đào tạo để thực hiện cho các hoạt động cải tiễn và nâng cao chất lượng CTĐT.
+2. Đôi tượng khảo sát: Mức độ đạt được chuẩn đầu ra chương trình đào tạo của người học.
+3. Đối tượng tham gia khảo sát: Người học sắp tốt nghiệp CTĐT đại học, thạc sĩ hệ chính quy của Trường ĐHỌN.
+4. Hình thức khảo sát: Trực tuyến bằng phần mềm E-Survey hoặc Google Forms.
+5. Nội dung kháo sát: Mức độ đạt được của người học đối với từng chuẩn đầu ra chương trình đào tạo, lý do và đề xuất biện pháp cải tiến.
+6. Công cụ khảo sát: Phiếu khảo sát Ỹ kiến phản hồi của người học về mức độ đạt được chuẩn đầu ra của chương trình đào tạo:BM04a ĐHỌN CĐR.CTĐT (thường xuyên được cập nhật, điều chỉnh).
+7. Thời gian khảo sát: Vào học kỳ cuối của CTĐT.
+8. Quy trình khảo sát:
+BƯỚC 1: CHUẨN BỊ KHẢO SÁT
+Phòng KT&ĐBCL sẽ lập kế hoạch khảo sát và trình Hiệu trưởng phê duyệt. Sau đó, các Khoa/Bộ môn sẽ nhập/cập nhật nội dung chuẩn đầu ra của học phần lên phiếu khảo sát. Các công việc này được thực hiện vào học kỳ 2 mỗi năm học. Phiếu khảo sát được sử dụng theo mẫu BM04a_DHQN_CDR.CTĐT.
+BƯỚC 2: PHÊ DUYỆT VÀ THÔNG BÁO KẾ HOẠCH KHẢO SÁT
+Hiệu trưởng phê duyệt kế hoạch khảo sát và phiếu khảo sát sau khi nhận được đề xuất từ Phòng KT&ĐBCL. Sau khi kế hoạch được phê duyệt, Phòng KT&ĐBCL sẽ thông báo kế hoạch khảo sát đến các Khoa, Bộ môn, giảng viên và người học. Các nội dung này được hoàn thành ngay sau khi kế hoạch khảo sát được phê duyệt và được ghi nhận trong văn bản Kế hoạch khảo sát.
+BƯỚC 3: TỔ CHỨC KHẢO SÁT
+Phòng KT&ĐBCL triển khai khảo sát cho sinh viên, học viên thông qua tài khoản cá nhân hoặc Google Forms. Thời gian thực hiện khảo sát là 60 ngày. Trong vòng 01 tuần sau khi nhận được kế hoạch, các Khoa, Phòng CTSV và Phòng ĐTSDH sẽ phổ biến mục đích, yêu cầu của việc lấy ý kiến phản hồi từ người học về CTĐT. Đồng thời, đơn vị cũng phân công người phụ trách chịu trách nhiệm thực hiện khảo sát. Trung tâm CNTT&TT sẽ đảm bảo kết nối Internet và các vấn đề kỹ thuật trong quá trình diễn ra khảo sát.
+BƯỚC 4: HOÀN THÀNH KHẢO SÁT, BÁO CÁO KẾT QUẢ
+Phòng KT&ĐBCL cùng với Khoa/Bộ môn thực hiện thu nhận thông tin phản hồi. Sau đó, tiến hành xử lý dữ liệu, phân tích kết quả và viết báo cáo tổng hợp. Các báo cáo sẽ được gửi lên Hiệu trưởng phê duyệt. Thời gian hoàn thành trong vòng 30 ngày sau khi kết thúc khảo sát. Các nội dung báo cáo sử dụng biểu mẫu BM04b_DHQN_CDR.CTĐT.
+BƯỚC 5: CẢI TIẾN CHẤT LƯỢNG
+Trong vòng 15 ngày sau khi có kết quả khảo sát, các Khoa/Bộ môn và giảng viên sẽ tiến hành họp, thảo luận nội bộ để xác định các phương án cải tiến chất lượng. Sau đó, các đơn vị nộp báo cáo về việc sử dụng kết quả khảo sát và kế hoạch cải tiến cho Phòng KT&ĐBCL. Các báo cáo này sử dụng biểu mẫu BM04b_DHQN_CDR.CTĐT.
+BƯỚC 6: TỔNG HỢP BÁO CÁO VÀ LƯU TRỮ
+Phòng KT&ĐBCL và các Khoa/Bộ môn sẽ thực hiện tổng hợp báo cáo, lưu trữ thông tin và văn bản liên quan trong vòng 05 năm tại hồ sơ văn bản và CSDL khảo sát.
+
+7.5. Khảo sát ý kiến sinh viên mới tốt nghiệp về tình hình việc làm và CTĐT
+1. Mục đích:
+a. Giúp Nhà trường, khoa thu thập thông tin về tình hình việc làm (THVL) của sinh viên tốt nghiệp (SVTN) trong khoảng từ 06 -12 tháng: về mức độ đáp ứng của CTĐT hoặc khóa học đối với yêu cầu của thị trường lao động, những kiến thức và kỹ năng thục tế giúp SVTN nhanh chóng thích nghi với công việc hoặc tìm được việc làm phù hợp sau khi ra trường.
+b. Giúp Nhà trường, khoa có thông tin tổng thể về nguồn nhân lực đã đảo tạo cho xã hội; xây dựng cơ sở dữ liệu về cựu sinh viên của Trường, Khoa.
+2. Đối tượng khảo sát: THVL của SVTN và mức độ đáp ứng của CTĐT đối với yêu cầu xã hội.
+3. Đối tượng tham gia khảo sát: Sinh viên hệ chính quy của Trường đã tốt nghiệp từ 06 - 12 tháng.
+4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email, điện thoại hoặc qua web.
+5. Nội dung khảo sát:
+Thông tin về THVL (theo quy định của Bộ GD&ĐT); mức độ đáp ứng của CTĐT đối với yêu cầu công việc; mức độ hải lòng của người học, các ý kiến đóng góp để nâng cao chất lượng đào tạo và một số thông tin cá nhân.
+Ngoài các nội dung trên, các đơn vị có thể bố sung thêm nội dung khảo sát khác theo nhu cầu thực tế.
+6. Công cụ khảo sát: Phiếu khảo sát: BM05_DHQN_KS.SVTN (thường xuyên được cập nhật, điều chỉnh).
+7. Thời gian khảo sát: tháng 10-11 hàng năm.
+8. Quy trình khảo sát:
+BƯỚC 1: CHUẨN BỊ KHẢO SÁT
+Trung tâm TVTS&QHDN chịu trách nhiệm rà soát, chỉnh sửa và cập nhật phiếu khảo sát. Sau đó, lập kế hoạch khảo sát THVL. Các hoạt động này được thực hiện vào tháng 10 hàng năm. Phiếu khảo sát và kế hoạch khảo sát THVL của SVTN sẽ tuân theo mẫu BM05_DHQN_KS.SVTN.
+BƯỚC 2: PHÊ DUYỆT VÀ BAN HÀNH KẾ HOẠCH
+Hiệu trưởng sẽ phê duyệt kế hoạch khảo sát THVL sau khi nhận được đề xuất từ Trung tâm TVTS&QHDN.
+BƯỚC 3: TỔ CHỨC KHẢO SÁT
+Ngay sau khi kế hoạch được phê duyệt, Trung tâm TVTS&QHDN sẽ gửi kế hoạch khảo sát đến các khoa. Sau đó, các Khoa/Bộ môn sẽ tổ chức khảo sát THVL của SVTN và CTĐT (nếu có). Trong vòng 30 ngày sau khi kết thúc thời gian khảo sát, các Khoa/Bộ môn sẽ tiến hành tiếp nhận thông tin phản hồi từ SVTN, xử lý dữ liệu và gửi kết quả khảo sát về Trung tâm HTSV & QHDN.
+BƯỚC 4: HOÀN THÀNH KHẢO SÁT, BÁO CÁO KẾT QUẢ
+Trung tâm TVTS&QHDN tổng hợp chương trình và công khai kết quả khảo sát THVL của SVTN trên website của trường. Đồng thời, Trung tâm này cũng báo cáo lên BGĐ ĐHĐN về THVL của SVTN, và cập nhật kết quả khảo sát vào CSDL của BGĐ ĐHĐN.
+BƯỚC 5: CẢI TIẾN CHẤT LƯỢNG
+Trong vòng 15 ngày sau khi có kết quả khảo sát, các Khoa/Bộ môn tổ chức họp trao đổi, phân tích, đánh giá THVL của SVTN (có sự tham gia của SVTN và các bên liên quan). Sau khi họp, các đơn vị này sẽ đề xuất phương án cải tiến chất lượng và cập nhật vào CTĐT (nếu có). Ngoài ra, các khoa còn lập báo cáo về việc sử dụng kết quả khảo sát, gửi lên Trưởng đơn vị và Phòng KT&ĐBCL.
+BƯỚC 6: LƯU TRỮ
+Cuối cùng, Trung tâm TVTS&QHDN và các Khoa/Bộ môn sẽ lưu trữ toàn bộ thông tin, văn bản liên quan đến khảo sát THVL của SVTN trong 05 năm tại hồ sơ văn bản và CSDL khảo sát.
+
+7.6. Khảo sát ý kiến cựu người học, nhà sử dụng lao động về chuẩn đầu ra và CTĐT
+1. Mục đích:
+a. Giúp Nhà trường, khoa có cơ sở đánh giá mức độ phù hợp của chuẩn đầu ra và CTĐT đã thiết kế so với các yêu cầu thực tiễn của các bên liên quan nhằm có sự điều chỉnh, cải tiễn chuẩn đầu ra và CTĐT đáp ứng nhu cầu của xã hội.
+b. Tăng cường mỗi liên kết giữa Nhà trường, cựu người học (cựu sinh viên (CSV) và cựu học viên (CHV)) và nhà sử dụng lao động (NSDLĐ) trong quá trình đào tạo và sử dụng nguồn nhân lực.
+2. Đối tượng khảo sát: chương trình đào tạo trình độ đại học, thạc sĩ của Trường ĐHỌN.
+3. Đối tượng tham gia khảo sát: cựu người học, các tô chức, cơ quan, doanh nghiệp.
+4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email hoặc qua web.
+2. Nội dung khảo sát:
+Thông tin chung về cựu người học, tỖ chức, cơ quan, doanh nghiệp trả lời khảo sát; Thông tin về người học tốt nghiệp CTĐTđược tổ chức, cơ quan, doanh nghiệp tuyển dụng (ngành, số lượng, vị trí công tác,...); Mức độ hài lòng của các bên liên quan về chất lượng người học tốt nghiệp CTĐT;    Các đánh giá và ý kiến để xuất của cựu người học, tô chức, cơ quan, doanh nghiệp đối với chuẩn đầu ra và CTĐT của ngành.
+Ngoài các nội dung trên, các Khoa/Bộ môn có thể bổ sung thêm nội dung khảo sát khác theo nhu cầu thực tế.
+6. Công cụ khảo sát:
+a. Phiếu khảo sát cựu sinh viên về CTĐT: BM0óaDHQNKS.CSV(thường xuyên được cập nhật, điều chỉnh).
+b. Phiếu khảo sát NSDLĐ về CTĐT: BM06b_DHQNKS.NSDLĐ(thường xuyên được cập nhật, điều chỉnh).
+c. Phiếu khảo sát cựu học viên về CTĐT: BM0ốcDHQN_KS.CHV(thường xuyên được cập nhật, điều chỉnh).
+7. Thời gian khảo sát: Trong quá trình xây dựng hoặc rà soát, điều chỉnh chương trỉnh đảo tạo của ngành theo định kỳ.
+8. Quy trình khảo sát:
+BƯỚC 1: CHUẨN BỊ KHẢO SÁT
+Các khoa (CSV, NSDLĐ) sẽ rà soát và cập nhật nội dung phiếu khảo sát. Sau đó, lập kế hoạch khảo sát kèm theo danh sách CSV, CHV, NSDLĐ. Các khoa sẽ gửi kế hoạch khảo sát và danh sách khảo sát về Phòng KT&ĐBCL. Thời gian thực hiện trong quá trình xây dựng/ra soát, chỉnh sửa và đánh giá CTĐT. Tài liệu liên quan gồm mẫu phiếu khảo sát: BM06a_DHQN_KS.CSV, BM06b_DHQN_KS.NSDLĐ, BM06c_DHQN_KS.CHV và kế hoạch khảo sát.
+BƯỚC 2: PHÊ DUYỆT KẾ HOẠCH
+Hiệu trưởng sẽ phê duyệt kế hoạch khảo sát và phiếu khảo sát trong vòng 02 ngày sau khi nhận được tờ trình từ Phòng KT&ĐBCL.
+BƯỚC 3: TỔ CHỨC KHẢO SÁT
+Các khoa (CSV, NSDLĐ) và Phòng ĐTSĐH (CHV) sẽ tổ chức khảo sát và trực tiếp phát phiếu hoặc gửi phiếu khảo sát đến đối tượng liên quan.
+BƯỚC 4: HOÀN THÀNH KHẢO SÁT, PHÂN TÍCH KẾT QUẢ
+Trong vòng 30 ngày sau khi hoàn thành khảo sát, các khoa (CSV, NSDLĐ) và Phòng ĐTSĐH (CHV) sẽ tiếp nhận thông tin phản hồi, xử lý dữ liệu và phân tích kết quả khảo sát. Sau đó, tiến hành viết báo cáo tổng hợp. Tài liệu liên quan gồm các phiếu khảo sát đã ghi mã, dữ liệu khảo sát và báo cáo tổng hợp kết quả khảo sát.
+BƯỚC 5: CẢI TIẾN CHẤT LƯỢNG
+Sau khi có kết quả khảo sát, các khoa (CSV, NSDLĐ) và Phòng ĐTSĐH (CHV) sẽ tổ chức họp thảo luận về các ý kiến đánh giá của CSV, CHV, NSDLĐ đối với CDR và CTĐT. Sau đó, lập báo cáo về việc sử dụng thông tin khảo sát và đề xuất các giải pháp cải tiến chất lượng CTĐT. Báo cáo và dữ liệu khảo sát sẽ được nộp về Trường thông qua Phòng KT&ĐBCL. Tài liệu liên quan gồm biên bản họp, báo cáo theo biểu mẫu BM09_DHQN_BCCTL và dữ liệu khảo sát.
+BƯỚC 6: LƯU TRỮ
+Cuối cùng, các khoa, Phòng ĐTSĐH và Phòng KT&ĐBCL sẽ lưu trữ các thông tin, văn bản và dữ liệu khảo sát trong vòng 05 năm. Hồ sơ lưu trữ bao gồm các hợp hồ sơ và CSDL khảo sát.
+
+7.7. Khảo sát sự hài lòng của người học về chât lượng các hoạt động, cơ sở vật chât, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đồng
+1. Mục đích:
+a. Giúp Trường thu thập thông tin và xem xét mức độ hài lòng của người học về chất lượng, hiệu quả các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đồng nhằm phục vụ cho công tác tự đánh giá cấp Trường hoặc CTĐT theo yêu cầu của các tiêu chuẩn đánh giá chất lượng của Bộ Giáo dục và Đảo tạo hoặc các tổ chức khác.
+b. Tạo thêm kênh thông tin để người học phản ánh, bày tỏ ý kiến của mình trong quá trình học tập tại Trường.
+c. Giúp các khoa, phòng, viện, trung tâm có thêm cơ sở đề cải tiến, nâng cao chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đông của đơn vI.
+2. Đôi tượng khảo sát: sự hải lòng của người học về chât lượng các hoạt động, cơ sở vật chất, trang thiết bị, địch vụ hỗ trợ đào tạo và phục vụ cộng đồng của Trường.
+3. Đối tượng tham gia khảo sát: Người học các bậc, hệ chính quy đang theo học tại Trường.
+4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email hoặc qua web.
+5. Nội dung khảo sát: Khảo sát sự hài lòng của người học về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đồng gồm: Thư viện, phòng học, phòng thí nghiệm, thực hành, hệ thống CNTT, các hoạt động hỗ trợ của đội ngũ nhân viên các phòng/khoa/trung tâm, các dịch vụ hỗ trợ khác, hoạt động phục vụ cộng đồng của Nhà trường...
+6. Công cụ khảo sát:
+a. Phiếu khảo sát sự hài lòng của sinh viên hệ chính quy về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đảo tạo và phục vụ cộng đồng: BMØ07a_DHỌN_KSSV.HĐDVHT (thường xuyên được cập nhật, điều chỉnh).
+b. Phiếu khảo sát sự hải lòng của học viên trình độ thạc sĩ về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo, phục vụ cộng đồng: BM07b_DHQN_KSHV.HĐDVHT (thường xuyên được cập nhật, điều chỉnh).
+7. Thời gian khảo sát: Trong quá trình tự đánh giá cấp Trường hoặc CTĐT.
+8. Quy trình khảo sát:
+1. Chuẩn bị khảo sát:
+Phòng KT&ĐBCL có nhiệm vụ rà soát, chỉnh sửa, cập nhật nội dung phiếu khảo sát. Tiếp đó, phòng lập kế hoạch khảo sát kèm theo danh sách các đơn vị cần khảo sát như CSV, CHV, NSDLĐ, và gửi kế hoạch khảo sát và danh sách này đến Phòng KT&ĐBCL. Công việc này được thực hiện trong quá trình xây dựng và rà soát, chỉnh sửa CTĐT. Các văn bản/biểu mẫu liên quan bao gồm: Mẫu phiếu khảo sát BM06a_ĐHQN_KS.CSV, BM06b_ĐHQN_KS.CHV, BM06c_ĐHQN_KS.NSDLĐ và Kế hoạch khảo sát.
+2. Phê duyệt và ban hành kế hoạch:
+Sau khi nhận được kế hoạch khảo sát từ Phòng KT&ĐBCL, Hiệu trưởng tiến hành phê duyệt kế hoạch khảo sát. Sau khi phê duyệt xong, Phòng KT&ĐBCL sẽ thông báo kế hoạch khảo sát và phiếu khảo sát đến các đơn vị có liên quan. Thời gian thực hiện là trong vòng 02 ngày sau khi nhận được tờ trình từ đơn vị. Văn bản liên quan là Kế hoạch khảo sát.
+3. Tổ chức khảo sát:
+Phòng KT&ĐBCL cùng các Khoa tổ chức khảo sát bằng cách phát trực tiếp phiếu khảo sát hoặc phát phiếu khảo sát qua email cho người học. Ngoài ra, có thể sử dụng phần mềm E-Survey, công thông tin sinh viên hoặc Google Forms để thực hiện khảo sát. Thời gian tổ chức khảo sát là trong vòng 15 ngày kể từ khi kế hoạch được phê duyệt. Các văn bản/biểu mẫu liên quan là phần mềm E-Survey, cổng thông tin sinh viên/học viên, Google Forms.
+4. Hoàn thành khảo sát và báo cáo kết quả:
+Phòng KT&ĐBCL thực hiện nhập liệu, xử lý và tổng hợp kết quả khảo sát. Sau đó, lập báo cáo tổng hợp trình Hiệu trưởng phê duyệt. Khi được phê duyệt, kết quả khảo sát sẽ được gửi đến các đơn vị liên quan (nếu có). Thời gian thực hiện là trong vòng 30 ngày sau khi kết thúc khảo sát. Văn bản liên quan bao gồm: Các phiếu khảo sát đã được ghi mã, Dữ liệu khảo sát và Báo cáo tổng hợp kết quả khảo sát.
+5. Cải tiến chất lượng:
+Các đơn vị liên quan sẽ tổ chức họp để thảo luận và đưa ra ý kiến phản hồi của người học về các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo. Sau đó, lập báo cáo cải tiến chất lượng CTĐT và nộp về Trường thông qua Phòng KT&ĐBCL. Thời gian thực hiện là trong vòng 15 ngày sau khi nhận kết quả khảo sát. Văn bản liên quan bao gồm: Biên bản họp, Báo cáo theo biểu mẫu BM09_ĐHQN_BCCTCL và Dữ liệu khảo sát.
+6. Lưu trữ:
+Các đơn vị bao gồm Khoa, Phòng ĐTSĐH, Phòng KT&ĐBCL thực hiện lưu trữ các thông tin, văn bản và dữ liệu khảo sát. Thời gian lưu trữ tối thiểu là 05 năm. Các văn bản/biểu mẫu liên quan là các hồ sơ và CSDL khảo sát.
+
+7.8. Khảo sát sự hài lòng của giảng viên về chât lượng các hoạt động, cơ sở vật chât, trang thiết bị, hoạt động hỗ trợ đào tạo
+1. Mục đích:
+a. Giúp Trường thu thập thông tin và xem xét mức độ hài lòng của giảng viên về chất lượng, hiệu quả các hoạt động, cơ sở vật chất, trang thiết bị, hoạt động hỗ trợ đảo tạo của đội ngũ nhân viên nhằm phục vụ cho công tác tự đánh giá cấp Trường hoặc CTĐT theo yêu cầu của các tiêu chuẩn đánh giá chất lượng của Bộ Giáo dục và Đào tạo hoặc các tổ chức khác.
+b. Tạo thêm kênh thông tin để giảng viên phản ánh, bày tỏ ý kiến của mình trong quá trình học tập tại Trường.
+c. Giúp các khoa, phòng, viện, trung tâm có thêm cơ sở để cải tiến, nâng cao chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, hoạt động hỗ trợ đào tạo của đội ngũ nhân viên của đơn vị.
+2. Đối tượng khảo sát: sự hài lòng của giảng viên về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, địch vụ hỗ trợ đào tạo của Trường.
+3. Đối tượng tham gia khảo sát: GV đang giảng dạy tại Trường ĐHQN.
+4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email hoặc qua web.
+5. Nội dung khảo sát: Khảo sát sự hài lòng của giảng viên về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo gồm: Thư viện, phòng học, phòng thí nghiệm, thực hành, hệ thông CNTT, các hoạt động hỗ trợ của Nhà trường.
+6. Công cụ khảo sát: Phiếu khảo sát sự hài lòng của giảng viên về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị dịch vụ hỗ trợ đào tạo: BM08_DHQN_KSGV.TH (thường xuyên được cập nhật, điều chính).
+7. Thời gian khảo sát: hàng năm.
+8. Quy trình khảo sát:
+1. Chuẩn bị khảo sát:
+Phòng KT&ĐBCL thực hiện điều chỉnh, cập nhật nội dung phiếu khảo sát, lập kế hoạch khảo sát và trình Hiệu trưởng phê duyệt. Công việc này được thực hiện hằng năm để đảm bảo sự chính xác và đầy đủ của công tác khảo sát. Văn bản, biểu mẫu liên quan gồm có: BM06_ĐHQN_KSGV,TH; Kế hoạch khảo sát giảng viên về hoạt động dạy học, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo.
+2. Phê duyệt và ban hành kế hoạch:
+Sau khi nhận kế hoạch khảo sát từ Phòng KT&ĐBCL, Hiệu trưởng sẽ tiến hành phê duyệt kế hoạch khảo sát. Sau khi được phê duyệt, Phòng KT&ĐBCL sẽ thông báo kế hoạch khảo sát đến giảng viên. Công tác này diễn ra ngay sau khi kế hoạch khảo sát được phê duyệt. Văn bản liên quan là Kế hoạch khảo sát.
+3. Tổ chức khảo sát:
+Phòng KT&ĐBCL phối hợp cùng các Khoa tổ chức khảo sát bằng cách gửi và thu thập phiếu khảo sát trực tiếp hoặc qua email, hệ thống phần mềm hoặc các kênh khảo sát khác. Ngoài ra, TT. CNTT&TT đảm bảo kết nối Internet và các vấn đề kỹ thuật trong suốt thời gian khảo sát. Thời gian tổ chức khảo sát là trong vòng 15 ngày kể từ khi kế hoạch được ban hành. Văn bản/biểu mẫu liên quan bao gồm: phần mềm E-Survey, cổng thông tin giảng viên, Google Forms.
+4. Hoàn thành khảo sát và Báo cáo kết quả:
+Phòng KT&ĐBCL thực hiện nhập liệu, xử lý và tổng hợp kết quả khảo sát. Sau đó, lập báo cáo tổng hợp gửi Hiệu trưởng phê duyệt. Sau khi phê duyệt, kết quả khảo sát sẽ được gửi đến các đơn vị liên quan (nếu có). Công việc này được thực hiện trong vòng 30 ngày sau khi kết thúc khảo sát. Văn bản/biểu mẫu liên quan bao gồm: các file mềm dữ liệu, kết quả khảo sát, báo cáo tổng hợp, kết quả cụ thể của từng đơn vị (nếu có).
+5. Cải tiến chất lượng:
+Các đơn vị liên quan tổ chức họp để thảo luận và đưa ra ý kiến phản hồi của giảng viên về các hoạt động dạy học, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo, việc sử dụng thông tin khảo sát để xây dựng các giải pháp cải tiến chất lượng. Thời gian thực hiện trong vòng 15 ngày sau khi nhận được kết quả khảo sát. Văn bản liên quan bao gồm: Biên bản họp, Báo cáo theo mẫu BM09_ĐHQN_BCCTCL.
+6. Lưu trữ:
+Phòng KT&ĐBCL và các đơn vị liên quan thực hiện lưu trữ các thông tin, văn bản và dữ liệu khảo sát để phục vụ cho công tác đánh giá và cải tiến chất lượng sau này. Thời gian lưu trữ là 05 năm. Văn bản liên quan bao gồm: các hồ sơ và CSDL khảo sát.
+
+Chương III: TRÁCH NHIỆM CỦA CÁC BÊN LIÊN QUAN
+Điều 8. Trách nhiệm của các phòng, viện, trung tâm
+8.1. Phòng Khảo thí và Bảo đảm chất lượng
+a. Là đầu mối tổ chức khảo sát ý kiến người học về: hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của GV; mức độ đạt được chuẩn đầu ra của học phần, chương trình đảo tạo; khảo sát người học sắp tốt nghiệp về CTĐT; khảo sát người học về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đồng; khảo sát GV về chất lượng hoạt động hỗ trợ đào tạo của đội ngũ nhân viên; khảo sát GV về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, địch vụ hỗ trợ đào tạo.
+b. Tổ chức xây dựng, điều chỉnh nội dung, hình thức các loại phiếu khảo sát.
+c. Báo cáo kết quả khảo sát cho Bộ Giáo dục và Đào tạo, Hiệu trưởng; gửi kết quả khảo sát tách riêng cho các đơn vị.
+d. Quản lý, lưu trữ kết quả khảo sát ý kiến phản hồi của các bên liên quan để theo dõi, kiểm tra, phục vụ cho công tác đảm bảo và kiểm định chất lượng giáo dục của Nhà trường.
+e. Tiếp nhận và xem xét kết quả phản hồi của các bên liên quan về chất lượng hoạt động hỗ trợ đảo tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiễn chất lượng.
+8.2. Phòng Đào tạo sau đại học, Phòng Công tác chính trị - sinh viên
+a. Phổ biến cho người học hiểu mục đích, ý nghĩa của các loại khảo sát, trách nhiệm của người học trong việc đóng góp ý kiến cho Nhà trường, khoa.
+b. Tiêp nhận và xem xét kêt quả phản hôi của các bên liên quan về chât lượng hoạt động hỗ trợ đào tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiễn chất lượng.
+8.3. Trung tâm Tư vấn tuyển sinh và Quan hệ doanh nghiệp
+a. Tổ chức khảo sát ý kiến sinh viên tốt nghiệp (06-12 tháng) về tình hình việc làm.
+b. Xây dựng, điều chỉnh, rà soát nội dung khảo sát SVTN về tình hình việc làm theo yêu cầu của Bộ Giáo dục và Đào tạo hoặc theo yêu cầu thực tế của Trường.
+c. Tổng hợp số liệu khảo sát từ các khoa.
+d. Báo cáo Bộ Giáo dục và Đào tạo và Hiệu trưởng theo định kỳ.
+e. Tiếp nhận và xem xét kết quả phản hồi của các BLQ về chất lượng hoạt động, dịch vụ hỗ trợ đào tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiễn chất lượng.
+8.4. Trung tâm Công nghệ thông tin và Truyền thông
+a. Đảm bảo kết nối internet và các vẫn đề kỹ thuật nhằm tạo điều kiện thuận lợi cho các bên liên quan tham gia phản hồi trong thời gian khảo sát.
+b. Tiếp nhận và xem xét kết quả phản hồi của các BLQ về chất lượng hoạt động hỗ trợ đào tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiễn chất lượng.
+8.5. Các phòng, viện, trung tâm khác
+Tiếp nhận và xem xét kết quả phản hồi của các BLQ về chất lượng các hoạt động, dịch vụ hỗ trợ đào tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiến chất lượng các hoạt động theo lĩnh vực đơn vị phụ trách góp phần nâng cao chất lượng đảo tạo của Nhà trường.
+
+Điều 9. Trách nhiệm của các khoa, bộ môn
+a. Tổ chức khảo sát cựu sinh viên, nhà sử dụng lao động về chuẩn đầu ra, chương trình đào tạo, tình hình việc làm phục vụ việc cập nhật, điều chỉnh CTĐT theo quy định.
+b. Phối hợp tổ chức khảo sát và đánh giá mức độ đạt được chuẩn đầu ra học phần và
+chương trình đào tạo của người học để cải tiến và nâng cao chất lượng đào tạo.
+c. Quán triệt đến giảng viên và người học về mục đích, yêu cầu, nội dung của các loại khảo sát có liên quan; trách nhiệm của giảng viên, người học trong việc tham gia đóng góp ý kiến cho Nhà trường, khoa/bộ môn.
+d. Tổ chức hội thảo hoặc họp thảo luận về kết quả khảo sát ý kiến của các BLQ; Báo cáo Nhà trường về việc sử dụng thông tin khảo sát và các biện pháp khắc phục hạn chế, phát huy điểm mạnh nhằm nâng cao chất lượng đảo tạo sau các đợt khảo sát.
+e. Tổ chức dự giờ hoặc có phương án kiểm tra, chân chỉnh kịp thời đổi với các giảng viên có kết quả khảo sát từ 30% sinh viên phản hồi không hài lòng về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm (nếu có).
+f. Báo cáo kết quả thực hiện cải tiễn chất lượng của đơn vị cho Nhà trường hàng kỳ, hàng năm theo quy định.
+
+Điều 10. Trách nhiệm của giảng viên, cố vấn học tập và người học
+10.1. Giảng viên
+a. Giảng viên có trách nhiệm xem xét kết quả phản hồi của người học về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của mình, đánh giá mức độ đạt được chuẩn đầu ra học phần của người học để có kế hoạch, biện pháp điều chỉnh, cải tiễn và nâng cao chất lượng công tác giảng dạy, hướng dẫn.
+b. Đưa ra ý kiến phản hôi với Trưởng khoa, bộ môn khi chưa đồngý với kết quả đánh giá của người học và kèm theo minh chứng cụ thê (nếu có).
+c. Có trách nhiệm tham gia đóng góp ý kiến cho Nhà trường, Khoa đối với các khảo sát có liên quan trên tinh thần khách quan, xây dựng.
+10.2. Cố vấn học tập
+Có vấn học tập có trách nhiệm quán triệt đến tất cả sinh viên thuộc lớp mình phụ trách về công tác khảo sát ý kiến người học về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của giảng viên; về chương trình đào tạo và các khảo sát khác của Nhà trường (nếu có) đầy đủ, đúng thời gian quy định.
+10.3. Người học
+a. Có trách nhiệm tham gia đóng góp ý kiến cho Nhà trường, Khoa, Bộ môn thông qua các loại khảo sát có liên quan đầy đủ, đúng thời gian quy định.
+b. Nghiêm túc, trung thực, khách quan trong việc cung cấp các thông tin phản hồi theo từng loại khảo sát.
