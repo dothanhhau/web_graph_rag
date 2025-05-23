@@ -45,3 +45,13 @@ instance/
 instance/*
 
 a.txt
+
+b.txt
+
+schema_graphlangchain.txt
+
+neo4j_schema_filtered.json
+
+neo4j_schema.json
+
+no_nodes_or_relationships.txt

@@ -1,0 +1,353 @@
+Entities
+Tên quy định - Hướng Dẫn Khai Thác, Sử Dụng Thư Viện - {}
+Đơn_vị - Thư Viện - {'thời_gian_mở_cửa': "Từ thứ Hai đến thứ Sáu hàng tuần. Buổi sáng từ 7h30' - 11h15'. Buổi chiều từ 13h45' - 16h45'", 'hết_giờ_phục_vụ': "bạn đọc cần khẩn trương thu dọn tài liệu, tắt máy tính, sắp xếp lại bàn ghế và ra về", 'tài_liệu': "Thư viện đang phục vụ hơn 30.000 đầu sách (gồm sách Việt văn và Ngoại văn), gần 5.000 luận văn, luận án, đồ án các loại, gần 100 đầu báo và tạp chí trong nước và nước ngoài..."}
+
+Relationships
+(Đơn_vị: Thư Viện) - (CÓ:{'email: 'tttl@qnu.edu.vn', 'điện_thoại': '02563.846.623', 'website': 'http://lib.qnu.edu.vn/', 'fanpage': 'https://www.facebook.com/thuviendhqn'}) - (Khái_niệm:Thông Tin Liên Hệ)
+(Đơn_vị: Thư Viện) - (KẾ_HOẠCH:{'nội_dung': 'tiếp tục được đầu tư, cải tạo không gian theo hướng tiện ích và thân thiện; đồng thời sẽ không ngừng được bổ sung thêm vốn tài liệu để đáp ứng ngày một phong phú hơn nhu cầu của bạn đọc.'}) - (Thời_gian:Năm Học 2024 – 2025)
+
+
+
+---------------------------------------------------
+Entities
+Khái_niệm - Thời Gian Học Tập - {}
+Khái_niệm - Chương Trình Đào Tạo Kỹ Sư - {'khối_lượng': '150 tín chỉ'}
+Khái_niệm - Ngành Đào Tạo Cử Nhân Kỹ Thuật - {'khối_lượng': '120 tín chỉ'}
+Khái_niệm - Ngành Đào Tạo Sư Phạm - {'khối_lượng': '138 tín chỉ'}
+Khái_niệm - Các Ngành Còn Lại - {'khối_lượng': '135 tín chỉ'}
+
+Relationships
+(Khái_niệm:Thời Gian Tối Đa Hoàn Thành Chương Trình) - (LIÊN_QUAN_ĐẾN:{}) - (Khái_niệm: Chương Trình Đào Tạo)
+
+---------------------------------------------------
+Entities
+Chuẩn_đầu_ra - Ngoại Ngữ - {}
+Ngành - Ngành Sư Phạm Tiếng Anh - {}
+Ngành - Ngành Ngôn Ngữ Anh - {}
+Ngành - Ngành Ngôn Ngữ Trung Quốc - {}
+Ngành - Ngành Chất Lượng Cao - {}
+Ngành - Các Ngành Khác - {}
+Tổ_chức - Trường Đại Học Quy Nhơn - {}
+Tổ_chức - Bộ Giáo Dục Và Đào Tạo - {}
+Khái_niệm - Ngoại Ngữ 1 - {}
+Khái_niệm - Ngoại Ngữ 2 - {}
+Yêu_cầu - Tiếng Anh Bậc 5/6 - {}
+Yêu_cầu - Tiếng Pháp Bậc 3/6 - {}
+Yêu_cầu - Tiếng Trung Bậc 3/6 - {}
+Yêu_cầu - Tiếng Anh Bậc 3/6 - {}
+Yêu_cầu - Tiếng Pháp Bậc 4/6 - {}
+Yêu_cầu - Tiếng Anh Bậc 4/6 - {}
+Chứng_chỉ - Cefr C1 - {}
+Chứng_chỉ - Cae 60 - {}
+Chứng_chỉ - Ielts 6.5 - {}
+Chứng_chỉ - Toefl Ibt 85 - {}
+Chứng_chỉ - Toeic 850 - {}
+Chứng_chỉ - Aptis Esol General C - {}
+Chứng_chỉ - Aptis Esol Advanced C1 - {}
+Chứng_chỉ - Jlpt N4 - {}
+Chứng_chỉ - Jtest E - {}
+Chứng_chỉ - Hsk 3 - {}
+Chứng_chỉ - Delf B1 - {}
+Chứng_chỉ - Tcf Niveau 3 - {}
+Chứng_chỉ - Topik 3 - {}
+Chứng_chỉ - Cefr B1 - {}
+Chứng_chỉ - Ielts 4.5 - {}
+Chứng_chỉ - Toefl Ibt 45 - {}
+Chứng_chỉ - Toeic 450 - {}
+Chứng_chỉ - Aptis Esol General B1 - {}
+Chứng_chỉ - Aptis Esol Advanced B1 - {}
+Chứng_chỉ - Linguaskill B1 - {}
+Chứng_chỉ - Cefr B2 - {}
+Chứng_chỉ - Ielts 5.5 - {}
+Chứng_chỉ - Toefl Ibt 61 - {}
+Chứng_chỉ - Toeic 600 - {}
+Chứng_chỉ - Aptis Esol General B2 - {}
+Chứng_chỉ - Aptis Esol Advanced B2 - {}
+Chứng_chỉ - Linguaskill B2 - {}
+Chứng_chỉ - Jlpt N3 - {}
+Chứng_chỉ - Jtest D - {}
+Chứng_chỉ - Hsk 4 - {}
+Chứng_chỉ - Delf B2 - {}
+Chứng_chỉ - Tcf Niveau 4 - {}
+Chứng_chỉ - Topik 4 - {}
+
+Relationships
+(Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Ngành Sư Phạm Tiếng Anh)
+(Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Ngành Ngôn Ngữ Anh)
+(Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Ngành Ngôn Ngữ Trung Quốc)
+(Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Ngành Chất Lượng Cao)
+(Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Các Ngành Khác)
+(Ngành: Ngành Sư Phạm Tiếng Anh) - (YÊU_CẦU:{}) - (Khái_niệm:Ngoại Ngữ 1)
+(Ngành: Ngành Sư Phạm Tiếng Anh) - (YÊU_CẦU:{}) - (Khái_niệm:Ngoại Ngữ 2)
+(Khái_niệm: Ngoại Ngữ 1) - (ĐẠT:{}) - (Yêu_cầu:Tiếng Anh Bậc 5/6)
+(Khái_niệm: Ngoại Ngữ 2) - (ĐẠT:{}) - (Yêu_cầu:Tiếng Pháp Bậc 3/6)
+(Khái_niệm: Ngoại Ngữ 2) - (ĐẠT:{}) - (Yêu_cầu:Tiếng Trung Bậc 3/6)
+(Ngành: Ngành Ngôn Ngữ Anh) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Pháp Bậc 3/6)
+(Ngành: Ngành Ngôn Ngữ Anh) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Trung Bậc 3/6)
+(Ngành: Ngành Ngôn Ngữ Trung Quốc) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Anh Bậc 3/6)
+(Ngành: Ngành Ngôn Ngữ Trung Quốc) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Pháp Bậc 3/6)
+(Ngành: Ngành Chất Lượng Cao) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Anh Bậc 4/6)
+(Ngành: Ngành Chất Lượng Cao) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Pháp Bậc 4/6)
+(Ngành: Các Ngành Khác) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Anh Bậc 3/6)
+(Ngành: Các Ngành Khác) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Pháp Bậc 3/6)
+(Ngành: Các Ngành Khác) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Trung Bậc 3/6)
+(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr C1)
+(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cae 60)
+(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 6.5)
+(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 85)
+(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 850)
+(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General C)
+(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced C1)
+(Yêu_cầu: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Delf B1)
+(Yêu_cầu: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Tcf Niveau 3)
+(Yêu_cầu: Tiếng Trung Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Hsk 3)
+(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr B1)
+(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 4.5)
+(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 45)
+(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 450)
+(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General B1)
+(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced B1)
+(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Linguaskill B1)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr B2)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 5.5)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 61)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 600)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General B2)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced B2)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Linguaskill B2)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Delf B2)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Tcf Niveau 4)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Topik 4)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr B2)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 5.5)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 61)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 600)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General B2)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced B2)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Linguaskill B2)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Delf B2)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Tcf Niveau 4)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Topik 4)
+(Yêu_cầu: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N4)
+(Yêu_cầu: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest E)
+(Yêu_cầu: Tiếng Trung Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N4)
+(Yêu_cầu: Tiếng Trung Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest E)
+(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N4)
+(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest E)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N3)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest D)
+(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Hsk 4)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N3)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest D)
+(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Hsk 4)
+----------------------------------------
+Sai
+(Ngành: Ngành Sư Phạm Tiếng Anh) - (CẤP_CHỨNG_CHỈ:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Ngành: Ngành Sư Phạm Tiếng Anh) - (CẤP_CHỨNG_CHỈ:{}) - (Tổ_chức:Bộ Giáo Dục Và Đào Tạo)
+(Ngành: Ngành Ngôn Ngữ Anh) - (CẤP_CHỨNG_CHỈ:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Ngành: Ngành Ngôn Ngữ Anh) - (CẤP_CHỨNG_CHỈ:{}) - (Tổ_chức:Bộ Giáo Dục Và Đào Tạo)
+'yêu_cầu': 'Ngoại ngữ 1 tiếng Anh bậc 5/6 của của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Anh bậc 5/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép cấp chứng chỉ ngoại ngữ. Hoặc chứng chỉ quốc tế tương đương: CEFR C1; CAE 60, IELTS 6.5, TOEFL iBT 85, TOEIC 850, APTIS ESOL GENERAL C, APTIS ESOL ADVANCED C1.
+----------------------------------------
+Entities
+Chuẩn_đầu_ra - Tin Học - {}
+Khái_niệm - Các Trường Hợp Đặc Biệt - {}
+
+Relationships
+(Chủ_thể:Hiệu Trưởng) - (QUYẾT_ĐỊNH:{}) - (Khái_niệm: Trường Hợp Đặc Biệt)
+(Chuẩn_đầu_ra: Tin Học) - (ÁP_DỤNG_CHO:{}) - (Chủ_thể:Sinh Viên Đại Học Hệ Chính Quy)
+(Chứng_chỉ:Chứng Chỉ Ứng Dụng Công Nghệ Thông Tin Cơ Bản) - (ĐẠT:{}) - (Chuẩn_đầu_ra: Tin Học)
+(Chứng_chỉ:Chứng Chỉ Tin Học Quốc Tế Ic3) - (ĐẠT:{}) - (Chuẩn_đầu_ra: Tin Học)
+(Chứng_chỉ:Chứng Chỉ Tin Học Quốc Tế Icdl) - (ĐẠT:{}) - (Chuẩn_đầu_ra: Tin Học)
+(Chứng_chỉ:Chứng Chỉ Tin Học Quốc Tế Mos) - (ĐẠT:{}) - (Chuẩn_đầu_ra: Tin Học)
+
+----------------------------------------
+Chế_độ - Miễn Giảm Phí Dịch Vụ Công Cộng - {'gồm': 'giao thông, giải trí, tham quan bảo tàng, di tích lịch sử, công trình văn hóa theo quy định của Nhà nước'}
+Hoạt_động - Đảm Bảo Chất Lượng Giáo Dục - {'vai_trò': 'trực tiếp hoặc thông qua đại diện hợp pháp của mình kiến nghị các giải pháp góp phần xây dựng và phát triển nhà trường'}
+
+(Quyền: Quyền Của Sinh Viên) - (KHIẾU_NẠI:{'mục_đích': 'giải quyết các vấn đề có liên quan đến quyền, lợi ích chính đáng của sinh viên'}) - (Chủ_thể:Hiệu Trưởng)
+(Quyền: Quyền Của Sinh Viên) - (NHẬN:{'điều_kiện': 'đủ điều kiện công nhận tốt nghiệp'}) - (Văn_bằng:Bằng Tốt Nghiệp)
+(Quyền: Quyền Của Sinh Viên) - (NHẬN:{'điều_kiện': 'đủ điều kiện công nhận tốt nghiệp'}) - (Văn_bằng:Chứng Chỉ)
+(Quyền: Quyền Của Sinh Viên) - (NHẬN:{'điều_kiện': 'đủ điều kiện công nhận tốt nghiệp'}) - (Văn_bằng:Bảng Điểm Học Tập Và Rèn Luyện)
+(Quyền: Quyền Của Sinh Viên) - (GÓP_Ý_KIẾN: {}) - (Hoạt_động: Đảm Bảo Chất Lượng Giáo Dục)
+
+----------------------------------------
+Entities
+Sự_kiện - Thay Đổi Nơi Cư Trú - {}
+
+(Chủ_thể: Sinh Viên Ngoại Trú) - (CÓ: {}) (Sự_kiện: Thay Đổi Nơi Cư Trú)
+(Sự_kiện: Thay Đổi Nơi Cư Trú) - (PHẢI_BÁO_CÁO:{'thời_hạn': '20 ngày'}) - (Chủ_thể:Nhà Trường)
+----------------------------------------
+Điều - Điều 7 - {'tiêu_đề': 'Các hành vi SV nội trú không được làm'}
+
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Cải Tạo Phòng)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Thay Đổi Trang Thiết Bị)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Tự Ý Di Chuyển Trang Thiết Bị)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Gây Mất Trật Tự)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Gây Mất An Ninh)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Gây Mất Vệ Sinh Môi Trường)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Viết Vẽ)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Che Chắn)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Chuyển Nhượng Hợp Đồng)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Cho Thuê Lại Hợp Đồng)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Tự Ý Đưa Người Lạ)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Trộm Cắp Tài Sản)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Sản Xuất Vũ Khí)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Tàng Trữ Vũ Khí)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Sử Dụng Vũ Khí)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Buôn Bán Vũ Khí)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Vận Chuyển Vũ Khí)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Phát Tán Vũ Khí)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Chất Gây Cháy)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Chất Gây Nổ)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Hóa Chất Độc Hại)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Ma Túy)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Chế Phẩm Của Ma Túy)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Tài Liệu Cấm)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Ấn Phẩm Cấm)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Phim Ảnh Cấm)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Thông Tin Phản Động)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Đồi Trụy)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Tổ Chức Đánh Bạc)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Tham Gia Đánh Bạc)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Mại Dâm)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Truyền Bá Mê Tín Dị Đoan)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Hoạt Động Tôn Giáo)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Tổ Chức Băng Nhóm)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi:Đánh Nhau)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi: Chuyển Nhượng Hợp Đồng)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi: Cho Thuê Lại Hợp Đồng)
+(Chủ_thể:Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC: {}) - (Hành_vi: Tự Ý Đưa Người Lạ)
+----------------------------------------
+Điều - Điều 8 - {'tiêu_đề': 'Ra đề thi kết thúc học phần'}
+Yêu_cầu - Thời Gian Làm Bài Thi - {'mô_tả': 'Tương ứng với số tín chỉ của học phần. 1 tín chỉ thì 60 phút, 2 tín chỉ thì 60 hoặc 90 phút, 3 tín chỉ trở lên thì 90 hoặc 120 phút'}
+Đề_thi - Tự Luận Trực Tiếp - {'mô_tả': 'có thể là đề đóng hoặc đề mở; lời văn, câu chữ phải rõ ràng, không sai sót; nội dung các câu hỏi trong 02 đề thi không được trùng nhau; phải ghi rõ số điểm của mỗi câu hỏi; đáp án và thang điểm phải theo từng câu, từng mục, từng ý.'}
+Đề_thi - Tự Luận Trực Tuyến - {'mô_tả': 'là dạng đề mở, cho phép sinh viên được sử dụng tài liệu tham khảo trong quá trình làm bài thi; đảm bảo các yêu cầu về nội dung, đáp án, thang điểm như đề thi tự luận trực tiếp.'}
+Đề_thi - Trắc Nghiệm Trên Giấy - {'mô_tả': 'Mỗi đề thi có ít nhất 40 câu hỏi; phải có tối thiểu 05 mã đề khác nhau được đánh mã theo số thứ tự tăng dần từ số 01. Đối với loại trắc nghiệm nhiều lựa chọn, mỗi câu hỏi phải có 04 lựa chọn, trong đó chỉ có 01 lựa chọn đúng. Thời gian làm bài thi từ 45 đến 60 phút;'}
+Đề_thi - Trắc Nghiệm Trên Máy Tính - {'mô_tả': 'Đề thi được trộn ngẫu nhiên từ ngân hàng câu hỏi thi trắc nghiệm. Cán bộ quản lý phần mềm thi trắc nghiệm thực hiện việc tạo đề thi cho mỗi học phần thi, ca thi, đảm bảo nguyên tắc bảo mật và đúng cấu trúc, thời gian bài của đề thi.'}
+Đề_thi - Vấn Đáp - {'mô_tả': 'Số lượng câu hỏi tùy thuộc số tín chỉ; tối thiểu 10 câu hỏi/01 tín chỉ.'}
+Đề_thi - Thực Hành - {'mô_tả': 'Tùy theo đặc thù của từng học phần, giảng viên quy định cụ thể thời gian làm bài.'}
+
+(Chủ_thể: Giảng Viên) - (RA_ĐỀ:{'thời_gian': '04 tuần trước khi thi kết thúc học phần'}) - (Khái_niệm:Đề Thi Kết Thúc Học Phần)
+(Chủ_thể: Giảng Viên) - (RA_ĐỀ:{}) - (Khái_niệm:Đề Thi Kết Thúc Học Phần)
+(Chủ_thể: Giảng Viên) - (NỘP_ĐỀ:{'thời_hạn': 'trước 04 tuần'}) - (Chủ_thể:Khoa Quản Lý Học Phần)
+(Chủ_thể: Khoa Quản Lý Học Phần) - (NỘP_ĐỀ_VÀ_ĐÁP_ÁN:{'thời_hạn': 'trước 03 tuần'}) - (Chủ_thể:Phòng Khảo Thí Và Bảo Đảm Chất Lượng)
+(Chủ_thể: Giảng Viên) - (GIAO_ĐỀ_TÀI:{'đối_tượng': 'sinh viên'}) - (Đề_thi:Tiểu Luận)
+(Chủ_thể: Giảng Viên) - (GIAO_ĐỀ_TÀI:{'đối_tượng': 'sinh viên'}) - (Đề_thi:Đề Án Môn Học)
+(Chủ_thể: Giảng Viên) - (GIAO_ĐỀ_TÀI:{'đối_tượng': 'sinh viên'}) - (Đề_thi:Đồ Án Môn Học)
+(Đề_thi: Tự Luận) - (BAO_GỒM:{}) - (Đề_thi:Tự Luận Trực Tiếp)
+(Đề_thi: Tự Luận) - (BAO_GỒM:{}) - (Đề_thi:Tự Luận Trực Tuyến)
+(Đề_thi: Tự Luận Trực Tuyến) - (LÀ:{}) - (Khái_niệm:Đề Mở)
+
+
+------------------------------------------
+Chủ_thể - Gia Đình Sinh Viên - {}
+
+(Chủ_thể: Cơ Sở Đào Tạo Giáo Viên) - (THÔNG_BÁO:{'nội_dung':'danh sách sinh viên thuộc đối tượng quy định tại điểm c khoản 1 Điều 6 Nghị định'}) - (Chủ_thể: Ủy Ban Nhân Dân Cấp Tỉnh)
+(Chủ_thể: Cơ Sở Đào Tạo Giáo Viên) - (THÔNG_BÁO:{'nội_dung':'thu hồi kinh phí đã hỗ trợ cho sinh viên sư phạm và gia đình', 'quy_định': 'tại khoản 2 Điều 8 Nghị định này.'}) - (Chủ_thể: Gia Đình Sinh Viên)
+(Chủ_thể:Sinh Viên Sư Phạm) - (LIÊN_HỆ: {'thời_hạn': 'Trong 30 ngày kể từ ngày nhận quyết định'}) - (Chủ_thể: Cơ Quan Nhà Nước Có Thẩm Quyền)
+(Chủ_thể:Sinh Viên Sư Phạm) - (THUỘC_ĐỐI_TƯỢNG:{'quy_định': 'tại điểm a và điểm b khoản 1 Điều 6 Nghị định này'}) - (Hoạt_động: Bồi Hoàn Kinh Phí)
+(Chủ_thể: Ủy Ban Nhân Dân Cấp Tỉnh) - (THÔNG_BÁO:{'yêu_cầu': 'sinh viên sư phạm hoặc gia đình thực hiện nộp trả đầy đủ khoản tiền phải bồi hoàn theo', 'quy_định': 'tại Điều 8 Nghị định này.'}) - (Hoạt_động:Thu Hồi Kinh Phí)
+(Hoạt_động: Bồi Hoàn Kinh Phí) - (CÓ_THỜI_HẠN:{'ghi_chú': 'kể từ khi sinh viên sư phạm nhận được thông báo bồi hoàn kinh phí.'}) - (Thời_gian:Thời Hạn 4 Năm)
+(Chủ_thể:Sinh Viên Sư Phạm) - (QUÁ_THỜI_HẠN: {'trường_hợp_1': 'phải chịu lãi suất tối đa áp dụng đối với tiền gửi không kỳ hạn do Ngân hàng Nhà nước Việt Nam quy định đối với khoản tiền chậm bồi hoàn.', 'trường_hợp_2': 'Trường hợp Ngân hàng Nhà nước không quy định lãi suất tối đa áp dụng đối với tiền gửi không kỳ hạn thì phải chịu lãi suất áp dụng đối với tiền gửi không kỳ hạn của Ngân hàng Thương mại cổ phần Công thương Việt Nam tại thời điểm thực hiện nghĩa vụ bồi hoàn.'}) - (Hoạt_động: Bồi Hoàn Kinh Phí)
+(Chính_sách: Chính Sách Miễn, Giảm Hoặc Xóa Kinh Phí Bồi Hoàn) - (ÁP_DỤNG:{'điều_kiện': 'thuộc đối tượng chính sách, khó khăn thì căn cứ vào điều kiện cụ thể, đặc thù của sinh viên sư phạm, Ủy ban nhân dân cấp tỉnh quyết định phương thức thu hồi, chính sách miễn, giảm hoặc xóa kinh phí bồi hoàn.'}) - (Chủ_thể:Sinh Viên Sư Phạm)
+(Chủ_thể: Ủy Ban Nhân Dân Cấp Tỉnh) - (KHỞI_KIỆN: {'điều_kiện': 'không thực hiện nghĩa vụ bồi hoàn'}) - (Chủ_thể:Sinh Viên Sư Phạm)
+
+------------------------------------------
+
+Khái_niệm - Thời Hạn Đóng Học Phí - {'tiêu_đề': 'Thời hạn đóng học phí'}
+Khái_niệm - Phương Thức Đóng Học Phí - {'tiêu_đề': 'Phương thức đóng học phí'}
+------------------------------------------
+
+(Chủ_thể: Sinh Viên) - (GIÚP_ĐỠ:{'mô_tả': 'trong học tập, rèn luyện, sinh hoạt và vui chơi giải trí;'}) - (Chủ_thể: Sinh Viên)
+(Chủ_thể: Nhà Trường) - (TUYÊN_DƯƠNG:{}) - (Chủ_thể:Sinh Viên Gương Mẫu)
+(Chủ_thể: Nhà Trường) - (KỶ_LUẬT:{}) - (Chủ_thể:Sinh Viên Vi Phạm)
+
+quay lại sau
+------------------------------------------
+
+
+(Hoạt_động: Kiểm Tra, Đánh Giá Năng Lực Tiếng Anh Đầu Khóa) - (QUY_ĐỔI: {'điều_kiện': 'từ 91 đến 100 thì quy đổi thành 10, từ 81 đến 90 thì quy đổi thành 10, từ 71 đến 80 thì quy đổi thành 10, từ 61 đến 70 thì quy đổi thành 9, từ 50 đến 60 thì quy đổi thành 8, dưới 50 thì không xét'}) - (Khái_niệm:Ta1)
+(Hoạt_động: Kiểm Tra, Đánh Giá Năng Lực Tiếng Anh Đầu Khóa) - (QUY_ĐỔI: {'điều_kiện': 'từ 91 đến 100 thì quy đổi thành 10, từ 81 đến 90 thì quy đổi thành 10, từ 71 đến 80 thì quy đổi thành 9, từ 61 đến 70 thì quy đổi thành 8, từ 50 đến 60 thì không xét, dưới 50 thì không xét'}) - (Khái_niệm:Ta2)
+(Khái_niệm:Ielts) - (QUY_ĐỔI: {'điều_kiện': 'từ 7.5 trở lên thì quy đổi thành 10, từ 7.0 đến 6.0 thì quy đổi thành 10, từ 5.5 đến 5.0 thì quy đổi thành 10, là 4.5 thì quy đổi thành 10, là 4.0 thì quy đổi thành 9, dưới 3.5 thì không xét'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Ielts) - (QUY_ĐỔI: {'điều_kiện': 'từ 7.5 trở lên thì quy đổi thành 10, từ 7.0 đến 6.0 thì quy đổi thành 10, từ 5.5 đến 5.0 thì quy đổi thành 10, là 4.5 thì quy đổi thành 9, là 4.0 thì không xét, dưới 3.5 thì không xét'}) - (Khái_niệm: Ta2) 
+(Khái_niệm:Toeic) - (QUY_ĐỔI: {'điều_kiện': 'từ 910 trở lên thì quy đổi thành 10, từ 850 đến 540 thì quy đổi thành 10, từ 600 đến 480 thì quy đổi thành 10, là 450 thì quy đổi thành 10, là 400 thì quy đổi thành 9, dưới 400 thì không xét'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Toeic) - (QUY_ĐỔI: {'điều_kiện': 'từ 910 trở lên thì quy đổi thành 10, từ 850 đến 540 thì quy đổi thành 10, từ 600 đến 480 thì quy đổi thành 10, là 450 thì quy đổi thành 9, là 400 thì không xét, dưới 400 thì không xét'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Toefl Pbt) - (QUY_ĐỔI: {'điều_kiện': 'từ 600 trở lên thì quy đổi thành 10, từ 577 đến 213 thì quy đổi thành 10, từ 527 đến 173 thì quy đổi thành 10, từ 477 đến 126 thì quy đổi thành 10, là 340 thì quy đổi thành 9, dưới 340 thì không xét'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Toefl Pbt) - (QUY_ĐỔI: {'điều_kiện': 'từ 600 trở lên thì quy đổi thành 10, từ 577 đến 213 thì quy đổi thành 10, từ 527 đến 173 thì quy đổi thành 10, từ 477 đến 126 thì quy đổi thành 9, là 340 thì không xét, dưới 340 thì không xét'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Toefl Cbt) - (QUY_ĐỔI: {'điều_kiện': 'từ 250 trở lên thì quy đổi thành 10'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Toefl Cbt) - (QUY_ĐỔI: {'điều_kiện': 'từ 250 trở lên thì quy đổi thành 10'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Toefl Ibt) - (QUY_ĐỔI: {'điều_kiện': 'từ 100 trở lên thì quy đổi thành 10, từ 95 đến 80 thì quy đổi thành 10, từ 71 đến 61 thì quy đổi thành 10, từ 53 đến 42 thì quy đổi thành 10, là 96 thì quy đổi thành 9, dưới 96 thì không xét'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Toefl Ibt) - (QUY_ĐỔI: {'điều_kiện': 'từ 100 trở lên thì quy đổi thành 10, từ 95 đến 80 thì quy đổi thành 10, từ 71 đến 61 thì quy đổi thành 10, từ 53 đến 42 thì quy đổi thành 9, là 96 thì không xét, dưới 96 thì không xét'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Toefl Itp) - (QUY_ĐỔI: {'điều_kiện': 'từ 630 trở lên thì quy đổi thành 10, là 550 thì quy đổi thành 10, là 500 thì quy đổi thành 10, là 450 thì quy đổi thành 10, là 31 thì quy đổi thành 9, dưới 31 thì không xét'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Toefl Itp) - (QUY_ĐỔI: {'điều_kiện': 'từ 630 trở lên thì quy đổi thành 10, là 550 thì quy đổi thành 10, là 500 thì quy đổi thành 10, là 450 thì quy đổi thành 9, là 31 thì không xét, dưới 31 thì không xét'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Cambridge Cpe) - (QUY_ĐỔI: {'điều_kiện': 'CPE thì quy đổi thành 10'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Cambridge Cpe) - (QUY_ĐỔI: {'điều_kiện': 'CPE thì quy đổi thành 10'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Cambridge Cae) - (QUY_ĐỔI: {'điều_kiện': '80-100 thì quy đổi thành 10, 60-79 thì quy đổi thành 10'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Cambridge Cae) - (QUY_ĐỔI: {'điều_kiện': '80-100 thì quy đổi thành 10, 60-79 thì quy đổi thành 10'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Cambridge Fce) - (QUY_ĐỔI: {'điều_kiện': '80-100 thì quy đổi thành 10, 60-79 thì quy đổi thành 10, 45-59 thì quy đổi thành 10'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Cambridge Fce) - (QUY_ĐỔI: {'điều_kiện': '80-100 thì quy đổi thành 10, 60-79 thì quy đổi thành 10, 45-59 thì quy đổi thành 9'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Cambridge Pet) - (QUY_ĐỔI: {'điều_kiện': '80-100 thì quy đổi thành 10, 65-79 thì quy đổi thành 10, 45-64 thì quy đổi thành 9'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Cambridge Pet) - (QUY_ĐỔI: {'điều_kiện': '80-100 thì quy đổi thành 10, 65-79 thì quy đổi thành 9, 45-64 thì không xét'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Cambridge Ket) - (QUY_ĐỔI: {'điều_kiện': '90-100 thì quy đổi thành 10, 70-89 thì quy đổi thành 9, 45-69 thì không xét'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Cambridge Ket) - (QUY_ĐỔI: {'điều_kiện': '90-100 thì quy đổi thành 9, 70-89 thì không xét, 45-69 thì không xét'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Aptis C2) - (QUY_ĐỔI: {'điều_kiện': 'APTIS C2 thì quy đổi thành 10'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Aptis C2) - (QUY_ĐỔI: {'điều_kiện': 'APTIS C2 thì quy đổi thành 10'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Aptis C1) - (QUY_ĐỔI: {'điều_kiện': 'APTIS C1 thì quy đổi thành 10'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Aptis C1) - (QUY_ĐỔI: {'điều_kiện': 'APTIS C1 thì quy đổi thành 10'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Aptis B2) - (QUY_ĐỔI: {'điều_kiện': 'APTIS B2 thì quy đổi thành 10'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Aptis B2) - (QUY_ĐỔI: {'điều_kiện': 'APTIS B2 thì quy đổi thành 10'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Aptis B1) - (QUY_ĐỔI: {'điều_kiện': 'APTIS B1 thì quy đổi thành 10'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Aptis B1) - (QUY_ĐỔI: {'điều_kiện': 'APTIS B1 thì quy đổi thành 9'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Aptis A2) - (QUY_ĐỔI: {'điều_kiện': 'APTIS A2 thì quy đổi thành 9'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Aptis A2) - (QUY_ĐỔI: {'điều_kiện': 'APTIS A2 thì không xét'}) - (Khái_niệm: Ta2)  
+(Khái_niệm:Aptis A1) - (QUY_ĐỔI: {'điều_kiện': 'APTIS A1 thì không xét'}) - (Khái_niệm: Ta1)  
+(Khái_niệm:Aptis A1) - (QUY_ĐỔI: {'điều_kiện': 'APTIS A1 thì không xét'}) - (Khái_niệm: Ta2)  
+
+(Giải_thưởng: Khuyến Khích Cấp Tỉnh) - (QUY_ĐỔI:{'điểm': 9}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Khuyến Khích Cấp Tỉnh) - (QUY_ĐỔI:{'điểm': 9}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Ba Cấp Tỉnh) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Ba Cấp Tỉnh) - (QUY_ĐỔI:{'điểm': 9}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Nhì Cấp Tỉnh) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Nhì Cấp Tỉnh) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Nhất Cấp Tỉnh) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Nhất Cấp Tỉnh) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Khuyến Khích Cấp Quốc Gia) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Khuyến Khích Cấp Quốc Gia) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Ba Cấp Quốc Gia) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Ba Cấp Quốc Gia) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Nhì Cấp Quốc Gia) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Nhì Cấp Quốc Gia) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Nhất Cấp Quốc Gia) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Nhất Cấp Quốc Gia) - (QUY_ĐỔI:{'điểm': 10}) - (Khái_niệm:Ta2)
+
+---------------------------------------------------
+Entities
+
+Hoạt_động - Khảo Sát Ý Kiến Phản Hồi Của Người Học - {'thời_gian_tối_đa_thực_hiện': '60 ngày kể từ ngày kế hoạch được phê duyệt', 'phổ_biến_mục_đích_yêu_cầu': 'Phổ biến mục đích, yêu cầu lấy ý kiến người học để khảo sát đúng yêu cầu và thời gian'}
+Khái_niệm - Kế hoạch khảo sát - {'thời_gian_thực_hiện': 'trước kỳ thi kết thúc học phần của mỗi học kỳ hoặc sau khi kết thúc mỗi môn học, chuyên đề', 'phê_duyệt_bởi': 'Hiệu trưởng', 'thời_gian_phê_duyệt': 'theo từng học kỳ', 'biểu_mẫu_sử_dụng': 'Phiếu khảo sát theo mẫu BM02a_ĐHQN_CDR_HP'}
+Phòng_ban - Phòng Kt&Đbcl - {'phân_biệt_công_việc_phổ_biến': 'Phổ biến mục đích, yêu cầu lấy ý kiến người học để khảo sát đúng yêu cầu và thời gian'}
+Khái_niệm - Quy Trình Khảo Sát - {}
+Bước - Bước 1 - {}
+Bước - Bước 2 - {}
+Bước - Bước 3 - {}
+Bước - Bước 4 - {}
+Bước - Bước 5 - {}
+Bước - Bước 6 - {}
+
+Relationships
+(Khái_niệm: Quy Trình Khảo Sát) - (BAO_GỒM: {'tiêu_đề': 'Chuẩn bị khảo sát', 'nội_dung': 'Phòng KT&ĐBCL phối hợp với các Khoa/Bộ môn lập kế hoạch khảo sát, trình Hiệu trưởng phê duyệt theo từng học kỳ. Đồng thời, nhập/cập nhật nội dung chuẩn đầu ra các học phần lên phần mềm khảo sát. Thời gian thực hiện trước kỳ thi kết thúc học phần của mỗi học kỳ hoặc sau khi kết thúc mỗi môn học, chuyên đề. Các biểu mẫu sử dụng gồm Phiếu khảo sát theo mẫu BM02a_DHQN_CDR_HP.'}) - (Bước: Bước 1)
+(Khái_niệm: Quy Trình Khảo Sát) - (BAO_GỒM: {'tiêu_đề': 'Phê duyệt và thông báo kế hoạch khảo sát', 'nội_dung': 'Sau khi nhận được kế hoạch từ Phòng KT&ĐBCL, Hiệu trưởng phê duyệt kế hoạch khảo sát và Phiếu khảo sát. Ngay sau đó, Phòng KT&ĐBCL sẽ thông báo kế hoạch khảo sát đến các Khoa/Bộ môn, giảng viên và người học. Công việc này sẽ hoàn tất sau khi kế hoạch khảo sát được phê duyệt. Các công cụ hỗ trợ chính là Công thông tin sinh viên/học viên.'}) - (Bước: Bước 2)
+(Khái_niệm: Quy Trình Khảo Sát) - (BAO_GỒM: {'tiêu_đề': 'Tổ chức khảo sát', 'nội_dung': 'Phòng KT&ĐBCL phối hợp cùng Khoa/Bộ môn triển khai khảo sát cho sinh viên, học viên thông qua tài khoản cá nhân trên phần mềm E-Survey hoặc Google Forms, trong thời gian tối đa là 60 ngày kể từ ngày kế hoạch được phê duyệt. Bên cạnh đó, Khoa/Bộ môn, Phòng CTSV và Phòng ĐTĐH sẽ phổ biến mục đích, yêu cầu của việc lấy ý kiến người học về môn học để người học thực hiện khảo sát đúng yêu cầu, đúng thời gian quy định. Trung tâm CNTT&TT đảm bảo hạ tầng kỹ thuật và kết nối Internet trong suốt quá trình thực hiện khảo sát.'}) - (Bước: Bước 3)
+(Khái_niệm: Quy Trình Khảo Sát) - (BAO_GỒM: {'tiêu_đề': 'Hoàn thành khảo sát và báo cáo kết quả', 'nội_dung': 'Khoa/Bộ môn thu nhận thông tin phản hồi từ sinh viên, học viên. Sau đó, thực hiện phân tích, xử lý dữ liệu, lập báo cáo kết quả khảo sát và trình Hiệu trưởng phê duyệt. Thời gian hoàn thành là 30 ngày sau khi kết thúc khảo sát. Báo cáo bao gồm các dữ liệu khảo sát và báo cáo tổng hợp theo mẫu BM02a_DHQN_CDR_HP.'}) - (Bước: Bước 4)
+(Khái_niệm: Quy Trình Khảo Sát) - (BAO_GỒM: {'tiêu_đề': 'Cải tiến chất lượng', 'nội_dung': 'Trong vòng 15 ngày sau khi có kết quả khảo sát, Khoa/Bộ môn và giảng viên tổ chức họp nội bộ để thảo luận và đề xuất biện pháp cải tiến chất lượng học phần. Kết quả cuộc họp được ghi nhận trong biên bản họp và gửi về Phòng KT&ĐBCL theo đúng quy định. Đồng thời, các công văn gửi Nhà trường (bao gồm báo cáo và kế hoạch cải tiến) cũng sẽ được lập theo biểu mẫu BM02b_DHQN_CDR_HP.'}) - (Bước: Bước 5)
+(Khái_niệm: Quy Trình Khảo Sát) - (BAO_GỒM: {'tiêu_đề': 'Tổng hợp và lưu trữ', 'nội_dung': 'Cuối cùng, Phòng KT&ĐBCL cùng Khoa/Bộ môn tổng hợp và lưu trữ toàn bộ hồ sơ khảo sát và biên bản cải tiến chất lượng. Thời gian lưu trữ hồ sơ tối thiểu là 05 năm, bao gồm cả hồ sơ văn bản và dữ liệu trên CSDL khảo sát.'}) - (Bước: Bước 6)
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (THỰC_HIỆN_KẾ_HOẠCH:{}) - (Khái_niệm: Kế hoạch khảo sát)
+(Khái_niệm: Kế hoạch khảo sát) - (PHÊ_DUYỆT_BỞI:{}) - (Chức_danh: Hiệu Trưởng)
+(Khái_niệm: Kế hoạch khảo sát) - (SỬ_DỤNG_BIỂU_MẪU:{}) - (Biểu_mẫu: Phiếu Khảo Sát Bm02A_Đhqn_Cđr.Hp)
+(Phòng_ban: Phòng Kt&Đbcl) - (PHỔ_BIẾN_KẾ_HOẠCH:{}) - (Tổ_chức: Khoa/Bộ Môn)
+(Tổ_chức: Khoa/Bộ Môn) - (THỰC_HIỆN_KHẢO_SÁT:{}) - (Chủ_thể: Người Học Hệ Chính Quy)
+(Tổ_chức: Khoa/Bộ Môn) - (BÁO_CÁO_KẾT_QUẢ:{}) - (Tài_liệu: Biên Bản Họp)
+(Tổ_chức: Khoa/Bộ Môn) - (LƯU_TRỮ:{}) - (Tài_liệu: Hồ Sơ Khảo Sát)
+(Phòng_ban: Phòng Kt&Đbcl) - (PHỐI_HỢP:{}) - (Phòng_ban: Phòng Ctsv)
+(Phòng_ban: Phòng Kt&Đbcl) - (PHỐI_HỢP:{}) - (Phòng_ban: Phòng Đtđh)
+(Phòng_ban: Phòng Kt&Đbcl) - (PHỐI_HỢP:{'vai_trò': 'lập kế hoạch khảo sát, trình Hiệu trưởng phê duyệt theo từng học kỳ. Đồng thời, nhập/cập nhật nội dung chuẩn đầu ra các học phần lên phần mềm khảo sát.'}) - (Tổ_chức:Khoa/Bộ Môn)

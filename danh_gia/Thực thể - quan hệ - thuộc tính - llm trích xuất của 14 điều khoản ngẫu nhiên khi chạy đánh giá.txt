@@ -1,0 +1,616 @@
+Đơn_vị - Thư Viện - {'vai_trò': 'Tổ chức và quản lý các hoạt động thông tin - thư viện, phục vụ công tác đào tạo, nghiên cứu', 'trụ_sở': 'Khuôn viên phía Đông Bắc của trường Đại học Quy Nhơn', 'diện_tích': '3.500 m2', 'cấu_trúc': '01 phòng Giáo trình, 03 phòng Đọc mở, 10 phòng Tự học, 01 phòng Đọc thân thiện, 01 phòng Câu lạc bộ', 'số_chỗ_ngồi': 'Hơn 300 chỗ', 'số_máy_tính': '20 máy'}
+Tổ_chức - Trường Đại Học Quy Nhơn - {}
+Phòng - Phòng Giáo Trình - {}
+Phòng - Phòng Đọc Mở - {}
+Phòng - Phòng Tự Học - {}
+Phòng - Phòng Đọc Thân Thiện - {}
+Phòng - Phòng Câu Lạc Bộ - {}
+Tài_nguyên - Tài Liệu Số - {'số_lượng': 'Gần 8.000 tài liệu số', 'loại': 'Giáo trình, tài liệu tham khảo, luận văn thạc sĩ, luận án tiến sĩ'}
+Hệ_thống - Cổng Thông Tin Thư Viện - {'địa_chỉ': 'http://lib.qnu.edu.vn/'}
+Tổ_chức - Liên Hiệp Thư Viện Việt Nam - {}
+Cơ_sở_dữ_liệu - Proquest Central - {}
+Cơ_sở_dữ_liệu - Std - {}
+Cơ_sở_dữ_liệu - Kqnc - {}
+Cơ_sở_dữ_liệu - Thư Viện Pháp Luật Trực Tuyến - {'địa_chỉ': 'https://thuvienphapluat.vn/'}
+Cơ_sở_dữ_liệu - Mathscinet - {}
+Tổ_chức - Trung Tâm Học Liệu Trường Đại Học Cần Thơ - {}
+Tài_khoản - Tài Khoản Mặc Định - {'tên_đăng_nhập': 'Mã số sinh viên', 'mật_khẩu': 'Mã số sinh viên'}
+Tài_khoản - Tài Khoản Thư Viện Pháp Luật - {'tên_đăng_nhập': 'QNU', 'mật_khẩu': '654321', 'số_lượng_đăng_nhập': 'Tối đa 15 người'}
+Thời_gian - Năm Học 2024 – 2025 - {}
+
+(Đơn_vị: Thư Viện) - (THUỘC:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Đơn_vị: Thư Viện) - (BAO_GỒM:{}) - (Phòng:Phòng Giáo Trình)
+(Đơn_vị: Thư Viện) - (BAO_GỒM:{}) - (Phòng:Phòng Đọc Mở)
+(Đơn_vị: Thư Viện) - (BAO_GỒM:{}) - (Phòng:Phòng Tự Học)
+(Đơn_vị: Thư Viện) - (BAO_GỒM:{}) - (Phòng:Phòng Đọc Thân Thiện)
+(Đơn_vị: Thư Viện) - (BAO_GỒM:{}) - (Phòng:Phòng Câu Lạc Bộ)
+(Đơn_vị: Thư Viện) - (CUNG_CẤP:{}) - (Tài_nguyên:Tài Liệu Số)
+(Đơn_vị: Thư Viện) - (QUẢN_LÝ:{}) - (Hệ_thống:Cổng Thông Tin Thư Viện)
+(Đơn_vị: Thư Viện) - (THAM_GIA:{}) - (Tổ_chức:Liên Hiệp Thư Viện Việt Nam)
+(Đơn_vị: Thư Viện) - (KHAI_THÁC:{}) - (Cơ_sở_dữ_liệu:Proquest Central)
+(Đơn_vị: Thư Viện) - (KHAI_THÁC:{}) - (Cơ_sở_dữ_liệu:Std)
+(Đơn_vị: Thư Viện) - (KHAI_THÁC:{}) - (Cơ_sở_dữ_liệu:Kqnc)
+(Đơn_vị: Thư Viện) - (KHAI_THÁC:{}) - (Cơ_sở_dữ_liệu:Thư Viện Pháp Luật Trực Tuyến)
+(Đơn_vị: Thư Viện) - (KHAI_THÁC:{}) - (Cơ_sở_dữ_liệu:Mathscinet)
+(Đơn_vị: Thư Viện) - (HỢP_TÁC:{}) - (Tổ_chức:Trung Tâm Học Liệu Trường Đại Học Cần Thơ)
+(Đơn_vị: Thư Viện) - (CUNG_CẤP:{}) - (Tài_khoản:Tài Khoản Mặc Định)
+(Đơn_vị: Thư Viện) - (CUNG_CẤP:{}) - (Tài_khoản:Tài Khoản Thư Viện Pháp Luật)
+(Đơn_vị: Thư Viện) - (KẾ_HOẠCH:{}) - (Thời_gian:Năm Học 2024 – 2025)
+----------------------------------------
+
+Khái_niệm - Chương Trình Đào Tạo - {'định_nghĩa': 'Được xây dựng theo đơn vị tín chỉ, cấu trúc từ các môn học hoặc học phần, bao gồm mục tiêu, khối lượng kiến thức, cấu trúc, nội dung, phương pháp và hình thức đánh giá.', 'yêu_cầu': 'Phải có đủ các học phần bắt buộc và đáp ứng chuẩn chương trình đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.'}
+Khái_niệm - Học Phần - {'định_nghĩa': 'Môn học hoặc học phần trong chương trình đào tạo.'}
+Chủ_thể - Bộ Giáo Dục Và Đào Tạo - {'vai_trò': 'Quy định chuẩn chương trình đào tạo hiện hành.'}
+Khái_niệm - Khung Trình Độ Quốc Gia Việt Nam - {'vai_trò': 'Chuẩn đầu ra phù hợp với chương trình đào tạo.'}
+Khái_niệm - Đào Tạo Song Ngành - {'định_nghĩa': 'Chương trình đào tạo thể hiện rõ khối lượng học tập chung và riêng theo từng ngành.'}
+Khái_niệm - Ngành Chính - Ngành Phụ - {'định_nghĩa': 'Chương trình đào tạo thể hiện rõ khối lượng học tập chung và riêng theo từng ngành.'}
+Khái_niệm - Chuẩn Đầu Ra - {'định_nghĩa': 'Áp dụng chung đối với các hình thức, phương thức tổ chức đào tạo và đối tượng người học khác nhau.'}
+Chủ_thể - Người Học - {}
+Khái_niệm - Công Nhận Tín Chỉ - {'định_nghĩa': 'Xác định khối lượng học tập thực tế trên cơ sở công nhận hoặc chuyển đổi tín chỉ đã tích lũy.'}
+Khái_niệm - Miễn Trừ Học Phần - {'định_nghĩa': 'Miễn trừ học phần trong chương trình đào tạo trước.'}
+Khái_niệm - Kế Hoạch Học Tập Chuẩn Toàn Khóa - {'định_nghĩa': 'Định hướng cho sinh viên theo từng hình thức đào tạo.'}
+Khái_niệm - Đào Tạo Chính Quy - {'thời_gian': '4,5 năm đối với các ngành đào tạo kỹ sư; 3,5 năm đối với ngành đào tạo cử nhân kỹ thuật và 4 năm đối với các ngành còn lại.'}
+Khái_niệm - Đào Tạo Vừa Làm Vừa Học - {'thời_gian': 'Dài hơn tối thiểu 20% so với hình thức đào tạo chính quy.'}
+Chủ_thể - Sinh Viên - {}
+Khái_niệm - Thời Gian Tối Đa Hoàn Thành Chương Trình - {'định_nghĩa': 'Không vượt quá 02 lần thời gian theo kế hoạch học tập chuẩn toàn khóa.'}
+Khái_niệm - Học Liên Thông - {'định_nghĩa': 'Sinh viên được miễn trừ khối lượng tín chỉ tích lũy.'}
+
+(Khái_niệm: Chương Trình Đào Tạo) - (BAO_GỒM:{}) - (Khái_niệm:Học Phần)
+(Khái_niệm: Chương Trình Đào Tạo) - (TUÂN_THỦ:{}) - (Chủ_thể:Bộ Giáo Dục Và Đào Tạo)
+(Khái_niệm: Chương Trình Đào Tạo) - (PHÙ_HỢP_VỚI:{}) - (Khái_niệm:Khung Trình Độ Quốc Gia Việt Nam)
+(Khái_niệm: Chương Trình Đào Tạo) - (ÁP_DỤNG:{}) - (Khái_niệm:Đào Tạo Song Ngành)
+(Khái_niệm: Chương Trình Đào Tạo) - (ÁP_DỤNG:{}) - (Khái_niệm:Ngành Chính - Ngành Phụ)
+(Khái_niệm: Chương Trình Đào Tạo) - (CÓ:{}) - (Khái_niệm:Chuẩn Đầu Ra)
+(Khái_niệm: Chương Trình Đào Tạo) - (ÁP_DỤNG_CHO:{}) - (Chủ_thể:Người Học)
+(Khái_niệm: Chương Trình Đào Tạo) - (LIÊN_QUAN_ĐẾN:{}) - (Khái_niệm:Công Nhận Tín Chỉ)
+(Khái_niệm: Chương Trình Đào Tạo) - (LIÊN_QUAN_ĐẾN:{}) - (Khái_niệm:Miễn Trừ Học Phần)
+(Khái_niệm: Chương Trình Đào Tạo) - (CÓ:{}) - (Khái_niệm:Kế Hoạch Học Tập Chuẩn Toàn Khóa)
+(Khái_niệm: Kế Hoạch Học Tập Chuẩn Toàn Khóa) - (ÁP_DỤNG:{}) - (Khái_niệm:Đào Tạo Chính Quy)
+(Khái_niệm: Kế Hoạch Học Tập Chuẩn Toàn Khóa) - (ÁP_DỤNG:{}) - (Khái_niệm:Đào Tạo Vừa Làm Vừa Học)
+(Chủ_thể: Sinh Viên) - (PHẢI_TUÂN_THỦ:{}) - (Khái_niệm:Thời Gian Tối Đa Hoàn Thành Chương Trình)
+(Chủ_thể: Sinh Viên) - (ÁP_DỤNG:{}) - (Khái_niệm:Học Liên Thông)
+----------------------------------------
+
+
+----------------------------------------
+
+Quy_định - Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy - {'tên': 'Quy định chuẩn đầu ra tin học đối với sinh viên đại học hệ chính quy'}
+Tổ_chức - Trường Đại Học Quy Nhơn - {}
+Chủ_thể - Sinh Viên Đại Học Hệ Chính Quy - {'phạm_vi': 'Từ khóa tuyển sinh năm 2015 (khóa 38) trở đi', 'ngoại_lệ': 'Không áp dụng cho sinh viên ngành Sư phạm Tin học, Công nghệ thông tin'}
+Chuẩn - Chuẩn Kỹ Năng Sử Dụng Công Nghệ Thông Tin - {'thông_tư': 'Thông tư số 03/2014/TT-BTTTT ngày 11/03/2014 của Bộ Thông tin và Truyền thông'}
+Chứng_chỉ - Chứng Chỉ Ứng Dụng Công Nghệ Thông Tin Cơ Bản - {'cấp_bởi': 'Trường Đại học Quy Nhơn'}
+Chứng_chỉ - Chứng Chỉ Tin Học Quốc Tế Ic3 - {}
+Chứng_chỉ - Chứng Chỉ Tin Học Quốc Tế Icdl - {'yêu_cầu': 'Đạt ít nhất 6 mô đun sau: ICDL.01, ICDL.02, ICDL.03, ICDL.04, ICDL.05, ICDL.08'}
+Chứng_chỉ - Chứng Chỉ Tin Học Quốc Tế Mos - {'yêu_cầu': 'Đạt 3 chứng chỉ Word/Excel/PowerPoint'}
+Chủ_thể - Hiệu Trưởng - {}
+Chủ_thể - Trưởng Phòng Khảo Thí Và Đảm Bảo Chất Lượng - {}
+Chủ_thể - Trưởng Phòng Đào Tạo Đại Học - {}
+Chủ_thể - Trưởng Phòng Công Tác Sinh Viên - {}
+Chủ_thể - Trưởng Đơn Vị Có Liên Quan - {}
+Tổ_chức - Trung Tâm Tin Học Trường Đại Học Quy Nhơn - {}
+Tổ_chức - Phòng Khảo Thí Và Đảm Bảo Chất Lượng - {}
+
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (ÁP_DỤNG_TẠI:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (ÁP_DỤNG_CHO:{}) - (Chủ_thể:Sinh Viên Đại Học Hệ Chính Quy)
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (THAM_CHIẾU:{}) - (Chuẩn:Chuẩn Kỹ Năng Sử Dụng Công Nghệ Thông Tin)
+(Chuẩn: Chuẩn Kỹ Năng Sử Dụng Công Nghệ Thông Tin) - (BAO_GỒM:{}) - (Chứng_chỉ:Chứng Chỉ Ứng Dụng Công Nghệ Thông Tin Cơ Bản)
+(Chuẩn: Chuẩn Kỹ Năng Sử Dụng Công Nghệ Thông Tin) - (BAO_GỒM:{}) - (Chứng_chỉ:Chứng Chỉ Tin Học Quốc Tế Ic3)
+(Chuẩn: Chuẩn Kỹ Năng Sử Dụng Công Nghệ Thông Tin) - (BAO_GỒM:{}) - (Chứng_chỉ:Chứng Chỉ Tin Học Quốc Tế Icdl)
+(Chuẩn: Chuẩn Kỹ Năng Sử Dụng Công Nghệ Thông Tin) - (BAO_GỒM:{}) - (Chứng_chỉ:Chứng Chỉ Tin Học Quốc Tế Mos)
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (QUYẾT_ĐỊNH:{}) - (Chủ_thể:Hiệu Trưởng)
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (CHỊU_TRÁCH_NHIỆM:{}) - (Chủ_thể:Trưởng Phòng Khảo Thí Và Đảm Bảo Chất Lượng)
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (CHỊU_TRÁCH_NHIỆM:{}) - (Chủ_thể:Trưởng Phòng Đào Tạo Đại Học)
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (CHỊU_TRÁCH_NHIỆM:{}) - (Chủ_thể:Trưởng Phòng Công Tác Sinh Viên)
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (CHỊU_TRÁCH_NHIỆM:{}) - (Chủ_thể:Trưởng Đơn Vị Có Liên Quan)
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (PHỐI_HỢP:{}) - (Tổ_chức:Trung Tâm Tin Học Trường Đại Học Quy Nhơn)
+(Quy_định: Quy Định Chuẩn Đầu Ra Tin Học Đối Với Sinh Viên Đại Học Hệ Chính Quy) - (ĐỀ_XUẤT:{}) - (Tổ_chức:Phòng Khảo Thí Và Đảm Bảo Chất Lượng)
+----------------------------------------
+Điều - Điều 5 - {}
+Quyền - Quyền Của Sinh Viên - {}
+Chủ_thể - Bộ Giáo Dục Và Đào Tạo - {}
+Chủ_thể - Nhà Trường - {}
+Chủ_thể - Nhà Nước - {}
+Cơ_sở_vật_chất - Thư Viện - {}
+Cơ_sở_vật_chất - Trang Thiết Bị - {}
+Cơ_sở_vật_chất - Phương Tiện Phục Vụ Học Tập - {}
+Hoạt_động - Nghiên Cứu Khoa Học - {}
+Hoạt_động - Thi Sinh Viên Giỏi - {}
+Hoạt_động - Thi Olympic - {}
+Hoạt_động - Thi Sáng Tạo Khoa Học - {}
+Hoạt_động - Chăm Sóc Sức Khỏe - {}
+Hoạt_động - Giao Lưu Trao Đổi Sinh Viên - {}
+Hoạt_động - Học Chuyển Tiếp - {}
+Tổ_chức - Đảng Cộng Sản Việt Nam - {}
+Tổ_chức - Đoàn Tncs Hồ Chí Minh - {}
+Tổ_chức - Hội Sinh Viên Việt Nam - {}
+Tổ_chức - Tổ Chức Tự Quản Của Sinh Viên - {}
+Hoạt_động - Hoạt Động Xã Hội - {}
+Dịch_vụ - Dịch Vụ Công Tác Xã Hội - {}
+Dịch_vụ - Hướng Nghiệp - {}
+Dịch_vụ - Tư Vấn Việc Làm - {}
+Dịch_vụ - Hỗ Trợ Sinh Viên Có Hoàn Cảnh Đặc Biệt - {}
+Hoạt_động - Nghỉ Học Tạm Thời - {}
+Hoạt_động - Tạm Ngừng Học - {}
+Hoạt_động - Học Theo Tiến Độ Chậm - {}
+Hoạt_động - Học Theo Tiến Độ Nhanh - {}
+Hoạt_động - Học Cùng Lúc Hai Chương Trình - {}
+Hoạt_động - Chuyển Trường - {}
+Hoạt_động - Nghỉ Hè - {}
+Hoạt_động - Nghỉ Tết - {}
+Hoạt_động - Nghỉ Lễ - {}
+Chế_độ - Học Bổng Khuyến Khích Học Tập - {}
+Chế_độ - Học Bổng Tài Trợ - {}
+Chế_độ - Miễn Giảm Phí Dịch Vụ Công Cộng - {}
+Hoạt_động - Góp Ý Kiến - {}
+Hoạt_động - Tham Gia Quản Lý - {}
+Hoạt_động - Giám Sát Hoạt Động Giáo Dục - {}
+Hoạt_động - Kiến Nghị Giải Pháp - {}
+Cơ_sở_vật_chất - Ký Túc Xá - {}
+Văn_bằng - Bằng Tốt Nghiệp - {}
+Văn_bằng - Chứng Chỉ - {}
+Văn_bằng - Bảng Điểm Học Tập Và Rèn Luyện - {}
+Hoạt_động - Thủ Tục Hành Chính - {}
+Chủ_thể - Sinh Viên - {}
+
+(Điều: Điều 5) - (QUY_ĐỊNH:{}) - (Quyền:Quyền Của Sinh Viên)
+(Quyền: Quyền Của Sinh Viên) - (LIÊN_QUAN_ĐẾN:{}) - (Chủ_thể:Bộ Giáo Dục Và Đào Tạo)
+(Quyền: Quyền Của Sinh Viên) - (LIÊN_QUAN_ĐẾN:{}) - (Chủ_thể:Nhà Trường)
+(Quyền: Quyền Của Sinh Viên) - (LIÊN_QUAN_ĐẾN:{}) - (Chủ_thể:Nhà Nước)
+(Quyền: Quyền Của Sinh Viên) - (SỬ_DỤNG:{}) - (Cơ_sở_vật_chất:Thư Viện)
+(Quyền: Quyền Của Sinh Viên) - (SỬ_DỤNG:{}) - (Cơ_sở_vật_chất:Trang Thiết Bị)
+(Quyền: Quyền Của Sinh Viên) - (SỬ_DỤNG:{}) - (Cơ_sở_vật_chất:Phương Tiện Phục Vụ Học Tập)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Nghiên Cứu Khoa Học)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Thi Sinh Viên Giỏi)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Thi Olympic)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Thi Sáng Tạo Khoa Học)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Chăm Sóc Sức Khỏe)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Giao Lưu Trao Đổi Sinh Viên)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Học Chuyển Tiếp)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Tổ_chức:Đảng Cộng Sản Việt Nam)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Tổ_chức:Đoàn Tncs Hồ Chí Minh)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Tổ_chức:Hội Sinh Viên Việt Nam)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Tổ_chức:Tổ Chức Tự Quản Của Sinh Viên)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Hoạt Động Xã Hội)
+(Quyền: Quyền Của Sinh Viên) - (SỬ_DỤNG:{}) - (Dịch_vụ:Dịch Vụ Công Tác Xã Hội)
+(Quyền: Quyền Của Sinh Viên) - (SỬ_DỤNG:{}) - (Dịch_vụ:Hướng Nghiệp)
+(Quyền: Quyền Của Sinh Viên) - (SỬ_DỤNG:{}) - (Dịch_vụ:Tư Vấn Việc Làm)
+(Quyền: Quyền Của Sinh Viên) - (SỬ_DỤNG:{}) - (Dịch_vụ:Hỗ Trợ Sinh Viên Có Hoàn Cảnh Đặc Biệt)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Nghỉ Học Tạm Thời)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Tạm Ngừng Học)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Học Theo Tiến Độ Chậm)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Học Theo Tiến Độ Nhanh)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Học Cùng Lúc Hai Chương Trình)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Chuyển Trường)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Nghỉ Hè)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Nghỉ Tết)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Nghỉ Lễ)
+(Quyền: Quyền Của Sinh Viên) - (HƯỞNG:{}) - (Chế_độ:Học Bổng Khuyến Khích Học Tập)
+(Quyền: Quyền Của Sinh Viên) - (HƯỞNG:{}) - (Chế_độ:Học Bổng Tài Trợ)
+(Quyền: Quyền Của Sinh Viên) - (HƯỞNG:{}) - (Chế_độ:Miễn Giảm Phí Dịch Vụ Công Cộng)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Góp Ý Kiến)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Tham Gia Quản Lý)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Giám Sát Hoạt Động Giáo Dục)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Kiến Nghị Giải Pháp)
+(Quyền: Quyền Của Sinh Viên) - (SỬ_DỤNG:{}) - (Cơ_sở_vật_chất:Ký Túc Xá)
+(Quyền: Quyền Của Sinh Viên) - (NHẬN:{}) - (Văn_bằng:Bằng Tốt Nghiệp)
+(Quyền: Quyền Của Sinh Viên) - (NHẬN:{}) - (Văn_bằng:Chứng Chỉ)
+(Quyền: Quyền Của Sinh Viên) - (NHẬN:{}) - (Văn_bằng:Bảng Điểm Học Tập Và Rèn Luyện)
+(Quyền: Quyền Của Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Thủ Tục Hành Chính)
+(Quyền: Quyền Của Sinh Viên) - (ÁP_DỤNG:{}) - (Chủ_thể:Sinh Viên)
+
+----------------------------------------
+
+Điều - Điều 6 - {'tiêu_đề': 'Nghĩa vụ của sinh viên ngoại trú'}
+Chủ_thể - Sinh Viên Ngoại Trú - {}
+Văn_bản - Quy Chế Học Sinh, Sinh Viên - {}
+Chủ_thể - Bộ Giáo Dục Và Đào Tạo - {}
+Văn_bản - Quyết Định Số 671/Qđ-Đhqn - {'ngày_ban_hành': '2016-05-23'}
+Chủ_thể - Hiệu Trưởng Trường Đại Học Quy Nhơn - {}
+Khái_niệm - Nghĩa Vụ Công Dân - {}
+Khái_niệm - Pháp Luật - {}
+Khái_niệm - An Ninh, Trật Tự, An Toàn Xã Hội - {}
+Hoạt_động - Hoạt Động Văn Hóa, Văn Nghệ, Thể Dục Thể Thao - {}
+Hoạt_động - Phòng Chống Ma Túy - {}
+Hoạt_động - Phòng Chống Tội Phạm - {}
+Khái_niệm - Tệ Nạn Xã Hội - {}
+Hoạt_động - Bảo Vệ Môi Trường - {}
+Chủ_thể - Địa Phương - {}
+Chủ_thể - Công An Xã (Phường, Thị Trấn) - {}
+Chủ_thể - Nhà Trường - {}
+Hoạt_động - Đăng Ký Tạm Trú - {}
+Khái_niệm - Hộ Khẩu Thường Trú - {}
+
+(Điều: Điều 6) - (QUY_ĐỊNH:{}) - (Chủ_thể:Sinh Viên Ngoại Trú)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (THỰC_HIỆN:{}) - (Văn_bản:Quy Chế Học Sinh, Sinh Viên)
+(Văn_bản: Quy Chế Học Sinh, Sinh Viên) - (BAN_HÀNH:{}) - (Chủ_thể:Bộ Giáo Dục Và Đào Tạo)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (THỰC_HIỆN:{}) - (Văn_bản:Quyết Định Số 671/Qđ-Đhqn)
+(Văn_bản: Quyết Định Số 671/Qđ-Đhqn) - (BAN_HÀNH:{}) - (Chủ_thể:Hiệu Trưởng Trường Đại Học Quy Nhơn)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (THỰC_HIỆN:{}) - (Khái_niệm:Nghĩa Vụ Công Dân)
+(Khái_niệm: Nghĩa Vụ Công Dân) - (THEO_QUY_ĐỊNH:{}) - (Khái_niệm:Pháp Luật)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (CHẤP_HÀNH:{}) - (Khái_niệm:An Ninh, Trật Tự, An Toàn Xã Hội)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (THAM_GIA:{}) - (Hoạt_động:Hoạt Động Văn Hóa, Văn Nghệ, Thể Dục Thể Thao)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (THAM_GIA:{}) - (Hoạt_động:Phòng Chống Ma Túy)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (THAM_GIA:{}) - (Hoạt_động:Phòng Chống Tội Phạm)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (PHÒNG_CHỐNG:{}) - (Khái_niệm:Tệ Nạn Xã Hội)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (THAM_GIA:{}) - (Hoạt_động:Bảo Vệ Môi Trường)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (THAM_GIA:{}) - (Chủ_thể:Địa Phương)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (ĐĂNG_KÝ:{}) - (Chủ_thể:Công An Xã (Phường, Thị Trấn))
+(Chủ_thể: Sinh Viên Ngoại Trú) - (BÁO_CÁO:{'thời_hạn': '30 ngày'}) - (Chủ_thể:Nhà Trường)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (BÁO_CÁO:{'thời_hạn': '20 ngày'}) - (Chủ_thể:Nhà Trường)
+(Chủ_thể: Sinh Viên Ngoại Trú) - (CÓ:{}) - (Khái_niệm:Hộ Khẩu Thường Trú)---
+----------------------------------------
+
+Hành_vi - Cải Tạo Phòng - {}
+Hành_vi - Thay Đổi Trang Thiết Bị - {}
+Hành_vi - Tự Ý Di Chuyển Trang Thiết Bị - {}
+Hành_vi - Gây Mất Trật Tự - {}
+Hành_vi - Gây Mất An Ninh - {}
+Hành_vi - Gây Mất Vệ Sinh Môi Trường - {}
+Hành_vi - Viết Vẽ - {}
+Hành_vi - Che Chắn - {}
+Hành_vi - Chuyển Nhượng Hợp Đồng - {}
+Hành_vi - Cho Thuê Lại Hợp Đồng - {}
+Hành_vi - Tự Ý Đưa Người Lạ - {}
+Hành_vi - Trộm Cắp Tài Sản - {}
+Hành_vi - Sản Xuất Vũ Khí - {}
+Hành_vi - Tàng Trữ Vũ Khí - {}
+Hành_vi - Sử Dụng Vũ Khí - {}
+Hành_vi - Buôn Bán Vũ Khí - {}
+Hành_vi - Vận Chuyển Vũ Khí - {}
+Hành_vi - Phát Tán Vũ Khí - {}
+Hành_vi - Chất Gây Cháy - {}
+Hành_vi - Chất Gây Nổ - {}
+Hành_vi - Hóa Chất Độc Hại - {}
+Hành_vi - Ma Túy - {}
+Hành_vi - Chế Phẩm Của Ma Túy - {}
+Hành_vi - Tài Liệu Cấm - {}
+Hành_vi - Ấn Phẩm Cấm - {}
+Hành_vi - Phim Ảnh Cấm - {}
+Hành_vi - Thông Tin Phản Động - {}
+Hành_vi - Đồi Trụy - {}
+Hành_vi - Tổ Chức Đánh Bạc - {}
+Hành_vi - Tham Gia Đánh Bạc - {}
+Hành_vi - Mại Dâm - {}
+Hành_vi - Truyền Bá Mê Tín Dị Đoan - {}
+Hành_vi - Hoạt Động Tôn Giáo - {}
+Hành_vi - Tổ Chức Băng Nhóm - {}
+Hành_vi - Đánh Nhau - {}
+Điều - Điều 7 - {}
+Chủ_thể - Sinh Viên Nội Trú - {}
+Tổ_chức - Trung Tâm Htsv&Qhdn - {}
+Tổ_chức - Bộ Phận Quản Lý Ký Túc Xá - {}
+Địa_điểm - Ký Túc Xá - {}
+
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Cải Tạo Phòng)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Thay Đổi Trang Thiết Bị)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Tự Ý Di Chuyển Trang Thiết Bị)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Gây Mất Trật Tự)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Gây Mất An Ninh)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Gây Mất Vệ Sinh Môi Trường)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Viết Vẽ)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Che Chắn)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Chuyển Nhượng Hợp Đồng)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Cho Thuê Lại Hợp Đồng)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Tự Ý Đưa Người Lạ)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Trộm Cắp Tài Sản)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Sản Xuất Vũ Khí)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Tàng Trữ Vũ Khí)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Sử Dụng Vũ Khí)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Buôn Bán Vũ Khí)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Vận Chuyển Vũ Khí)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Phát Tán Vũ Khí)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Chất Gây Cháy)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Chất Gây Nổ)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Hóa Chất Độc Hại)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Ma Túy)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Chế Phẩm Của Ma Túy)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Tài Liệu Cấm)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Ấn Phẩm Cấm)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Phim Ảnh Cấm)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Thông Tin Phản Động)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Đồi Trụy)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Tổ Chức Đánh Bạc)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Tham Gia Đánh Bạc)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Mại Dâm)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Truyền Bá Mê Tín Dị Đoan)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Hoạt Động Tôn Giáo)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Tổ Chức Băng Nhóm)
+(Điều: Điều 7) - (QUY_ĐỊNH:{}) - (Hành_vi:Đánh Nhau)
+(Điều: Điều 7) - (ÁP_DỤNG_CHO:{}) - (Chủ_thể:Sinh Viên Nội Trú)
+(Hành_vi: Chuyển Nhượng Hợp Đồng) - (LIÊN_QUAN_ĐẾN:{}) - (Tổ_chức:Trung Tâm Htsv&Qhdn)
+(Hành_vi: Cho Thuê Lại Hợp Đồng) - (LIÊN_QUAN_ĐẾN:{}) - (Tổ_chức:Trung Tâm Htsv&Qhdn)
+(Hành_vi: Tự Ý Đưa Người Lạ) - (LIÊN_QUAN_ĐẾN:{}) - (Tổ_chức:Bộ Phận Quản Lý Ký Túc Xá)
+(Hành_vi: Trộm Cắp Tài Sản) - (DIỄN_RA_Ở:{}) - (Địa_điểm:Ký Túc Xá)
+(Hành_vi: Tổ Chức Băng Nhóm) - (DIỄN_RA_Ở:{}) - (Địa_điểm:Ký Túc Xá)
+(Hành_vi: Đánh Nhau) - (DIỄN_RA_Ở:{}) - (Địa_điểm:Ký Túc Xá)
+----------------------------------------
+
+Điều - Điều 8 - {}
+Khái_niệm - Đề Thi Kết Thúc Học Phần - {'mô_tả': 'Phải phù hợp với nội dung và chuẩn đầu ra học phần đã quy định trong đề cương chi tiết học phần.'}
+Chủ_thể - Giảng Viên - {}
+Chủ_thể - Khoa Quản Lý Học Phần - {}
+Chủ_thể - Bộ Môn Thuộc Trường - {}
+Chủ_thể - Phòng Khảo Thí Và Bảo Đảm Chất Lượng - {}
+Khái_niệm - Đề Thi Tự Luận - {} * 2
+Khái_niệm - Đề Thi Trắc Nghiệm - {} * 2
+Khái_niệm - Đề Thi Vấn Đáp - {}
+Khái_niệm - Đề Thi Thực Hành - {}
+Khái_niệm - Tiểu Luận - {}
+Khái_niệm - Đề Án Môn Học - {}
+Khái_niệm - Đồ Án Môn Học - {}
+Chủ_thể - Sinh Viên - {}
+Khái_niệm - Tín Chỉ - {}
+Yêu_cầu - Thời Gian Làm Bài Thi - {'mô_tả': 'Tương ứng với số tín chỉ của học phần.'}
+Khái_niệm - Đề Đóng - {}
+Khái_niệm - Đề Mở - {}
+Khái_niệm - Ngân Hàng Câu Hỏi Thi Trắc Nghiệm - {}
+Chủ_thể - Cán Bộ Quản Lý Phần Mềm Thi Trắc Nghiệm - {}
+
+(Điều: Điều 8) - (QUY_ĐỊNH:{}) - (Khái_niệm:Đề Thi Kết Thúc Học Phần)
+(Chủ_thể: Giảng Viên) - (RA_ĐỀ:{}) - (Khái_niệm:Đề Thi Kết Thúc Học Phần)
+(Chủ_thể: Giảng Viên) - (NỘP_ĐỀ:{}) - (Chủ_thể:Khoa Quản Lý Học Phần)
+(Chủ_thể: Khoa Quản Lý Học Phần) - (NỘP_ĐỀ:{}) - (Chủ_thể:Phòng Khảo Thí Và Bảo Đảm Chất Lượng)
+(Khái_niệm: Đề Thi Tự Luận) - (CÓ:{}) - (Yêu_cầu:Thời Gian Làm Bài Thi)
+(Khái_niệm: Đề Thi Tự Luận) - (BAO_GỒM:{}) - (Khái_niệm:Đề Đóng)
+(Khái_niệm: Đề Thi Tự Luận) - (BAO_GỒM:{}) - (Khái_niệm:Đề Mở)
+(Khái_niệm: Đề Thi Trắc Nghiệm) - (SỬ_DỤNG:{}) - (Khái_niệm:Ngân Hàng Câu Hỏi Thi Trắc Nghiệm)
+(Chủ_thể: Cán Bộ Quản Lý Phần Mềm Thi Trắc Nghiệm) - (TẠO_ĐỀ:{}) - (Khái_niệm:Đề Thi Trắc Nghiệm)
+(Chủ_thể: Giảng Viên) - (GIAO_ĐỀ_TÀI:{}) - (Khái_niệm:Tiểu Luận)
+(Chủ_thể: Giảng Viên) - (GIAO_ĐỀ_TÀI:{}) - (Khái_niệm:Đề Án Môn Học)
+(Chủ_thể: Giảng Viên) - (GIAO_ĐỀ_TÀI:{}) - (Khái_niệm:Đồ Án Môn Học)
+(Chủ_thể: Giảng Viên) - (GIAO_ĐỀ_TÀI:{}) - (Chủ_thể:Sinh Viên)
+----------------------------------------
+
+Điều - Điều 9 - {'tiêu_đề': 'Thu hồi chi phí bồi hoàn'}
+Chủ_thể - Sinh Viên Sư Phạm - {}
+Chủ_thể - Cơ Sở Đào Tạo Giáo Viên - {}
+Chủ_thể - Ủy Ban Nhân Dân Cấp Tỉnh - {}
+Yêu_cầu - Kết Quả Rèn Luyện, Học Tập - {}
+Hoạt_động - Thu Hồi Kinh Phí - {}
+Điều - Điều 6 - {}
+Điều - Điều 8 - {}
+Hoạt_động - Bồi Hoàn Kinh Phí - {}
+Thời_gian - Thời Hạn 30 Ngày - {}
+Chủ_thể - Cơ Quan Nhà Nước Có Thẩm Quyền - {}
+Hoạt_động - Thủ Tục Bồi Hoàn - {}
+Thời_gian - Thời Hạn 4 Năm - {}
+Khái_niệm - Lãi Suất Tối Đa - {}
+Chủ_thể - Ngân Hàng Nhà Nước Việt Nam - {}
+Chủ_thể - Ngân Hàng Thương Mại Cổ Phần Công Thương Việt Nam - {}
+Chính_sách - Chính Sách Miễn, Giảm Hoặc Xóa Kinh Phí Bồi Hoàn - {}
+Khái_niệm - Ngân Sách Nhà Nước - {}
+Văn_bản - Luật Ngân Sách Nhà Nước - {}
+Chủ_thể - Tòa Án - {}
+
+(Chủ_thể: Ủy Ban Nhân Dân Cấp Tỉnh) - (THỰC_HIỆN:{}) - (Hoạt_động:Thu Hồi Kinh Phí)
+(Chủ_thể: Ủy Ban Nhân Dân Cấp Tỉnh) - (THỰC_HIỆN:{}) - (Hoạt_động:Bồi Hoàn Kinh Phí)
+(Hoạt_động: Bồi Hoàn Kinh Phí) - (LIÊN_QUAN_ĐẾN:{}) - (Chủ_thể:Cơ Quan Nhà Nước Có Thẩm Quyền)
+(Hoạt_động: Bồi Hoàn Kinh Phí) - (YÊU_CẦU:{}) - (Hoạt_động:Thủ Tục Bồi Hoàn)
+(Hoạt_động: Bồi Hoàn Kinh Phí) - (CÓ_THỜI_HẠN:{}) - (Thời_gian:Thời Hạn 4 Năm)
+(Hoạt_động: Bồi Hoàn Kinh Phí) - (THAM_CHIẾU:{}) - (Chủ_thể:Ngân Hàng Nhà Nước Việt Nam)
+(Hoạt_động: Bồi Hoàn Kinh Phí) - (THAM_CHIẾU:{}) - (Chủ_thể:Ngân Hàng Thương Mại Cổ Phần Công Thương Việt Nam)
+(Chủ_thể: Ủy Ban Nhân Dân Cấp Tỉnh) - (QUYẾT_ĐỊNH:{}) - (Chính_sách:Chính Sách Miễn, Giảm Hoặc Xóa Kinh Phí Bồi Hoàn)
+(Chính_sách: Chính Sách Miễn, Giảm Hoặc Xóa Kinh Phí Bồi Hoàn) - (ÁP_DỤNG:{}) - (Chủ_thể:Sinh Viên Sư Phạm)
+(Hoạt_động: Thu Hồi Kinh Phí) - (NỘP_VÀO:{}) - (Khái_niệm:Ngân Sách Nhà Nước)
+(Khái_niệm: Ngân Sách Nhà Nước) - (THAM_CHIẾU:{}) - (Văn_bản:Luật Ngân Sách Nhà Nước)
+----------------------------------------
+
+Điều - Điều 5 - {'tiêu_đề': 'Thời hạn đóng học phí'}
+Khái_niệm - Thời Hạn Đóng Học Phí - {}
+Khái_niệm - Học Kỳ Chính - {}
+Khái_niệm - Học Kỳ Phụ - {}
+Chủ_thể - Sinh Viên - {}
+Khái_niệm - Học Phí - {}
+Điều - Điều 6 - {'tiêu_đề': 'Phương thức đóng học phí'}
+Phương_thức - Phương Thức Đóng Học Phí - {}
+Phương_thức - Tiền Mặt - {}
+Chủ_thể - Tân Sinh Viên - {}
+Phương_thức - Ngân Hàng - {}
+Ngân_hàng - Bidv - {'tên_đầy_đủ': 'Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam - BIDV', 'chi_nhánh': 'Bình Định'}
+Tổ_chức - Trường Đại Học Quy Nhơn - {'số_tài_khoản': '5801 000 111 8348'}
+
+(Điều: Điều 5) - (BAO_GỒM:{}) - (Khái_niệm:Thời Hạn Đóng Học Phí)
+(Khái_niệm: Thời Hạn Đóng Học Phí) - (ÁP_DỤNG_CHO:{'thời_gian': '60 ngày kể từ ngày học đầu tiên'}) - (Khái_niệm:Học Kỳ Chính)
+(Khái_niệm: Thời Hạn Đóng Học Phí) - (ÁP_DỤNG_CHO:{'thời_gian': '15 ngày kể từ ngày kết thúc đăng ký'}) - (Khái_niệm:Học Kỳ Phụ)
+(Khái_niệm: Thời Hạn Đóng Học Phí) - (YÊU_CẦU:{}) - (Chủ_thể:Sinh Viên)
+(Khái_niệm: Thời Hạn Đóng Học Phí) - (LIÊN_QUAN_ĐẾN:{}) - (Khái_niệm:Học Phí)
+(Điều: Điều 6) - (BAO_GỒM:{}) - (Khái_niệm: Phương Thức Đóng Học Phí)
+(Khái_niệm: Phương Thức Đóng Học Phí) - (BAO_GỒM:{'đối_tượng': 'Tân sinh viên', 'thời_điểm': 'Khi làm thủ tục nhập học'}) - (Phương_thức:Tiền Mặt)
+(Khái_niệm: Phương Thức Đóng Học Phí) - (BAO_GỒM:{'đối_tượng': 'Sinh viên đã học xong một học kỳ'}) - (Phương_thức:Ngân Hàng)
+(Phương_thức: Ngân Hàng) - (THUỘC:{}) - (Ngân_hàng:Bidv)
+(Phương_thức: Ngân Hàng) - (CHUYỂN_TIỀN_ĐẾN:{'số_tài_khoản': '5801 000 111 8348'}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+----------------------------------------
+
+Quy_định - Quy Định Về Thực Hiện Nếp Sống Văn Hoá, Văn Minh Trong Sinh Viên - {'tên': 'Quy định về thực hiện nếp sống văn hoá, văn minh trong sinh viên', 'mục_đích': 'Xây dựng nếp sống văn hóa, văn minh, môi trường giáo dục lành mạnh, góp phần nâng cao chất lượng, hiệu quả công tác giáo dục và đào tạo'}
+Chủ_thể - Nhà Trường - {'vai_trò': 'Yêu cầu sinh viên thực hiện nghiêm túc các quy định'}
+Chủ_thể - Sinh Viên - {'vai_trò': 'Thực hiện nghiêm túc các quy định'}
+Quy_định - Nội Quy, Quy Chế, Quy Định Của Nhà Trường - {}
+Chủ_thể - Thầy Giáo, Cô Giáo, Cán Bộ, Viên Chức, Người Lao Động - {}
+Chủ_thể - Khách Quốc Tế - {}
+Chủ_thể - Sinh Viên Việt Nam – Lào - {}
+Chủ_thể - Khoa, Đơn Vị Chức Năng - {}
+Khái_niệm - Bảng Tên Hoặc Thẻ Sinh Viên - {}
+Hoạt_động - Hoạt Động, Phong Trào Thi Đua, Văn Hóa Văn Nghệ, Thể Dục Thể Thao, Xã Hội Từ Thiện - {}
+Khái_niệm - Biểu Hiện Tiêu Cực Trong Học Tập, Thi Cử - {}
+Khái_niệm - Tập Thể Vững Mạnh - {}
+Khái_niệm - Lối Sống, Tác Phong Giản Dị, Lành Mạnh - {}
+Quy_định - Pháp Luật Về An Toàn Giao Thông - {}
+Khái_niệm - Tội Phạm Và Các Tệ Nạn Xã Hội - {}
+Khái_niệm - An Ninh Trật Tự, An Toàn Xã Hội - {}
+Khái_niệm - Khu Phố Văn Hóa - {}
+Khái_niệm - Tài Sản Nhà Trường - {}
+Khái_niệm - Cảnh Quan, Môi Trường Xanh - Sạch - Đẹp - {}
+Chủ_thể - Lực Lượng Bảo Vệ - {}
+Hoạt_động - Tuyên Dương, Khen Thưởng - {}
+Hoạt_động - Kỷ Luật - {}
+
+(Chủ_thể: Nhà Trường) - (YÊU_CẦU:{}) - (Chủ_thể:Sinh Viên)
+(Chủ_thể: Sinh Viên) - (CHẤP_HÀNH:{}) - (Quy_định:Nội Quy, Quy Chế, Quy Định Của Nhà Trường)
+(Chủ_thể: Sinh Viên) - (TÔN_TRỌNG:{}) - (Chủ_thể:Thầy Giáo, Cô Giáo, Cán Bộ, Viên Chức, Người Lao Động)
+(Chủ_thể: Sinh Viên) - (GIAO_LƯU:{}) - (Chủ_thể:Khách Quốc Tế)
+(Chủ_thể: Sinh Viên) - (ĐOÀN_KẾT:{}) - (Chủ_thể:Sinh Viên Việt Nam – Lào)
+(Chủ_thể: Sinh Viên) - (LIÊN_HỆ:{}) - (Chủ_thể:Khoa, Đơn Vị Chức Năng)
+(Chủ_thể: Sinh Viên) - (ĐEO:{}) - (Khái_niệm:Bảng Tên Hoặc Thẻ Sinh Viên)
+(Chủ_thể: Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Hoạt Động, Phong Trào Thi Đua, Văn Hóa Văn Nghệ, Thể Dục Thể Thao, Xã Hội Từ Thiện)
+(Chủ_thể: Sinh Viên) - (PHÒNG_CHỐNG:{}) - (Khái_niệm:Biểu Hiện Tiêu Cực Trong Học Tập, Thi Cử)
+(Chủ_thể: Sinh Viên) - (XÂY_DỰNG:{}) - (Khái_niệm:Tập Thể Vững Mạnh)
+(Chủ_thể: Sinh Viên) - (CÓ:{}) - (Khái_niệm:Lối Sống, Tác Phong Giản Dị, Lành Mạnh)
+(Chủ_thể: Sinh Viên) - (CHẤP_HÀNH:{}) - (Quy_định:Pháp Luật Về An Toàn Giao Thông)
+(Chủ_thể: Sinh Viên) - (ĐẤU_TRANH:{}) - (Khái_niệm:Tội Phạm Và Các Tệ Nạn Xã Hội)
+(Chủ_thể: Sinh Viên) - (GIỮ_GÌN:{}) - (Khái_niệm:An Ninh Trật Tự, An Toàn Xã Hội)
+(Chủ_thể: Sinh Viên) - (XÂY_DỰNG:{}) - (Khái_niệm:Khu Phố Văn Hóa)
+(Chủ_thể: Sinh Viên) - (BẢO_VỆ:{}) - (Khái_niệm:Tài Sản Nhà Trường)
+(Chủ_thể: Sinh Viên) - (GIỮ_GÌN:{}) - (Khái_niệm:Cảnh Quan, Môi Trường Xanh - Sạch - Đẹp)
+(Chủ_thể: Sinh Viên) - (HỖ_TRỢ:{}) - (Chủ_thể:Lực Lượng Bảo Vệ)
+----------------------------------------
+
+Chương - Chương Iii - {'tiêu_đề': 'PHÂN LOẠI ĐÁNH GIÁ VÀ QUY TRÌNH ĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN'}
+Điều - Điều 9 - {'tiêu_đề': 'Phân loại kết quả rèn luyện'}
+Khái_niệm - Kết Quả Rèn Luyện - {}
+Học_lực - Xuất Sắc - {}
+Học_lực - Tốt - {}
+Học_lực - Khá - {}
+Học_lực - Trung Bình - {}
+Học_lực - Yếu - {}
+Học_lực - Kém - {}
+
+(Chương: Chương Iii) - (BAO_GỒM:{}) - (Điều:Điều 9)
+(Điều: Điều 9) - (QUY_ĐỊNH:{}) - (Khái_niệm:Kết Quả Rèn Luyện)
+(Khái_niệm: Kết Quả Rèn Luyện) - (PHÂN_LOẠI:{}) - (Học_lực:Xuất Sắc)
+(Khái_niệm: Kết Quả Rèn Luyện) - (PHÂN_LOẠI:{}) - (Học_lực:Tốt)
+(Khái_niệm: Kết Quả Rèn Luyện) - (PHÂN_LOẠI:{}) - (Học_lực:Khá)
+(Khái_niệm: Kết Quả Rèn Luyện) - (PHÂN_LOẠI:{}) - (Học_lực:Trung Bình)
+(Khái_niệm: Kết Quả Rèn Luyện) - (PHÂN_LOẠI:{}) - (Học_lực:Yếu)
+(Khái_niệm: Kết Quả Rèn Luyện) - (PHÂN_LOẠI:{}) - (Học_lực:Kém)
+(Học_lực: Xuất Sắc) - (THUỘC:{}) - (Điểm:90 Đến 100 Điểm)
+(Học_lực: Tốt) - (THUỘC:{}) - (Điểm:80 Đến Dưới 90 Điểm)
+(Học_lực: Khá) - (THUỘC:{}) - (Điểm:65 Đến Dưới 80 Điểm)
+(Học_lực: Trung Bình) - (THUỘC:{}) - (Điểm:50 Đến Dưới 65 Điểm)
+(Học_lực: Yếu) - (THUỘC:{}) - (Điểm:35 Đến Dưới 50 Điểm)
+(Học_lực: Kém) - (THUỘC:{}) - (Điểm:Dưới 35 Điểm)
+
+----------------------------------------
+Điều - Điều 3 - {'tiêu_đề': 'Chuyển đổi điểm'}
+Chủ_thể - Sinh Viên - {}
+Hoạt_động - Kiểm Tra, Đánh Giá Năng Lực Tiếng Anh Đầu Khóa - {}
+Tài_liệu - Chứng Chỉ Tiếng Anh Quốc Tế - {}
+Tài_liệu - Chứng Chỉ Quốc Gia - {}
+Sự_kiện - Kỳ Thi Học Sinh Giỏi Cấp Tỉnh - {}
+Sự_kiện - Kỳ Thi Học Sinh Giỏi Cấp Quốc Gia - {}
+Khái_niệm - Ta1 - {}
+Khái_niệm - Ta2 - {}
+Khái_niệm - Cefr - {}
+Khái_niệm - Ielts - {}
+Khái_niệm - Toeic - {}
+Khái_niệm - Toefl Pbt - {}
+Khái_niệm - Toefl Cbt - {}
+Khái_niệm - Toefl Ibt - {}
+Khái_niệm - Toefl Itp - {}
+Khái_niệm - Cambridge Cpe - {}
+Khái_niệm - Cambridge Cae - {}
+Khái_niệm - Cambridge Fce - {}
+Khái_niệm - Cambridge Pet - {}
+Khái_niệm - Cambridge Ket - {}
+Khái_niệm - Aptis C2 - {}
+Khái_niệm - Aptis C1 - {}
+Khái_niệm - Aptis B2 - {}
+Khái_niệm - Aptis B1 - {}
+Khái_niệm - Aptis A2 - {}
+Khái_niệm - Aptis A1 - {}
+Giải_thưởng - Khuyến Khích Cấp Tỉnh - {}
+Giải_thưởng - Giải Ba Cấp Tỉnh - {}
+Giải_thưởng - Giải Nhì Cấp Tỉnh - {}
+Giải_thưởng - Giải Nhất Cấp Tỉnh - {}
+Giải_thưởng - Khuyến Khích Cấp Quốc Gia - {}
+Giải_thưởng - Giải Ba Cấp Quốc Gia - {}
+Giải_thưởng - Giải Nhì Cấp Quốc Gia - {}
+Giải_thưởng - Giải Nhất Cấp Quốc Gia - {}
+
+
+(Chủ_thể: Sinh Viên) - (THAM_GIA:{}) - (Hoạt_động:Kiểm Tra, Đánh Giá Năng Lực Tiếng Anh Đầu Khóa)
+(Chủ_thể: Sinh Viên) - (CÓ:{}) - (Tài_liệu:Chứng Chỉ Tiếng Anh Quốc Tế)
+(Chủ_thể: Sinh Viên) - (CÓ:{}) - (Tài_liệu:Chứng Chỉ Quốc Gia)
+(Chủ_thể: Sinh Viên) - (THAM_GIA:{}) - (Sự_kiện:Kỳ Thi Học Sinh Giỏi Cấp Tỉnh)
+(Chủ_thể: Sinh Viên) - (THAM_GIA:{}) - (Sự_kiện:Kỳ Thi Học Sinh Giỏi Cấp Quốc Gia)
+(Hoạt_động: Kiểm Tra, Đánh Giá Năng Lực Tiếng Anh Đầu Khóa) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta1)
+(Hoạt_động: Kiểm Tra, Đánh Giá Năng Lực Tiếng Anh Đầu Khóa) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta2)
+(Tài_liệu: Chứng Chỉ Tiếng Anh Quốc Tế) - (THUỘC:{}) - (Khái_niệm:Cefr)
+(Tài_liệu: Chứng Chỉ Quốc Gia) - (THUỘC:{}) - (Khái_niệm:Cefr)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Ielts)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Toeic)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Toefl Pbt)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Toefl Cbt)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Toefl Ibt)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Toefl Itp)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Cambridge Cpe)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Cambridge Cae)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Cambridge Fce)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Cambridge Pet)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Cambridge Ket)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Aptis C2)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Aptis C1)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Aptis B2)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Aptis B1)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Aptis A2)
+(Khái_niệm: Cefr) - (BAO_GỒM:{}) - (Khái_niệm:Aptis A1)
+(Sự_kiện: Kỳ Thi Học Sinh Giỏi Cấp Tỉnh) - (CÓ:{}) - (Giải_thưởng:Khuyến Khích Cấp Tỉnh)
+(Sự_kiện: Kỳ Thi Học Sinh Giỏi Cấp Tỉnh) - (CÓ:{}) - (Giải_thưởng:Giải Ba Cấp Tỉnh)
+(Sự_kiện: Kỳ Thi Học Sinh Giỏi Cấp Tỉnh) - (CÓ:{}) - (Giải_thưởng:Giải Nhì Cấp Tỉnh)
+(Sự_kiện: Kỳ Thi Học Sinh Giỏi Cấp Tỉnh) - (CÓ:{}) - (Giải_thưởng:Giải Nhất Cấp Tỉnh)
+(Sự_kiện: Kỳ Thi Học Sinh Giỏi Cấp Quốc Gia) - (CÓ:{}) - (Giải_thưởng:Khuyến Khích Cấp Quốc Gia)
+(Sự_kiện: Kỳ Thi Học Sinh Giỏi Cấp Quốc Gia) - (CÓ:{}) - (Giải_thưởng:Giải Ba Cấp Quốc Gia)
+(Sự_kiện: Kỳ Thi Học Sinh Giỏi Cấp Quốc Gia) - (CÓ:{}) - (Giải_thưởng:Giải Nhì Cấp Quốc Gia)
+(Sự_kiện: Kỳ Thi Học Sinh Giỏi Cấp Quốc Gia) - (CÓ:{}) - (Giải_thưởng:Giải Nhất Cấp Quốc Gia)
+(Giải_thưởng: Khuyến Khích Cấp Tỉnh) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Khuyến Khích Cấp Tỉnh) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Ba Cấp Tỉnh) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Ba Cấp Tỉnh) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Nhì Cấp Tỉnh) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Nhì Cấp Tỉnh) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Nhất Cấp Tỉnh) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Nhất Cấp Tỉnh) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Khuyến Khích Cấp Quốc Gia) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Khuyến Khích Cấp Quốc Gia) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Ba Cấp Quốc Gia) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Ba Cấp Quốc Gia) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Nhì Cấp Quốc Gia) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Nhì Cấp Quốc Gia) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta2)
+(Giải_thưởng: Giải Nhất Cấp Quốc Gia) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta1)
+(Giải_thưởng: Giải Nhất Cấp Quốc Gia) - (QUY_ĐỔI:{}) - (Khái_niệm:Ta2)
+
+----------------------------------------
+
+Hoạt_động - Khảo Sát Ý Kiến Phản Hồi Của Người Học - {'mục_đích': 'Giúp Trường, khoa/bộ môn đánh giá mức độ đạt được chuẩn đầu ra của học phần để thực hiện các hoạt động cải tiến và nâng cao chất lượng giảng dạy học phần', 'đối_tượng_khảo_sát': 'mức độ đạt được chuẩn đầu ra học phần của người học', 'hình_thức_khảo_sát': 'trực tuyến bằng phần mềm E-Survey hoặc Google Forms', 'nội_dung_khảo_sát': 'Mức độ đạt được của người học đối với từng chuẩn đầu ra học phần, lý do và đề xuất biện pháp cải tiến', 'công_cụ_khảo_sát': 'Phiếu khảo sát người học về mức độ đạt được chuẩn đầu ra của học phần: BM02a_ĐHQN_CĐR.HP', 'thời_gian_khảo_sát': 'Sau khi người học học xong học phần'}
+Tổ_chức - Trường Đhqn - {}
+Phòng_ban - Phòng Kt&Đbcl - {'vai_trò': 'Phối hợp với các Khoa/Bộ môn lập kế hoạch khảo sát, trình Hiệu trưởng phê duyệt'}
+Chức_danh - Hiệu Trưởng - {'vai_trò': 'Phê duyệt kế hoạch khảo sát và Phiếu khảo sát'}
+Tổ_chức - Khoa/Bộ Môn - {'vai_trò': 'Phối hợp với Phòng KT&ĐBCL trong các hoạt động khảo sát'}
+Chủ_thể - Người Học Hệ Chính Quy - {'trình_độ': 'đại học, thạc sĩ'}
+Công_cụ - Phần Mềm E-Survey - {}
+Công_cụ - Google Forms - {}
+Biểu_mẫu - Phiếu Khảo Sát Bm02A_Đhqn_Cđr.Hp - {}
+Công_cụ - Cổng Thông Tin Sinh Viên/Học Viên - {}
+Tổ_chức - Trung Tâm Cntt&Tt - {'vai_trò': 'Đảm bảo hạ tầng kỹ thuật và kết nối Internet trong suốt quá trình thực hiện khảo sát'}
+Phòng_ban - Phòng Ctsv - {}
+Phòng_ban - Phòng Đtđh - {}
+Tài_liệu - Biên Bản Họp - {}
+Tài_liệu - Hồ Sơ Khảo Sát - {'thời_gian_lưu_trữ': 'tối thiểu 05 năm'}
+Biểu_mẫu - Biểu Mẫu Bm02B_Dhqn_Cdr_Hp - {}
+
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (PHỤC_VỤ:{}) - (Tổ_chức:Trường Đhọn)
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (THỰC_HIỆN_BỞI:{}) - (Phòng_ban:Phòng Kt&Đbcl)
+(Phòng_ban: Phòng Kt&Đbcl) - (TRÌNH_PHÊ_DUYỆT:{}) - (Chức_danh:Hiệu Trưởng)
+(Phòng_ban: Phòng Kt&Đbcl) - (PHỐI_HỢP:{}) - (Tổ_chức:Khoa/Bộ Môn)
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (ĐỐI_TƯỢNG:{}) - (Chủ_thể:Người Học Hệ Chính Quy)
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (SỬ_DỤNG:{}) - (Công_cụ:Phần Mềm E-Survey)
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (SỬ_DỤNG:{}) - (Công_cụ:Google Forms)
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (SỬ_DỤNG:{}) - (Biểu_mẫu:Phiếu Khảo Sát Bm02A_Đhqn_Cđr.Hp)
+(Phòng_ban: Phòng Kt&Đbcl) - (SỬ_DỤNG:{}) - (Công_cụ:Cổng Thông Tin Sinh Viên/Học Viên)
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (HỖ_TRỢ:{}) - (Tổ_chức:Trung Tâm Cntt&Tt)
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (PHỐI_HỢP:{}) - (Phòng_ban:Phòng Ctsv)
+(Hoạt_động: Khảo Sát Ý Kiến Phản Hồi Của Người Học) - (PHỐI_HỢP:{}) - (Phòng_ban:Phòng Đtđh)
+(Tổ_chức: Khoa/Bộ Môn) - (TẠO:{}) - (Tài_liệu:Biên Bản Họp)
+(Phòng_ban: Phòng Kt&Đbcl) - (LƯU_TRỮ:{}) - (Tài_liệu:Hồ Sơ Khảo Sát)
+(Tổ_chức: Khoa/Bộ Môn) - (TẠO:{}) - (Biểu_mẫu:Biểu Mẫu Bm02B_Dhqn_Cdr_Hp)
+----------------------------------------
+
