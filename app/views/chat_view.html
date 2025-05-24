@@ -231,7 +231,7 @@
           const data = await response.json();
           const loading = document.querySelector(".message.bot:last-child");
           if (loading) loading.remove();
-          appendMessage(data.response, "bot");
+          appendMessage(data.answer, "bot");
         } catch {
           const loading = document.querySelector(".message.bot:last-child");
           if (loading) loading.remove();

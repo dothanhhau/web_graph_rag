@@ -1,0 +1,120 @@
+Tổ_chức - Trường Đại Học Quy Nhơn - {}
+Tổ_chức - Bộ Giáo Dục Và Đào Tạo - {}
+Ngành_học - Ngành Sư Phạm Tiếng Anh (Ngoại Ngữ 1) - {'yêu_cầu': 'Chứng chỉ tiếng Anh bậc 5/6 hoặc tương đương', 'chứng_chỉ_quốc_tế': 'CEFR C1, CAE 60, IELTS 6.5, TOEFL iBT 85, TOEIC 850, APTIS ESOL GENERAL C, APTIS ESOL ADVANCED C1'}
+Ngành_học - Ngành Sư Phạm Tiếng Anh (Ngoại Ngữ 2) - {'yêu_cầu': 'Chứng chỉ tiếng Pháp hoặc tiếng Trung bậc 3/6 hoặc tương đương', 'chứng_chỉ_quốc_tế': 'JLPT N4, JTEST cấp độ E, HSK cấp độ 3, DELF B1, TCF Niveau 3, TOPIK 3'}
+Ngành_học - Ngành Ngôn Ngữ Anh - {'yêu_cầu': 'Chứng chỉ tiếng Pháp hoặc tiếng Trung bậc 3/6 hoặc tương đương', 'chứng_chỉ_quốc_tế': 'JLPT N4, JTEST cấp độ E, HSK cấp độ 3, DELF B1, TCF Niveau 3, TOPIK 3'}
+Ngành_học - Ngành Ngôn Ngữ Trung Quốc - {'yêu_cầu': 'Chứng chỉ tiếng Anh hoặc tiếng Pháp bậc 3/6 hoặc tương đương', 'chứng_chỉ_quốc_tế': 'CEFR B1, IELTS 4.5, TOEFL iBT 45, TOEIC 450, APTIS ESOL GENERAL B1, APTIS ESOL ADVANCED B1, LINGUASKILL B1, JLPT N4, JTEST cấp độ E, DELF B1, TCF Niveau 3, TOPIK 3'}
+Ngành_học - Các Ngành Chất Lượng Cao - {'yêu_cầu': 'Chứng chỉ tiếng Anh hoặc tiếng Pháp bậc 4/6 hoặc tương đương', 'chứng_chỉ_quốc_tế': 'CEFR B2, IELTS 5.5, TOEFL iBT 61, TOEIC 600, APTIS ESOL GENERAL B2, APTIS ESOL ADVANCED B2, LINGUASKILL B2, JLPT N3, JTEST cấp độ D, HSK cấp độ 4, DELF B2, TCF Niveau 4, TOPIK 4'}
+Ngành_học - Các Ngành Khác - {'yêu_cầu': 'Chứng chỉ tiếng Anh, tiếng Pháp hoặc tiếng Trung bậc 3/6 hoặc tương đương', 'chứng_chỉ_quốc_tế': 'CEFR B1, IELTS 4.5, TOEFL iBT 45, TOEIC 450, APTIS ESOL GENERAL B1, APTIS ESOL ADVANCED B1, LINGUASKILL B1, JLPT N4, JTEST cấp độ E, HSK cấp độ 3, DELF B1, TCF Niveau 3, TOPIK 3'}
+
+(Ngành_học: Ngành Sư Phạm Tiếng Anh (Ngoại Ngữ 1)) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Ngành_học: Ngành Sư Phạm Tiếng Anh (Ngoại Ngữ 1)) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Bộ Giáo Dục Và Đào Tạo)
+(Ngành_học: Ngành Sư Phạm Tiếng Anh (Ngoại Ngữ 2)) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Ngành_học: Ngành Sư Phạm Tiếng Anh (Ngoại Ngữ 2)) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Bộ Giáo Dục Và Đào Tạo)
+(Ngành_học: Ngành Ngôn Ngữ Anh) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Ngành_học: Ngành Ngôn Ngữ Anh) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Bộ Giáo Dục Và Đào Tạo)
+(Ngành_học: Ngành Ngôn Ngữ Trung Quốc) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Ngành_học: Ngành Ngôn Ngữ Trung Quốc) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Bộ Giáo Dục Và Đào Tạo)
+(Ngành_học: Các Ngành Chất Lượng Cao) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Ngành_học: Các Ngành Chất Lượng Cao) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Bộ Giáo Dục Và Đào Tạo)
+(Ngành_học: Các Ngành Khác) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)
+(Ngành_học: Các Ngành Khác) - (YÊU_CẦU_CHỨNG_CHỈ:{}) - (Tổ_chức:Bộ Giáo Dục Và Đào Tạo)
+----------------------------------------
+
+Chủ_thể - Sinh Viên Nội Trú - {}
+Khái_niệm - Phòng Ở - {}
+Khái_niệm - Trang Thiết Bị - {}
+Khái_niệm - Trật Tự - {}
+Khái_niệm - An Ninh - {}
+Khái_niệm - Vệ Sinh Môi Trường - {}
+Khái_niệm - Mỹ Quan - {}
+Khái_niệm - Khu Sinh Hoạt Chung Ký Túc Xá - {}
+Khái_niệm - Hợp Đồng Ký Túc Xá - {}
+Chủ_thể - Trung Tâm Hỗ Trợ Sinh Viên Và Quan Hệ Doanh Nghiệp - {}
+Chủ_thể - Bộ Phận Quản Lý Ký Túc Xá - {}
+Chủ_thể - Người Lạ - {}
+Khái_niệm - Tài Sản - {}
+Khái_niệm - Khuôn Viên Ký Túc Xá - {}
+Khái_niệm - Chất Cấm - {}
+Khái_niệm - Tệ Nạn Xã Hội - {}
+Khái_niệm - Vũ Khí - {}
+Khái_niệm - Chất Cháy Nổ - {}
+Khái_niệm - Hóa Chất Độc Hại - {}
+Khái_niệm - Ma Túy - {}
+Khái_niệm - Chế Phẩm Ma Túy - {}
+Khái_niệm - Tài Liệu Phản Động - {}
+Khái_niệm - Ấn Phẩm Đồi Trụy - {}
+Khái_niệm - Đánh Bạc - {}
+Khái_niệm - Mại Dâm - {}
+Khái_niệm - Mê Tín Dị Đoan - {}
+Khái_niệm - Hoạt Động Tôn Giáo Trái Phép - {}
+Khái_niệm - Băng Nhóm - {}
+Khái_niệm - Đánh Nhau - {}
+
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_CẢI_TẠO:{'mô_tả': 'Tự ý cải tạo hoặc thay đổi phòng ở'}) - (Khái_niệm:Phòng Ở)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_DI_CHUYỂN:{'mô_tả': 'Di chuyển trang thiết bị'}) - (Khái_niệm:Trang Thiết Bị)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_GÂY_MẤT:{'mô_tả': 'Gây mất trật tự'}) - (Khái_niệm:Trật Tự)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_GÂY_MẤT:{'mô_tả': 'Gây mất an ninh'}) - (Khái_niệm:An Ninh)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_GÂY_MẤT:{'mô_tả': 'Gây mất vệ sinh môi trường'}) - (Khái_niệm:Vệ Sinh Môi Trường)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_GÂY_MẤT:{'mô_tả': 'Viết vẽ, che chắn gây mất mỹ quan'}) - (Khái_niệm:Mỹ Quan)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_GÂY_MẤT:{'mô_tả': 'Gây mất mỹ quan trong khu sinh hoạt chung'}) - (Khái_niệm:Khu Sinh Hoạt Chung Ký Túc Xá)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_CHUYỂN_NHƯỢNG:{'mô_tả': 'Chuyển nhượng hoặc cho thuê lại hợp đồng'}) - (Khái_niệm:Hợp Đồng Ký Túc Xá)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_VI_PHẠM:{'mô_tả': 'Vi phạm hợp đồng đã ký'}) - (Chủ_thể:Trung Tâm Hỗ Trợ Sinh Viên Và Quan Hệ Doanh Nghiệp)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_ĐƯA_VÀO:{'mô_tả': 'Đưa người lạ vào phòng ở khi chưa có sự cho phép'}) - (Chủ_thể:Người Lạ)
+(Chủ_thể: Sinh Viên Nội Trú) - (PHẢI_CÓ_SỰ_CHO_PHÉP:{'mô_tả': 'Cần sự cho phép của Bộ phận quản lý'}) - (Chủ_thể:Bộ Phận Quản Lý Ký Túc Xá)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_TRỘM_CẮP:{'mô_tả': 'Trộm cắp tài sản trong phòng ở hoặc khuôn viên'}) - (Khái_niệm:Tài Sản)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_TRỘM_CẮP:{'mô_tả': 'Trộm cắp tài sản trong khuôn viên'}) - (Khái_niệm:Khuôn Viên Ký Túc Xá)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_LIÊN_QUAN:{'mô_tả': 'Liên quan đến chất cấm'}) - (Khái_niệm:Chất Cấm)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_LIÊN_QUAN:{'mô_tả': 'Liên quan đến tệ nạn xã hội'}) - (Khái_niệm:Tệ Nạn Xã Hội)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_SỬ_DỤNG:{'mô_tả': 'Sử dụng vũ khí'}) - (Khái_niệm:Vũ Khí)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_SỬ_DỤNG:{'mô_tả': 'Sử dụng chất cháy nổ'}) - (Khái_niệm:Chất Cháy Nổ)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_SỬ_DỤNG:{'mô_tả': 'Sử dụng hóa chất độc hại'}) - (Khái_niệm:Hóa Chất Độc Hại)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_SỬ_DỤNG:{'mô_tả': 'Sử dụng ma túy'}) - (Khái_niệm:Ma Túy)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_SỬ_DỤNG:{'mô_tả': 'Sử dụng chế phẩm ma túy'}) - (Khái_niệm:Chế Phẩm Ma Túy)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_LƯU_HÀNH:{'mô_tả': 'Lưu hành tài liệu phản động'}) - (Khái_niệm:Tài Liệu Phản Động)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_LƯU_HÀNH:{'mô_tả': 'Lưu hành ấn phẩm đồi trụy'}) - (Khái_niệm:Ấn Phẩm Đồi Trụy)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_THAM_GIA:{'mô_tả': 'Tham gia đánh bạc'}) - (Khái_niệm:Đánh Bạc)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_THAM_GIA:{'mô_tả': 'Tham gia mại dâm'}) - (Khái_niệm:Mại Dâm)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_TRUYỀN_BÁ:{'mô_tả': 'Truyền bá mê tín dị đoan'}) - (Khái_niệm:Mê Tín Dị Đoan)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_TRUYỀN_BÁ:{'mô_tả': 'Truyền bá hoạt động tôn giáo trái phép'}) - (Khái_niệm:Hoạt Động Tôn Giáo Trái Phép)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_TỔ_CHỨC:{'mô_tả': 'Tổ chức băng nhóm'}) - (Khái_niệm:Băng Nhóm)
+(Chủ_thể: Sinh Viên Nội Trú) - (KHÔNG_ĐƯỢC_THAM_GIA:{'mô_tả': 'Tham gia đánh nhau'}) - (Khái_niệm:Đánh Nhau)
+----------------------------------------
+
+Chủ_thể - Nhà Trường - {'vai_trò': 'Quy định và xử lý vi phạm'}
+Vi_phạm - Đến Muộn Giờ Học, Giờ Thực Tập; Nghỉ Học Không Phép Hoặc Quá Phép - {}
+Vi_phạm - Mất Trật Tự, Làm Việc Riêng Trong Giờ Học, Giờ Thực Tập Và Tự Học - {}
+Vi_phạm - Vô Lễ Với Thầy, Cô Giáo Và Cbvc Nhà Trường - {}
+Vi_phạm - Học Thay Hoặc Nhờ Người Khác Học Thay - {}
+Vi_phạm - Thi, Kiểm Tra Thay, Hoặc Nhờ Thi, Kiểm Tra Thay; Làm Thay, Nhờ Làm Hoặc Sao Chép Tiểu Luận, Đồ Án, Khóa Luận Tốt Nghiệp - {}
+Vi_phạm - Tổ Chức Học Thi, Kiểm Tra Thay; Tổ Chức Làm Thay Tiểu Luận, Đồ Án, Khóa Luận Tốt Nghiệp - {}
+Vi_phạm - Mang Tài Liệu Vào Phòng Thi, Đưa Đề Thi Ra Ngoài Nhờ Làm Thay, Ném Tài Liệu Vào Phòng Thi, Vi Phạm Quy Chế Thi; Thi Không Có Lý Do Chính Đáng Hoặc Hình Thức Gian Lận Khác Trong Học Tập, Thi Cử, Kiểm Tra - {}
+Vi_phạm - Chậm Nộp Hoặc Không Nộp Học Phí, Bảo Hiểm Y Tế Theo Quy Định Của Nhà Trường Mà Không Có Lý Do Chính Đáng - {}
+Vi_phạm - Làm Hư Hỏng Tài Sản Trong Ktx Và Các Tài Sản Khác Của Trường - {}
+Vi_phạm - Uống Rượu, Bia Trong Giờ Học - {}
+Vi_phạm - Hút Thuốc Lá Trong Giờ Học, Phòng Học, Phòng Thí Nghiệm Và Nơi Cấm Hút Thuốc Theo Quy Định - {}
+Vi_phạm - Đánh Bạc Dưới Mọi Hình Thức - {}
+Hình_thức_xử_lý - Khiển Trách - {}
+Hình_thức_xử_lý - Cảnh Cáo - {}
+Hình_thức_xử_lý - Đình Chỉ Có Thời Hạn - {}
+Hình_thức_xử_lý - Buộc Thôi Học - {}
+Hình_thức_xử_lý - Bồi Thường Thiệt Hại - {}
+Hình_thức_xử_lý - Giao Cho Cơ Quan Chức Năng Xử Lý Theo Quy Định Pháp Luật - {}
+
+(Chủ_thể: Nhà Trường) - (QUY_ĐỊNH:{}) - (Vi_phạm:Đến Muộn Giờ Học, Giờ Thực Tập; Nghỉ Học Không Phép Hoặc Quá Phép)
+(Chủ_thể: Nhà Trường) - (QUY_ĐỊNH:{}) - (Vi_phạm:Mất Trật Tự, Làm Việc Riêng Trong Giờ Học, Giờ Thực Tập Và Tự Học)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'mức_độ': 'Từ khiển trách đến buộc thôi học'}) - (Vi_phạm:Vô Lễ Với Thầy, Cô Giáo Và Cbvc Nhà Trường)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'mức_độ': 'Từ khiển trách đến buộc thôi học'}) - (Vi_phạm:Học Thay Hoặc Nhờ Người Khác Học Thay)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'lần_1': 'Đình chỉ có thời hạn', 'lần_2': 'Buộc thôi học'}) - (Vi_phạm:Thi, Kiểm Tra Thay, Hoặc Nhờ Thi, Kiểm Tra Thay; Làm Thay, Nhờ Làm Hoặc Sao Chép Tiểu Luận, Đồ Án, Khóa Luận Tốt Nghiệp)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'mức_độ': 'Có thể giao cho cơ quan chức năng xử lý theo quy định pháp luật'}) - (Vi_phạm:Tổ Chức Học Thi, Kiểm Tra Thay; Tổ Chức Làm Thay Tiểu Luận, Đồ Án, Khóa Luận Tốt Nghiệp)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'quy_định': 'Theo quy chế đào tạo'}) - (Vi_phạm:Mang Tài Liệu Vào Phòng Thi, Đưa Đề Thi Ra Ngoài Nhờ Làm Thay, Ném Tài Liệu Vào Phòng Thi, Vi Phạm Quy Chế Thi; Thi Không Có Lý Do Chính Đáng Hoặc Hình Thức Gian Lận Khác Trong Học Tập, Thi Cử, Kiểm Tra)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'mức_độ': 'Từ nhắc nhở, khiển trách đến buộc thôi học'}) - (Vi_phạm:Chậm Nộp Hoặc Không Nộp Học Phí, Bảo Hiểm Y Tế Theo Quy Định Của Nhà Trường Mà Không Có Lý Do Chính Đáng)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'mức_độ': 'Từ khiển trách đến buộc thôi học', 'yêu_cầu': 'Bồi thường thiệt hại'}) - (Vi_phạm:Làm Hư Hỏng Tài Sản Trong Ktx Và Các Tài Sản Khác Của Trường)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'lần_1': 'Khiển trách', 'lần_2': 'Cảnh cáo', 'lần_3': 'Đình chỉ có thời hạn', 'lần_4': 'Buộc thôi học'}) - (Vi_phạm:Uống Rượu, Bia Trong Giờ Học)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'lần_1': 'Khiển trách', 'lần_2': 'Cảnh cáo', 'lần_3': 'Đình chỉ có thời hạn', 'lần_4': 'Buộc thôi học'}) - (Vi_phạm:Hút Thuốc Lá Trong Giờ Học, Phòng Học, Phòng Thí Nghiệm Và Nơi Cấm Hút Thuốc Theo Quy Định)
+(Chủ_thể: Nhà Trường) - (XỬ_LÝ:{'lần_1': 'Khiển trách', 'lần_2': 'Cảnh cáo', 'lần_3': 'Đình chỉ có thời hạn', 'lần_4': 'Buộc thôi học và giao cho cơ quan chức năng xử lý theo quy định pháp luật'}) - (Vi_phạm:Đánh Bạc Dưới Mọi Hình Thức)
+----------------------------------------
+
+
+----------------------------------------
+

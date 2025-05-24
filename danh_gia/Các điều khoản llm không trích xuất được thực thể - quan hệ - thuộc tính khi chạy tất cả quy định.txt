@@ -1,16 +1,22 @@
-Chuẩn đầu ra ngoại ngữ đối với sinh viên đại học hệ chính quy Trường Đại học Quy Nhơn
-1. Ngành Sư phạm Tiếng Anh (Ngoại ngữ 1):
-Sinh viên theo học ngành này cần đạt chứng nhận tiếng Anh bậc 5/6 do Trường Đại học Quy Nhơn cấp, hoặc các chứng chỉ tương đương từ các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép cấp chứng chỉ ngoại ngữ. Ngoài ra, các chứng chỉ quốc tế tương đương được chấp nhận bao gồm: CEFR C1, CAE 60, IELTS 6.5, TOEFL iBT 85, TOEIC 850, APTIS ESOL GENERAL C, và APTIS ESOL ADVANCED C1.
-2. Ngành Sư phạm Tiếng Anh (Ngoại ngữ 2):
-Sinh viên cần có chứng nhận tiếng Pháp hoặc tiếng Trung đạt bậc 3/6 do Trường Đại học Quy Nhơn hoặc các đơn vị được phép cấp. Các chứng chỉ quốc tế được chấp nhận gồm: JLPT N4, JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1, TCF Niveau 3 (tiếng Pháp), và TOPIK 3 (tiếng Hàn).
-3. Ngành Ngôn ngữ Anh:
-Sinh viên phải đạt trình độ tiếng Pháp hoặc tiếng Trung bậc 3/6, với chứng nhận được cấp bởi Trường Đại học Quy Nhơn hoặc các đơn vị đào tạo được cấp phép. Các chứng chỉ quốc tế tương đương gồm có: JLPT N4, JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1, TCF Niveau 3 (tiếng Pháp), và TOPIK 3 (tiếng Hàn).
-4. Ngành Ngôn ngữ Trung Quốc:
-Yêu cầu chuẩn đầu ra là tiếng Anh hoặc tiếng Pháp bậc 3/6, được công nhận bởi Trường Đại học Quy Nhơn hoặc các cơ sở đào tạo hợp pháp. Các chứng chỉ quốc tế được chấp nhận gồm: CEFR B1, IELTS 4.5, TOEFL iBT 45, TOEIC 450, APTIS ESOL GENERAL B1, APTIS ESOL ADVANCED B1, LINGUASKILL B1, JLPT N4, JTEST Cấp độ E (tiếng Nhật), DELF B1, TCF Niveau 3 (tiếng Pháp), và TOPIK 3 (tiếng Hàn).
-5. Các ngành chất lượng cao:
-Sinh viên theo học các chương trình chất lượng cao phải đạt trình độ tiếng Anh hoặc tiếng Pháp bậc 4/6 do Trường Đại học Quy Nhơn hoặc đơn vị được Bộ Giáo dục và Đào tạo cho phép cấp. Các chứng chỉ quốc tế tương đương bao gồm: CEFR B2, IELTS 5.5, TOEFL iBT 61, TOEIC 600, APTIS ESOL GENERAL B2, APTIS ESOL ADVANCED B2, LINGUASKILL B2, JLPT N3, JTEST Cấp độ D (tiếng Nhật), HSK Cấp độ 4 (tiếng Trung), DELF B2, TCF Niveau 4 (tiếng Pháp), và TOPIK 4 (tiếng Hàn).
-6. Các ngành khác:
-Sinh viên các ngành không thuộc các danh mục nêu trên cần có chứng nhận tiếng Anh, tiếng Pháp hoặc tiếng Trung đạt bậc 3/6, được cấp bởi Trường Đại học Quy Nhơn hoặc các đơn vị được phép. Các chứng chỉ quốc tế được công nhận gồm: CEFR B1, IELTS 4.5, TOEFL iBT 45, TOEIC 450, APTIS ESOL GENERAL B1, APTIS ESOL ADVANCED B1, LINGUASKILL B1, JLPT N4, JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1, TCF Niveau 3 (tiếng Pháp), và TOPIK 3 (tiếng Hàn).
+Phụ lục: Chuẩn đầu ra ngoại ngữ đối với sinh viên đại học hệ chính quy Trường Đại học Quy Nhơn
+1. Ngành Sư phạm Tiếng Anh, Ngoại ngữ 1
+- Yêu cầu chứng nhận tiếng Anh bậc 5/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Anh bậc 5/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép cấp chứng chỉ ngoại ngữ.
+- Chứng chỉ quốc tế tương đương: CEFR C1; CAE 60, IELTS 6.5, TOEFL iBT 85, TOEIC 850, APTIS ESOL GENERAL C, APTIS ESOL ADVANCED C1.
+2. Ngành Sư phạm Tiếng Anh, Ngoại ngữ 2:
+- Yêu cầu chứng nhận tiếng Pháp hoặc tiếng Trung bậc 3/6 của Trường Đại học Quy Nhơn hoặc các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép cấp chứng chỉ ngoại ngữ.  
+- Chứng chỉ quốc tế tương đương: JLPT N4 (tiếng Nhật), JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1 (tiếng Pháp), TCF Niveau 3 (tiếng Pháp), TOPIK 3 (tiếng Hàn).
+3. Ngành Ngôn ngữ Anh
+- Yêu cầu chứng nhận tiếng Pháp hoặc tiếng Trung bậc 3/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Pháp, tiếng Trung bậc 3/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép cấp chứng chỉ ngoại ngữ.
+- Chứng chỉ quốc tế tương đương: JLPT N4 (tiếng Nhật), JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1 (tiếng Pháp), TCF Niveau 3 (tiếng Pháp), TOPIK 3 (tiếng Hàn).
+4. Ngành Ngôn ngữ Trung Quốc
+- Yêu cầu chứng nhận tiếng Anh hoặc tiếng Pháp bậc 3/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Anh, tiếng Pháp bậc 3/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép tổ chức thi và cấp chứng chỉ ngoại ngữ.  
+- Chứng chỉ quốc tế tương đương: CEFR B1, IELTS 4.5, TOEFL iBT 45, TOEIC 450, APTIS ESOL GENERAL B1, APTIS ESOL ADVANCED B1, LINGUASKILL B1, JLPT N4 (tiếng Nhật), JTEST Cấp độ E (tiếng Nhật), DELF B1 (tiếng Pháp), TCF Niveau 3 (tiếng Pháp), TOPIK 3 (tiếng Hàn).
+5. Các ngành chất lượng cao  
+- Yêu cầu chứng nhận tiếng Anh hoặc tiếng Pháp bậc 4/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Anh, tiếng Pháp bậc 4/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép tổ chức thi và cấp chứng chỉ ngoại ngữ.  
+- Chứng chỉ quốc tế tương đương: CEFR B2, IELTS 5.5, TOEFL iBT 61, TOEIC 600, APTIS ESOL GENERAL B2, APTIS ESOL ADVANCED B2, LINGUASKILL B2, JLPT N3 (tiếng Nhật), JTEST Cấp độ D (tiếng Nhật), HSK Cấp độ 4 (tiếng Trung), DELF B2 (tiếng Pháp), TCF Niveau 4 (tiếng Pháp), TOPIK 4 (tiếng Hàn).   
+6. Các ngành khác  
+- Yêu cầu chứng nhận tiếng Anh, tiếng Pháp hoặc tiếng Trung bậc 3/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Anh, tiếng Pháp, tiếng Trung bậc 3/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép tổ chức thi và cấp chứng chỉ ngoại ngữ.
+- Chứng chỉ quốc tế tương đương: CEFR B1, IELTS 4.5, TOEFL iBT 45, TOEIC 450, APTIS ESOL GENERAL B1, APTIS ESOL ADVANCED B1, LINGUASKILL B1, JLPT N4 (tiếng Nhật), JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1 (tiếng Pháp), TCF Niveau 3 (tiếng Pháp), TOPIK 3 (tiếng Hàn).
 
 Điều 7. Các hành vi SV nội trú không được làm
 1. Cải tạo phòng, thay đổi hoặc tự ý di chuyển trang thiết bị trong phòng ở; gây mất trật tự, an ninh, vệ sinh môi trường; viết vẽ, che chắn làm mất mỹ quan trong phòng ở và khu sinh hoạt chung của ký túc xá.

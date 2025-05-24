@@ -10,5 +10,5 @@ def index():
 @chat_bp.route('/chat', methods=['POST'])
 def chat():
     user_msg = request.json.get('message')
-    bot_reply = get_chat_response(user_msg)
-    return jsonify({'response': bot_reply})
+    cypher, answer = get_chat_response(user_msg)
+    return jsonify({'cypher': cypher, 'answer': answer})
