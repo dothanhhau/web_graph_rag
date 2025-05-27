@@ -20,6 +20,7 @@ Relationships
 (Khái_niệm:Thời Gian Tối Đa Hoàn Thành Chương Trình) - (LIÊN_QUAN_ĐẾN:{}) - (Khái_niệm: Chương Trình Đào Tạo)
 
 ---------------------------------------------------
+
 Entities
 Chuẩn_đầu_ra - Ngoại Ngữ - {}
 Ngành - Ngành Sư Phạm Tiếng Anh - {}
@@ -31,12 +32,15 @@ Tổ_chức - Trường Đại Học Quy Nhơn - {}
 Tổ_chức - Bộ Giáo Dục Và Đào Tạo - {}
 Khái_niệm - Ngoại Ngữ 1 - {}
 Khái_niệm - Ngoại Ngữ 2 - {}
-Yêu_cầu - Tiếng Anh Bậc 5/6 - {}
-Yêu_cầu - Tiếng Pháp Bậc 3/6 - {}
-Yêu_cầu - Tiếng Trung Bậc 3/6 - {}
-Yêu_cầu - Tiếng Anh Bậc 3/6 - {}
-Yêu_cầu - Tiếng Pháp Bậc 4/6 - {}
-Yêu_cầu - Tiếng Anh Bậc 4/6 - {}
+Ngoại_ngữ - Tiếng Anh - {}
+Ngoại_ngữ - Tiếng Pháp - {}
+Ngoại_ngữ - Tiếng Trung - {}
+Ngoại_ngữ - Tiếng Anh Bậc 5/6 - {}
+Ngoại_ngữ - Tiếng Pháp Bậc 3/6 - {}
+Ngoại_ngữ - Tiếng Trung Bậc 3/6 - {}
+Ngoại_ngữ - Tiếng Anh Bậc 3/6 - {}
+Ngoại_ngữ - Tiếng Pháp Bậc 4/6 - {}
+Ngoại_ngữ - Tiếng Anh Bậc 4/6 - {}
 Chứng_chỉ - Cefr C1 - {}
 Chứng_chỉ - Cae 60 - {}
 Chứng_chỉ - Ielts 6.5 - {}
@@ -70,76 +74,75 @@ Chứng_chỉ - Hsk 4 - {}
 Chứng_chỉ - Delf B2 - {}
 Chứng_chỉ - Tcf Niveau 4 - {}
 Chứng_chỉ - Topik 4 - {}
-
 Relationships
 (Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Ngành Sư Phạm Tiếng Anh)
 (Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Ngành Ngôn Ngữ Anh)
 (Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Ngành Ngôn Ngữ Trung Quốc)
 (Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Ngành Chất Lượng Cao)
 (Chuẩn_đầu_ra: Ngoại Ngữ) - (ÁP_DỤNG: {}) - (Ngành: Các Ngành Khác)
-(Ngành: Ngành Sư Phạm Tiếng Anh) - (YÊU_CẦU:{}) - (Khái_niệm:Ngoại Ngữ 1)
-(Ngành: Ngành Sư Phạm Tiếng Anh) - (YÊU_CẦU:{}) - (Khái_niệm:Ngoại Ngữ 2)
-(Khái_niệm: Ngoại Ngữ 1) - (ĐẠT:{}) - (Yêu_cầu:Tiếng Anh Bậc 5/6)
-(Khái_niệm: Ngoại Ngữ 2) - (ĐẠT:{}) - (Yêu_cầu:Tiếng Pháp Bậc 3/6)
-(Khái_niệm: Ngoại Ngữ 2) - (ĐẠT:{}) - (Yêu_cầu:Tiếng Trung Bậc 3/6)
-(Ngành: Ngành Ngôn Ngữ Anh) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Pháp Bậc 3/6)
-(Ngành: Ngành Ngôn Ngữ Anh) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Trung Bậc 3/6)
-(Ngành: Ngành Ngôn Ngữ Trung Quốc) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Anh Bậc 3/6)
-(Ngành: Ngành Ngôn Ngữ Trung Quốc) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Pháp Bậc 3/6)
-(Ngành: Ngành Chất Lượng Cao) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Anh Bậc 4/6)
-(Ngành: Ngành Chất Lượng Cao) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Pháp Bậc 4/6)
-(Ngành: Các Ngành Khác) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Anh Bậc 3/6)
-(Ngành: Các Ngành Khác) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Pháp Bậc 3/6)
-(Ngành: Các Ngành Khác) - (YÊU_CẦU:{}) - (Yêu_cầu:Tiếng Trung Bậc 3/6)
-(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr C1)
-(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cae 60)
-(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 6.5)
-(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 85)
-(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 850)
-(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General C)
-(Yêu_cầu: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced C1)
-(Yêu_cầu: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Delf B1)
-(Yêu_cầu: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Tcf Niveau 3)
-(Yêu_cầu: Tiếng Trung Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Hsk 3)
-(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr B1)
-(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 4.5)
-(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 45)
-(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 450)
-(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General B1)
-(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced B1)
-(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Linguaskill B1)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr B2)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 5.5)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 61)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 600)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General B2)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced B2)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Linguaskill B2)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Delf B2)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Tcf Niveau 4)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Topik 4)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr B2)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 5.5)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 61)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 600)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General B2)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced B2)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Linguaskill B2)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Delf B2)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Tcf Niveau 4)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Topik 4)
-(Yêu_cầu: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N4)
-(Yêu_cầu: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest E)
-(Yêu_cầu: Tiếng Trung Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N4)
-(Yêu_cầu: Tiếng Trung Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest E)
-(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N4)
-(Yêu_cầu: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest E)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N3)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest D)
-(Yêu_cầu: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Hsk 4)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N3)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest D)
-(Yêu_cầu: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Hsk 4)
+(Ngành: Ngành Sư Phạm Tiếng Anh) - (YÊU_CẦU:{'điều_kiện': 'Tiếng anh bậc 5/6 hoặc các chứng chỉ CEFR C1; CAE 60, IELTS 6.5, TOEFL iBT 85, TOEIC 850, APTIS ESOL GENERAL C, APTIS ESOL ADVANCED C1.'}) - (Khái_niệm:Ngoại Ngữ 1)
+(Ngành: Ngành Sư Phạm Tiếng Anh) - (YÊU_CẦU:{'điều_kiện': 'Tiếng Pháp hoặc Tiếng Trung bậc 3/6 hoặc các chứng chỉ JLPT N4 (tiếng Nhật), JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1 (tiếng Pháp), TCF Niveau 3 (tiếng Pháp), TOPIK 3 (tiếng Hàn).'}) - (Khái_niệm:Ngoại Ngữ 2)
+(Khái_niệm: Ngoại Ngữ 1) - (BAO_GỒM:{}) - (Ngoại_ngữ:Tiếng Anh)
+(Khái_niệm: Ngoại Ngữ 2) - (BAO_GỒM:{}) - (Ngoại_ngữ:Tiếng Pháp)
+(Khái_niệm: Ngoại Ngữ 2) - (BAO_GỒM:{}) - (Ngoại_ngữ:Tiếng Trung)
+(Ngành: Ngôn Ngữ Anh) - (YÊU_CẦU:{'điều_kiện': 'Tiếng Pháp bậc 3/6 hoặc các chứng chỉ Delf B1, Tcf Niveau 3'}) - (Ngoại_ngữ:Tiếng Pháp)
+(Ngành: Ngôn Ngữ Anh) - (YÊU_CẦU:{'điều_kiện': 'Tiếng Trung bậc 3/6 hoặc các chứng chỉ Hsk 3'}) - (Ngoại_ngữ:Tiếng Trung)
+(Ngành: Ngôn Ngữ Trung Quốc) - (YÊU_CẦU:{'điều_kiện': 'Tiếng anh bậc 3/6 hoặc các chứng chỉ Cefr B1, Ielts 4.5, Toefl Ibt 45, Toeic 450, Aptis Esol General B1, Aptis Esol Advanced B1, Linguaskill B1'}) - (Ngoại_ngữ:Tiếng Anh)
+(Ngành: Ngôn Ngữ Trung Quốc) - (YÊU_CẦU:{'điều_kiện': 'Tiếng Pháp bậc 3/6 hoặc các chứng chỉ Delf B1, Tcf Niveau 3'}) - (Ngoại_ngữ:Tiếng Pháp)
+(Ngành: Chất Lượng Cao) - (YÊU_CẦU:{'điều_kiện': 'Tiếng anh bậc 4/6 hoặc các chứng chỉ Cefr B2, Ielts 5.5, Toefl Ibt 61, Toeic 600, Aptis Esol General B2, Aptis Esol Advanced B2, Linguaskill B2, Delf B2, Tcf Niveau 4, Topik 4'}) - (Ngoại_ngữ:Tiếng Anh)
+(Ngành: Chất Lượng Cao) - (YÊU_CẦU:{'điều_kiện': 'Tiếng Pháp 4/6 hoặc các chứng chỉ Delf B2, Tcf Niveau 4'}) - (Ngoại_ngữ:Tiếng Pháp)
+(Ngành: Các Ngành Khác) - (YÊU_CẦU:{'điều_kiện': 'Tiếng Anh 3/6 hoặc các chứng chỉ Cefr B1, Ielts 4.5, Toefl Ibt 45, Toeic 450, Aptis Esol General B1, Aptis Esol Advanced B1, Linguaskill B1'}) - (Ngoại_ngữ:Tiếng Anh)
+(Ngành: Các Ngành Khác) - (YÊU_CẦU:{'điều_kiện': 'Tiếng Pháp 3/6 hoặc các chứng chỉ 'Delf B1, Tcf Niveau 3}) - (Ngoại_ngữ:Tiếng Pháp)
+(Ngành: Các Ngành Khác) - (YÊU_CẦU:{'điều_kiện': 'Tiếng Trung 3/6 hoặc các chứng chỉ Hsk 3'}) - (Ngoại_ngữ:Tiếng Trung)
+(Ngoại_ngữ: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr C1)
+(Ngoại_ngữ: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cae 60)
+(Ngoại_ngữ: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 6.5)
+(Ngoại_ngữ: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 85)
+(Ngoại_ngữ: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 850)
+(Ngoại_ngữ: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General C)
+(Ngoại_ngữ: Tiếng Anh Bậc 5/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced C1)
+(Ngoại_ngữ: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Delf B1)
+(Ngoại_ngữ: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Tcf Niveau 3)
+(Ngoại_ngữ: Tiếng Trung Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Hsk 3)
+(Ngoại_ngữ: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr B1)
+(Ngoại_ngữ: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 4.5)
+(Ngoại_ngữ: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 45)
+(Ngoại_ngữ: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 450)
+(Ngoại_ngữ: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General B1)
+(Ngoại_ngữ: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced B1)
+(Ngoại_ngữ: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Linguaskill B1)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr B2)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 5.5)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 61)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 600)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General B2)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced B2)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Linguaskill B2)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Delf B2)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Tcf Niveau 4)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Topik 4)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Cefr B2)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Ielts 5.5)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toefl Ibt 61)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Toeic 600)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol General B2)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Aptis Esol Advanced B2)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Linguaskill B2)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Delf B2)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Tcf Niveau 4)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Topik 4)
+(Ngoại_ngữ: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N4)
+(Ngoại_ngữ: Tiếng Pháp Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest E)
+(Ngoại_ngữ: Tiếng Trung Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N4)
+(Ngoại_ngữ: Tiếng Trung Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest E)
+(Ngoại_ngữ: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N4)
+(Ngoại_ngữ: Tiếng Anh Bậc 3/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest E)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N3)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest D)
+(Ngoại_ngữ: Tiếng Pháp Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Hsk 4)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jlpt N3)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Jtest D)
+(Ngoại_ngữ: Tiếng Anh Bậc 4/6) - (TƯƠNG_ĐƯƠNG:{}) - (Chứng_chỉ:Hsk 4)
 ----------------------------------------
 Sai
 (Ngành: Ngành Sư Phạm Tiếng Anh) - (CẤP_CHỨNG_CHỈ:{}) - (Tổ_chức:Trường Đại Học Quy Nhơn)

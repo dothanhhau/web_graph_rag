@@ -56,4 +56,4 @@ neo4j_schema.json
 
 no_nodes_or_relationships.txt
 
-prompt.txt
+graph_output.json

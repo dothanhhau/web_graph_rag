@@ -549,6 +549,8 @@ Chủ_thể - Sinh Viên - {}
 Hoạt_động - Đăng Ký Làm Đồ Án, Khoá Luận Tốt Nghiệp - {}
 Ngành_đào_tạo - Ngành Đào Tạo Kỹ Sư - {}
 Ngành_đào_tạo - Ngành Đào Tạo Còn Lại - {}
+Học_phần - Giáo Dục Thể Chất - {}
+Học_phần - Giáo Dục Quốc Phòng - An Ninh - {}
 Yêu_cầu - Điểm Trung Bình Chung Học Tập - {}
 Chủ_thể - Khoa Quản Lý Ngành Đào Tạo - {}
 Danh_sách - Danh Sách Sinh Viên - {}
@@ -569,9 +571,6 @@ Thời_gian - Thời Gian Thực Tập Chuyên Môn Cuối Khoá - {}
 (Chủ_thể: Khoa Quản Lý Ngành Đào Tạo) - (NỘP_DANH_SÁCH:{}) - (Chủ_thể:Nhà Trường)
 (Chủ_thể: Nhà Trường) - (RA_QUYẾT_ĐỊNH:{}) - (Chủ_thể:Sinh Viên)
 (Thời_gian: Thời Gian Thực Tập Chuyên Môn Cuối Khoá) - (KẾT_HỢP:{}) - (Hoạt_động:Làm Đồ Án Hoặc Khoá Luận Tốt Nghiệp)
-không cần
-Học_phần - Giáo Dục Thể Chất - {}
-Học_phần - Giáo Dục Quốc Phòng - An Ninh - {}
 ----------------------------------------
 Điều - Điều 15 - {}
 Hoạt_động - Đánh Giá Đồ Án, Khoá Luận Tốt Nghiệp - {}
@@ -602,6 +601,7 @@ Khoản - Khoản 1 Điều 5 - {}
 Khoản - Khoản 2 Điều 5 - {}
 Khái_niệm - Học Phần Tự Chọn - {}
 Hoạt_động - Đăng Ký Học Lại - {}
+Hoạt_động - Học Đổi Học Phần Tự Chọn Khác - {}
 Mục_đích - Cải Thiện Điểm Trung Bình Chung Tích Lũy - {}
 (Điều: Điều 16) - (QUY_ĐỊNH:{}) - (Chủ_thể:Sinh Viên)
 (Chủ_thể: Sinh Viên) - (CÓ:{}) - (Khái_niệm:Điểm Học Phần Không Đạt)
@@ -609,13 +609,9 @@ Mục_đích - Cải Thiện Điểm Trung Bình Chung Tích Lũy - {}
 (Hoạt_động: Đăng Ký Học Lại) - (TRONG:{}) - (Khái_niệm:Học Kỳ Tiếp Theo)
 (Hoạt_động: Đăng Ký Học Lại) - (ĐẠT:{'theo_quy_định': 'Khoản 1 và Khoản 2 Điều 5'}) - (Khái_niệm:Điểm Trên F)
 (Chủ_thể: Sinh Viên) - (CÓ:{}) - (Khái_niệm:Học Phần Tự Chọn)
+(Chủ_thể: Sinh Viên) - (PHẢI_THỰC_HIỆN:{'điều_kiện': 'điểm F'}) - (Hoạt_động:Học Đổi Học Phần Tự Chọn Khác)
 (Chủ_thể: Sinh Viên) - (ĐƯỢC_QUYỀN:{}) - (Mục_đích:Cải Thiện Điểm Trung Bình Chung Tích Lũy)
 (Chủ_thể: Sinh Viên) - (ĐƯỢC_QUYỀN:{'mục_đích': 'cải thiện điểm trung bình chung tích lũy'}) - (Hoạt_động:Đăng Ký Học Lại)
-
-sai 
-Hoạt_động - Học Đổi Học Phần Tự Chọn Khác - {}
-(Chủ_thể: Sinh Viên) - (PHẢI_THỰC_HIỆN:{'điều_kiện': 'điểm F'}) - (Hoạt_động:Học Đổi Học Phần Tự Chọn Khác)
-
 ----------------------------------------
 Khái_niệm - Điểm Trung Bình Chung Học Kỳ - {'định_nghĩa': 'Điểm trung bình chung học kỳ được tính theo công thức A = (Σ (i = 1 -> n) [a_i * n_i]) / (Σ (i = 1 -> n) [n_i]) và làm tròn đến 2 chữ số thập phân.', 'phạm_vi': 'Bao gồm tất cả các học phần được đánh giá đạt và không đạt trong học kỳ.'}
 Khái_niệm - Điểm Trung Bình Chung Tích Lũy - {'định_nghĩa': 'Điểm trung bình chung tích lũy được tính theo công thức A = (Σ (i = 1 -> n) [a_i * n_i]) / (Σ (i = 1 -> n) [n_i]) và làm tròn đến 2 chữ số thập phân.', 'phạm_vi': 'Bao gồm các học phần được đánh giá đạt đến thời điểm xét.'}

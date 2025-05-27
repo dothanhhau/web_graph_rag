@@ -1,0 +1,406 @@
+Quy chế đào tạo trình độ đại học
+Điều 1:
+(Quy_chế: Quy Chế Này) - (ÁP_DỤNG:{'hình_thức': 'học theo hình thức chính quy và hình thức vừa làm vừa học'}) - (Chủ_thể:Sinh Viên)
+(Quy_chế: Quy Chế Này) - (ÁP_DỤNG:{'hình_thức': 'học theo hình thức chính quy và hình thức vừa làm vừa học'}) - (Chủ_thể:Giảng Viên)
+(Quy_chế: Quy Chế Này) - (ÁP_DỤNG:{'hình_thức': 'học theo hình thức chính quy và hình thức vừa làm vừa học'}) - (Chủ_thể:Các Đơn Vị)
+(Quy_chế: Quy Chế Này) - (ÁP_DỤNG:{'hình_thức': 'học theo hình thức chính quy và hình thức vừa làm vừa học'}) - (Chủ_thể:Tổ Chức)
+(Quy_chế: Quy Chế Này) - (ÁP_DỤNG:{'hình_thức': 'học theo hình thức chính quy và hình thức vừa làm vừa học'}) - (Chủ_thể:Cá Nhân)
+
+Điều 2:
+Điều: Điều 2 - {'tiêu_đề': 'Chương trình đào tạo và thời gian học tập'}
+Khái_niệm: Thời gian học tối đa - {}
+Khái_niệm: Học Liên Thông - {}
+Khái_niệm - Chương Trình Đào Tạo - {'bao_gồm': 'mục tiêu, khối lượng kiến thức, cấu trúc, nội dung, phương pháp và hình thức đánh giá đối với môn học, ngành học, trình độ đào tạo, chuẩn đầu ra', 'điều_kiện': 'phải được công khai đối với người học trước khi tuyển sinh và khi bắt đầu khóa học; những thay đổi, điều chỉnh liên quan đến chương trình đào tạo được thực hiện theo quy định hiện hành và công bố trước khi áp dụng, không gây tác động bất lợi cho sinh viên.'}
+(Học_phần: Giáo dục thể chất)
+(Học_phần: Giáo dục quốc phòng - an ninh)
+
+(Khái_niệm: Chương Trình Đào Tạo) - (THEO_QUY_ĐỊNH:{}) - (Chủ_thể:Bộ Giáo Dục Và Đào Tạo)
+(Khái_niệm:Khối Lượng Học Tập) - (KHÔNG_TÍNH: {}) - (Học_phần: Giáo dục thể chất)
+(Khái_niệm:Khối Lượng Học Tập) - (KHÔNG_TÍNH: {}) - (Học_phần: Giáo dục quốc phòng - an ninh)
+
+(Khái_niệm: Thời gian học tối đa) - (LIÊN_QUAN_ĐẾN: {'điều_kiện': 'không vượt quá 02 lần thời gian theo kế hoạch học tập chuẩn toàn khóa đối với mỗi hình thức đào tạo'}) - (Khái_niệm: Khối Lượng Học Tập)
+(Chủ_thể: Sinh Viên) - (THUỘC: {'ưu_đãi': 'được miễn trừ khối lượng tín chỉ tích lũy'}) - (Khái_niệm: Học Liên Thông)
+
+Điều 3:
+Điều - Điều 3 - {'tiêu_đề': 'Học phần, tín chỉ và đề cương chi tiết học phần'}
+(Khái_niệm: Mã Số)
+(Khái_niệm: Thời Khoá Biểu)
+
+(Khái_niệm: Học Phần ) - (CÓ: {}) - (Khái_niệm: Mã Số)
+(Khái_niệm: Học Phần ) - (CÓ: {}) - (Khái_niệm: Thời Khoá Biểu)
+(Chủ_thể:Giảng Viên) - (PHỔ_BIẾN:{}) - (Tài_liệu: Đề Cương Chi Tiết Học Phần)
+
+(Chủ_thể:Sinh Viên) - (PHẢI_HOÀN_THÀNH:{}) - (Loại_học_phần: Học Phần Điều Kiện)
+(Chủ_thể:Sinh Viên) - (PHẢI_HOÀN_THÀNH:{}) - (Loại_học_phần: Học Phần Trước)
+(Chủ_thể:Khoa) - (ĐỀ_XUẤT:{}) - (Loại_học_phần: Học Phần Tương Đương)
+(Chủ_thể:Khoa) - (ĐỀ_XUẤT:{}) - (Loại_học_phần: Học Phần Thay Thế)
+
+Điều 4:
+Điều - Điều 4 - {'tiêu_đề': 'Tổ chức lớp học, khoa quản lý ngành đào tạo và khoa quản lý học phần'}
+(Khái_niệm: Khoa Quản Lý Học Phần) - (QUẢN_LÝ:{'nhiệm_vụ': 'biên soạn đề cương chi tiết, xây dựng và thực hiện phương pháp kiểm tra, đánh giá kết quả học tập,nhập điểm đánh giá quá trình và điểm thi kết thúc học phần.'}) - (Khái_niệm:Học Phần)
+
+Điều 5:
+Điều - Điều 5 - {'tiêu_đề': 'Phương thức tổ chức đào tạo'}
+
+(Chủ_thể: Sinh Viên) - (KHÔNG_ĐẠT:{'quy_định': 'phải học lại học phần đó hoặc học một học phần tương đương theo quy định trong chương trình đào tạo, hoặc học một học phần thay thế nếu học phần đó không còn được giảng dạy.'}) - (Khái_niệm:Học Phần Bắt Buộc)
+(Chủ_thể: Sinh Viên) - (KHÔNG_ĐẠT:{'quy_định': 'phải học lại học phần đó hoặc có thể chọn học một học phần tự chọn khác theo quy định trong chương trình đào tạo.'}) - (Khái_niệm:Học Phần Tự Chọn)
+
+Điều 6:
+Điều - Điều 6 - {'tiêu_đề': 'Hình thức đào tạo'}
+
+Điều 7:
+Điều - Điều 7 - {'tiêu_đề': 'Liên kết đào tạo'}
+Khái_niệm - Quy Định Về Liên Kết - {'yêu_cầu': 'đã thẩm định các điều kiện bảo đảm chất lượng của cơ sở phối hợp đào tạo;'}
+Khái_niệm - Chương Trình Đào Tạo Dự Kiến - {'yêu_cầu': 'đã được tổ chức đào tạo tối thiểu 03 khóa liên tục theo hình thức chính quy', 'từ_năm': '2024','yêu_cầu_chất_lượng': 'đã được công nhận đạt tiêu chuẩn chất lượng'}
+
+(Hoạt_động: Liên Kết Đào Tạo) - (YÊU_CẦU:{'điều_kiện': 'Đã ban hành quy định về liên kết và đã thẩm định các điều kiện bảo đảm chất lượng của cơ sở phối hợp đào tạo;'}) - (Chủ_thể:Cơ Sở Phối Hợp Đào Tạo)
+(Hoạt_động: Liên Kết Đào Tạo) - (YÊU_CẦU:{}) - (Khái_niệm:Chương Trình Đào Tạo Dự Kiến)
+(Chủ_thể: Trường Đại Học Quy Nhơn) - (KÝ_KẾT_HỢP_ĐỒNG:{'nội_dung': 'thỏa thuận cụ thể về quyền và trách nhiệm của các bên trong việc phối hợp tổ chức thực hiện, quản lý quá trình dạy học bảo đảm chất lượng đào tạo và thực hiện nội dung đã thỏa thuận phù hợp với các quy định hiện hành và các quy định pháp luật khác có liên quan;'}) - (Chủ_thể:Cơ Sở Phối Hợp Đào Tạo)
+(Chủ_thể: Trường Đại Học Quy Nhơn) - (CÓ_TRÁCH_NHIỆM: {'nội_dung': 'quản lý chất lượng đào tạo; báo cáo hoạt động liên kết đào tạo với Ủy ban nhân dân cấp tỉnh nơi liên kết đào tạo trước khi tổ chức tuyển sinh; nếu cơ sở phối hợp đào tạo không đáp ứng được các yêu cầu về bảo đảm chất lượng theo quy định của học phần hoặc của chương trình đào tạo thì phải chuyển sinh viên về Trường để tiếp tục đào tạo;'}) - (Hoạt_động: Liên Kết Đào Tạo)
+(Chủ_thể:Cơ Sở Phối Hợp Đào Tạo) - (CÓ_TRÁCH_NHIỆM: {'nội_dung': 'bảo đảm đủ điều kiện cơ sở vật chất thực hiện đào tạo; tham gia quản lý, giảng dạy, theo thỏa thuận giữa hai bên;'}) - (Chủ_thể: Trường Đại Học Quy Nhơn)
+(Chủ_thể: Trường Đại Học Quy Nhơn) - (CÓ_TRÁCH_NHIỆM: {'nội_dung': 'về việc thực hiện hợp đồng liên kết đào tạo; thực hiện các quy chế về tuyển sinh, đào tạo; bảo đảm quyền lợi chính đáng cho giảng viên, sinh viên trong suốt quá trình thực hiện hoạt động đào tạo.'}) - (Khái_niệm: Pháp Luật)
+(Chủ_thể:Cơ Sở Phối Hợp Đào Tạo)- (CÓ_TRÁCH_NHIỆM: {'nội_dung': 'về việc thực hiện hợp đồng liên kết đào tạo; thực hiện các quy chế về tuyển sinh, đào tạo; bảo đảm quyền lợi chính đáng cho giảng viên, sinh viên trong suốt quá trình thực hiện hoạt động đào tạo.'}) - (Khái_niệm: Pháp Luật)
+
+Điều 8:
+
+Điều 9:
+Điều - Điều 9 - {'tiêu_đề': 'Tổ chức đăng ký học tập'}
+Đợt_đăng_ký - Đợt 1 - {'mô_tả': 'là đợt đăng ký chính, được tổ chức trước khi bắt đầu mỗi học kỳ từ 1 đến 2 tháng. Tất cả sinh viên đều phải đăng ký học phần sẽ học trong học kỳ kể cả học phần học lại hoặc cải thiện điểm.'}
+Đợt_đăng_ký - Đợt 2 - {'mô_tả': 'tổ chức sau đợt 1 một tuần dành cho sinh viên đăng ký rơi vào các lớp học phần bị hủy, đăng ký lại vào các lớp học phần khác.'}
+Đợt_đăng_ký - Đợt 3 - {'mô_tả': 'là đợt bổ sung được thực hiện trong tuần đầu của học kỳ để xử lý các trường hợp sai sót kỹ thuật, rút bớt học phần đã đăng ký, đăng ký học phần với các lớp năm thứ nhất sau kỳ tuyển sinh.'}
+Khái_niệm - Khối Lượng Học Tập - {'ngoại_lệ': 'không tính học phần Giáo dục quốc phòng - an ninh'}
+
+(Chức_vụ: Lớp Trưởng) - (THEO_DÕI:{'trách_nhiệm': 'theo dõi các thông báo về thời điểm, quy trình, thủ tục đăng ký học trên website của Phòng Đào tạo đại học, của Trường, trên bảng tin của khoa, của Phòng Công tác chính trị và Sinh viên, trên các giảng đường để đăng ký học phần kịp thời, đúng quy định.'}) - (Chủ_thể:Sinh Viên)
+(Chủ_thể: Sinh Viên) - (ĐĂNG_KÝ:{'sử_dụng': 'tài khoản cá nhân tự đăng ký lớp học phần', 'ngoại_lệ': 'trừ học kỳ 01 của năm thứ nhất và các lớp học phần đặc thù theo hướng dẫn của Nhà trường;', 'yêu_cầu': 'chịu trách nhiệm bảo mật tài khoản và chịu trách nhiệm về việc đăng ký lớp học phần'}) - (Hoạt_động:Đăng Ký Học Tập)
+(Chủ_thể: Nhà Trường) - (LƯU_TRỮ:{'nội_dung': 'việc đăng ký học tập của sinh viên ở mỗi học kỳ trên hệ thống dữ liệu của phần mềm Quản lý đào tạo'}) - (Hệ_thống:Hệ Thống Đăng Ký Học Tập)
+(Chủ_thể: Phòng Đào Tạo Đại Học) - (QUY_ĐỊNH:{'thời_gian': 'bắt đàu và kết thúc'}) - (Thời_gian:Thời Gian Đăng Ký)
+(Khái_niệm: Khối Lượng Học Tập) - (ĐỐI_VỚI: {'nội_dung': 'khối lượng học tập tối thiểu không ít hơn 2/3 và khối lượng học tập tối đa không vượt quá 3/2 khối lượng trung bình một học kỳ theo kế hoạch học tập chuẩn (không tính các học phần điều kiện)'}) - (Học_kỳ: Học Kỳ Chính)
+(Khái_niệm: Khối Lượng Học Tập) - (ĐỐI_VỚI: {'nội_dung': 'khối lượng học tập tối đa không vượt quá 10 tín chỉ (không quy định khối lượng học tập tối thiểu).'}) - (Học_kỳ: Học Kỳ Phụ)
+(Hoạt_động: Tổ Chức Đăng Ký Học Tập) - (BAO_GỒM:{'nội_dung': 'Đầu mỗi kỳ học, căn cứ chương trình đào tạo, Nhà trường thông báo kế hoạch học tập, danh sách các học phần, số lượng tín chỉ của mỗi học phần, hình thức kiểm tra và thời gian kết thúc học phần. Sinh viên tham gia học tập theo thời khóa biểu do Nhà trường quy định.'}) - (Hình_thức_đào_tạo:Đào Tạo Vừa Làm Vừa Học)
+
+
+(Chủ_thể: Nhà Trường) - (THÔNG_BÁO: {'thời_gian': 'Trước khi bắt đầu mỗi kỳ'}) - (Khái_niêm: kế hoạch và hướng dẫn cho sinh viên đăng ký học tập)
+
+(Yêu_cầu:Khối Lượng Học Tập Tối Thiểu) - (KHÔNG_TÍNH:{}) - (Học_phần:Học Phần Giáo Dục Quốc Phòng - An Ninh)
+
+
+Điều 10:
+Điều - Điều 10 - {'tiêu_đề': 'Tổ chức giảng dạy và học tập'}
+Hình_thức_đào_tạo - Đào tạo chính quy - {}
+Hình_thức_đào_tạo - Đào Tạo Vừa Làm Vừa Học - {}
+Hoạt_động - Phân Công Giảng Viên Giảng Dạy - {}
+(Yêu_cầu: công khai, minh bạch, công bằng, hợp lý)
+(Yêu_cầu: Đảm bảo số giờ giảng dạy định mức cho giảng viên)
+Tổ_chức: Trường
+Tổ_chức - Các Đơn Vị - {'trách_nhiệm': 'Phải thực hiện đúng các nguyên tắc phân công giảng dạy. Khi tổ chức phân công giảng dạy phải công khai khối lượng giảng dạy dự kiến của từng giảng viên, giải quyết các ý kiến đề xuất của giảng viên (nếu có) trước khi cập nhật lên hệ thống đăng ký giảng dạy của Nhà trường.'}
+Khái_niệm - Trách Nhiệm Và Quyền Hạn Của Giảng Viên - {'nội_dung': 'Giảng dạy, hướng dẫn thí nghiệm, thực hành, thực tập, đồ án, khóa luận, kiểm tra, đánh giá theo đúng đề cương chi tiết học phần và kế hoạch giảng dạy đã được phê duyệt; Được bảo đảm trang thiết bị, phương tiện, điều kiện để tổ chức giảng dạy.'}
+Khái_niệm - Trách Nhiệm Và Quyền Hạn Của Sinh Viên - {'nội_dung': '- Thực hiện đúng quy chế đào tạo và các quy định của giảng viên giảng dạy lớp học phần công bố trong đề cương chi tiết; Tôn trọng giảng viên, viên chức và người hợp đồng lao động của Trường; đoàn kết giúp đỡ lẫn nhau trong học tập và rèn luyện; Nộp học phí và các khoản thu khác theo quy định; Được tôn trọng và đối xử bình đẳng, bảo đảm điều kiện học tập, tham gia hoạt động khoa học, công nghệ và khởi nghiệp, hoạt động rèn luyện kỹ năng hoàn thiện bản thân; Được sử dụng trang thiết bị, phương tiện phục vụ các hoạt động học tập, nghiên cứu khoa học, văn hóa, thể dục, thể thao của Nhà trường.'}
+
+(Hoạt_động: Phân Công Giảng Viên Giảng Dạy) - (NGUYÊN_TẮC: {}) - (Yêu_cầu: công khai, minh bạch, công bằng, hợp lý)
+(Hoạt_động: Phân Công Giảng Viên Giảng Dạy) - (NGUYÊN_TẮC: {}) - (Yêu_cầu: Đảm bảo số giờ giảng dạy định mức cho giảng viên)
+
+(Tổ_chức: Trường) - (TỔ_CHỨC: 'nội_dung': 'về các điều kiện bảo đảm chất lượng, hiệu quả học tập vào cuối mỗi học kỳ, mỗi năm học và cuối khóa học bằng hình thức khảo sát trực tuyến và các hình thức khác;') - (Hoạt_động: Lấy Ý Kiến Phản Hồi Của Người Học)
+
+(Chủ_thể:Sinh Viên) - (CÓ_TRÁCH_NHIỆM: {'nội_dung': 'trả lời phiếu khảo sát trung thực, khách quan, có thái độ đúng mực trong việc cung cấp thông tin phản hồi;'}) - (Hoạt_động: Lấy Ý Kiến Phản Hồi Của Người Học)
+
+
+(Chủ_thể:Đội Ngũ Giảng Viên) - (ĐÓI_VỚI: {'nội_dung': 'được cấp tài khoản cá nhân để xem kết quả phản hồi của người học từ hệ thống phần mềm khảo sát và sử dụng kết quả phản hồi để rà soát, điều chỉnh và cải tiến hoạt động giảng dạy;'}) - (Hoạt_động: Lấy Ý Kiến Phản Hồi Của Người Học)
+(Chủ_thể:Phòng Khảo Thí Và Bảo Đảm Chất Lượng) - (CHỊU_TRÁCH_NHIỆM:{'nội_dung': 'tổng hợp, xử lý thông tin phản hồi, báo cáo Hiệu trưởng, gửi kết quả phản hồi cho các Trưởng khoa, các Trưởng đơn vị có liên quan làm căn cứ đề xuất các biện pháp cải tiến và nâng cao chất lượng đào tạo.'}) - (Hoạt_động: Lấy Ý Kiến Phản Hồi Của Người Học)
+(Hoạt_động: Phân Công Giảng Viên Giảng Dạy) - (PHỐI_HỢP:{'dựa_vào': 'chương trình đào tạo, kế hoạch đào tạo năm học, số lượng sinh viên, lập kế hoạch mở các lớp học phần;', 'nhiệm_vụ': '}) - (Chủ_thể:Phòng Đào Tạo Đại Học)
+(Hoạt_động: Phân Công Giảng Viên Giảng Dạy) - (PHỐI_HỢP:{'vai_trò': 'đề xuất bổ sung, điều chỉnh kế hoạch mở lớp học phần và được sự thống nhất của Nhà trường; đề xuất giảng viên do khoa quản lý, giảng dạy một số lớp học phần được mở cho chương trình đào tạo của khoa;'}) - (Chủ_thể:Khoa Quản Lý Ngành Đào Tạo)
+(Hoạt_động: Phân Công Giảng Viên Giảng Dạy) - (PHỐI_HỢP:{'nhiệm_vụ': 'phân công giảng viên cho các lớp học phần do khoa quản lý;'}) - (Chủ_thể:Khoa Quản Lý Học Phần)'}
+(Chủ_thể:Phòng Đào Tạo Đại Học) - (PHỐI_HỢP:{'nhiệm_vụ': 'kiểm tra, thống kê giờ giảng được phân công và báo cáo Hiệu trưởng trước khi tổ chức cho sinh viên đăng ký học phần. Tùy thuộc số lượng sinh viên đăng ký, Phòng Đào tạo đại học phối hợp với các khoa để điều chỉnh các lớp học phần, hoàn thiện kế hoạch.'}) - (Chủ_thể:Khoa Quản Lý Học Phần)'}
+(Hoạt_động: Tổ Chức Giảng Dạy Và Học Tập) - (PHÁT_HUY:{'nội_dung': 'năng lực chuyên môn và trách nhiệm nghề nghiệp của đội ngũ giảng viên, phù hợp với quy định về chế độ làm việc của giảng viên;'}) - (Chủ_thể:Đội Ngũ Giảng Viên)
+(Hoạt_động: Tổ Chức Giảng Dạy Và Học Tập) - (PHÁT_HUY:{'nội_dung': 'vai trò chủ động đồng thời đề cao trách nhiệm của sinh viên, tạo điều kiện và động lực để sinh viên nỗ lực học tập; giữ vững ký cương học đường, nâng cao chất lượng và hiệu quả đào tạo;'}) - (Chủ_thể:Sinh Viên)
+(Hoạt_động: Tổ Chức Giảng Dạy Và Học Tập) - (CÓ:{'dựa_trên': 'thu thập, đánh giá ý kiến phản hồi của người học.'}) - (Khái_niệm:Hệ Thống Cải Tiến Chất Lượng)
+(Hoạt_động: Dạy Và Học Trực Tuyến) - (TỔ_CHỨC:{'vai_trò': 'các lớp học trực tuyến khi đáp ứng các quy định hiện hành về ứng dụng công nghệ thông tin trong quản lý và tổ chức đào tạo qua mạng: có các giải pháp bảo đảm chất lượng và minh chứng chất lượng lớp học trực tuyến không thấp hơn chất lượng lớp học trực tiếp;'}) - (Chủ_thể:Trường)
+(Hoạt_động: Dạy Và Học Trực Tuyến) - (ĐỐI_VỚI:{'yêu_cầu': 'tối đa 30% tổng số tín chỉ của chương trình đào tạo được thực hiện bằng lớp học trực tuyến. Trong trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác, Trường thực hiện theo hướng dẫn của Bộ Giáo dục và Đào tạo.'}) - (Hình_thức_đào_tạo:Đào Tạo Chính Quy)
+(Hoạt_động: Dạy Và Học Trực Tuyến) - (ĐỐI_VỚI:{'yêu_cầu': 'tối đa 30% tổng số tín chỉ của chương trình đào tạo được thực hiện bằng lớp học trực tuyến. Trong trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác, Trường thực hiện theo hướng dẫn của Bộ Giáo dục và Đào tạo.'}) - (Hình_thức_đào_tạo:Đào Tạo Vừa Làm Vừa Học)
+
+Điều 11:
+Điều - Điều 15
+Khái_niệm - Thang Điểm 10 - {'khái_niệm': 'Gồm các số từ 0 đến 10 (với một số lẻ thập phân) được sử dụng để đánh giá và ghi điểm đánh giá quá trình, điểm thi kết thúc học phần và điểm học phần;'}
+Khái_niệm - Thang Điểm Chữ - {'khái_niệm': 'Dùng để xếp loại học phần theo một cách khác tương ứng với điểm học phần trong thang điểm 10;'}
+Khái_niệm - Thang Điểm 4 - {'khái_niệm': 'Dùng để tính điểm trung bình chung học kỳ, trung bình chung tích lũy, để đánh giá kết quả học tập của sinh viên sau mỗi học kỳ, giai đoạn và xếp loại tốt nghiệp.'}
+Xếp_loại - Xếp loại A+ - {'điều_kiện': 'điểm từ 9 đến 10, thang điểm 4 là 4, kết quả là Đạt'}
+Xếp_loại - Xếp loại A - {'điều_kiện': 'điểm từ 8 đến 8.9, thang điểm 4 là 3.5, kết quả là Đạt'}
+Xếp_loại - Xếp loại B+ - {'điều_kiện': 'điểm từ 7 đến 7.9, thang điểm 4 là 3, kết quả là Đạt'}
+Xếp_loại - Xếp loại B - {'điều_kiện': 'điểm từ 6 đến 6.9, thang điểm 4 là 2.5, kết quả là Đạt'}
+Xếp_loại - Xếp loại C - {'điều_kiện': 'điểm từ 5 đến 5.9, thang điểm 4 là 2, kết quả là Đạt'}
+Xếp_loại - Xếp loại D - {'điều_kiện': 'điểm từ 4 đến 4.9, thang điểm 4 là 1.5, kết quả là Đạt'}
+Xếp_loại - Xếp loại F - {'điều_kiện': 'điểm từ 0 đến 3.9, thang điểm 4 là 0, kết quả là Không Đạt'}
+Khái_niệm - Điểm P - {'khái_niệm': 'Loại đạt không phân mức, áp dụng cho các học phần chỉ yêu cầu đạt, không tính vào điểm trung bình học tập: từ 5,0 trở lên'}
+Khái_niệm - Điểm I - {'khái_niệm': 'là điểm chưa hoàn thiện do được phép hoãn thi, kiểm tra;'}
+Khái_niệm - Điểm X - {'khái_niệm': 'là điểm chưa hoàn thiện do chưa đủ dữ liệu;'}
+Khái_niệm - Điểm R - {'khái_niệm': 'là điểm học phần được miễn học và công nhận tín chỉ;'}
+Khái_niệm - Điểm M - {'khái_niệm': 'là điểm học phần được miễn (không tính vào điểm trung bình học tập).'}
+
+Điểm: Điểm 0
+(Chủ_thể: Sinh Viên) - (PHẢI_NHẬN: {'trường_hợp': 'bỏ học, bỏ kiểm tra hoặc bỏ thi không có lý do'}) - (Điểm: Điểm 0)
+
+(Học_phần:Đồ Án Tốt Nghiệp) - (THAM_CHIẾU) - (Điều: Điều 15)
+(Khái_niệm:Điểm Tổng Hợp Đánh Giá Học Phần) - (ĐỐI_VỚI: {'nội_dung': 'Điểm trung bình cộng của điểm các bài thực hành trong học kỳ được làm tròn đến một chữ số thập phân là điểm của học phần thực hành.'}) - (Học_phần: Học Phần Thí Nghiệm, Thực Hành)
+(Khái_niệm:Điểm Tổng Hợp Đánh Giá Học Phần) - (ĐỐI_VỚI: {'nội_dung': 'học phần đặc thù như thực tập, thực tế, đề án môn học, đồ án môn học,... khoa quản lý học phần đề xuất việc đánh giá học phần, Hiệu trưởng quyết định.'}) - (Học_phần: Học Phần Đặc Thù)
+(Khái_niệm:Điểm I) - (ÁP_DỤNG: {'điều_kiện': 'Trong thời gian học hoặc trong thời gian thi kết thúc học phần, sinh viên bị ốm hoặc tai nạn không thể dự kiểm tra hoặc thi, đã nộp đầy đủ, đúng hạn giấy tờ theo quy định; Sinh viên không thể dự kiểm tra đánh giá quá trình hoặc thi vì những lý do khách quan, được Trưởng khoa và Phòng Đào tạo đại học chấp thuận.', 'thời_hạn_quy_đổi': 'trong thời gian tối đa là 2 học kỳ chính tiếp theo, sinh viên phải làm đơn đăng ký dự thi để hoàn tất học phần còn nợ. Sau khi thi, điểm I sẽ được chuyển đổi thành điểm mà sinh viên đạt được. Nếu qua 2 học kỳ chính sinh viên không đăng ký dự thi thì điểm I sẽ bị đổi thành điểm 0 (không).'}) - (Chủ_thể: Sinh Viên)
+(Khái_niệm:Điểm X) - (ÁP_DỤNG: {'điều_kiện': 'áp dụng đối với những học phần mà Phòng Đào tạo đại học của Trường chưa nhận được báo cáo kết quả học tập của sinh viên từ khoa chuyển qua; sau khi đã có các kết quả đánh giá thành phần mà trước đó sinh viên được giảng viên cho phép nợ;'}) - (Chủ_thể: Sinh Viên)
+(Khái_niệm:Điểm R) - (ÁP_DỤNG: {'điều_kiện': 'hững học phần được công nhận kết quả, khi sinh viên chuyển từ Trường khác đến hoặc chuyển đổi giữa các chương trình hoặc chuyển đổi điểm học phần Tiếng Anh 1, Tiếng Anh 2 cho sinh viên năm thứ nhất các ngành không chuyên ngữ.'}) - (Chủ_thể: Sinh Viên)
+
+Điều 12:
+Điều - Điều 12 - {'tiêu_đề': 'Đánh giá quá trình và thi kết thúc học phần'}
+Khái_niệm: điểm đánh giá quá trình - {}
+Khái_niêm: Lóp học phần - {}
+
+(Hoạt_động:Đánh Giá Quá Trình Học Tập) - (THAM_CHIẾU:{}) - (Tài_liệu:Đề Cương Chi Tiết)
+(Chủ_thể: Giảng Viên Phụ Trách Học Phần) - (CÔNG_BỐ:{'nội_dung': 'điểm đánh giá quá trình cho lớp học phần'}) - (Khái_niêm: Lóp học phần)
+
+(Chủ_thể: Giảng Viên Phụ Trách Học Phần) - (GỬI:{'nội_dung': 'điểm đánh giá quá trình cho lớp học phần'}) - (Khái_niêm:Lớp Học Phần)
+(Chủ_thể: Trường) - (TỔ_CHỨC:{'số lần': '1 lần'}) - (Hoạt_động:Thi Kết Thúc Học Phần)
+
+Điều 13:
+Điều - Điều 13 - {'tiêu_đề': 'Ra đề thi, hình thức thi, chấm thi và số lần được dự thi kết thúc học phần'}
+Hoạt_động: Tạm thời hoãn thi - {}
+Hoạt_động: Dự thi - {}
+
+(Chủ_thể: Sinh Viên) - (XIN: {'điều_kiện': 'úng thủ tục theo quy định thì được dự thi, đánh giá ở học kỳ chính hoặc học kỳ phụ sau đó (nếu có) và được tính điểm lần đầu.
+Sinh viên vắng mặt trong buổi thi, đánh giá không có lý do chính đáng phải nhận điểm 0 (không).'}) - (Hoạt_động: Tạm thời hoãn thi)
+(Hoạt_động: Tạm thời hoãn thi) - (ĐƯỢC: {'điều_kiện': 'đúng thủ tục theo quy đinh'}) - (Hoạt_động: Dự thi)
+(Chủ_thể: Giảng Viên) - (TRÌNH: {'lý_do': 'không thống nhất điểm khi chấm thi'} - (Chủ_thể: Trưởng Bộ Môn)
+(Chủ_thể: Giảng Viên) - (TRÌNH: {'lý_do': 'không thống nhất điểm khi chấm thi'} - (Chủ_thể: Trưởng Khoa)
+(Chủ_thể: Sinh Viên) - (PHẢI_NHẬN: {'trường_hợp': 'vắng mặt trong buổi thi, đánh giá không có lý do chính đáng'}) - (Điểm: Điểm 0)
+
+
+Điều 14:
+Điều - Điều 14 - {'tiêu_đề': 'Làm đồ án hoặc khoá luận tốt nghiệp'}
+
+(Chủ_thể: Khoa Quản Lý Ngành Đào Tạo) - (NỘP_DANH_SÁCH:{'thời_hạn': '30 ngày trước khi bắt đầu học kỳ mới', 'nội_dung': 'danh sách sinh viên được giao đồ án, khoá luận tốt nghiệp và giảng viên hướng dẫn'}) - (Chủ_thể:Nhà Trường)
+(Thời_gian: Thời Gian Thực Tập Chuyên Môn Cuối Khoá) - (KẾT_HỢP:{'đói_với': 'một số ngành đào tạo đòi hỏi phải dành nhiều thời gian cho thí nghiệm hoặc khảo sát để sinh viên hoàn thành đồ án, khoá luận tốt nghiệp,'}) - (Hoạt_động:Làm Đồ Án Hoặc Khoá Luận Tốt Nghiệp)
+
+
+Điều 15:
+Điều - Điều 15 - {'tiêu_đề': 'Đánh giá đồ án, khoá luận tốt nghiệp'}
+Điều - Điều 11
+(Khái_niệm:Điểm Đánh Giá) - (THAM_CHIẾU) - (Điều: Điều 11)
+
+
+Điều 16:
+Điều - Điều 16 - {'tiêu_đề': 'Đánh giá đồ án, khoá luận tốt nghiệp'}
+Điều - Điều 5
+Hoạt_động - Học Lại Hoặc Đổi Học Phần Tự Chọn Khác - {}
+(Khái_niệm:Điểm Trên F) - (THAM_CHIẾU) - (Điều: Điều 5)
+(Chủ_thể: Sinh Viên) - (PHẢI_THỰC_HIỆN:{'điều_kiện': 'điểm F'}) - (Hoạt_động:Học Lại Hoặc Đổi Học Phần Tự Chọn Khác)
+
+
+Điều 17:
+Điều - Điều 17 - {'tiêu_đề': 'Cách tính điểm trung bình chung'}
+
+Điều 18:
+Điều - Điều 18 - {'tiêu_đề': 'Đánh giá kết quả học tập theo học kỳ, năm học'}
+
+(Hoạt_động: Đánh Giá Kết Quả Học Tập Theo Học Kỳ, Năm Học) - (ÁP_DỤNG_CHO:{'thời_gian': 'Sau mỗi học kỳ, căn cứ vào khối lượng kiến thức tích lũy được và số tín chỉ theo kế hoạch đào tạo đã thiết kế của từng ngành, sinh viên được xếp hạng năm đào tạo.'}) - (Chủ_thể:Sinh Viên)
+
+Điều 19:
+Điều - Điều 19 - {'tiêu_đề': 'Xử lý kết quả học tập'}
+Điều - Điều 2
+Khái_niêm: Thời gian học tập tối đa
+
+(Khái_niêm: Thời gian học tập tối đa) - (THAM_CHIẾU) - (Điều: Điều 2)
+(Chủ_thể: Sinh Viên) - (BỊ_CẢNH_BÁO:{'điều_kiện': 'Điểm trung bình học kỳ đạt dưới 0,8 đối với học kỳ đầu của khóa học, dưới 1,0 đối với các học kỳ tiếp theo; Điểm trung bình tích lũy đạt dưới 1,2 đối với sinh viên trình độ năm thứ nhất, dưới 1,4 đối với sinh viên trình độ năm thứ hai, dưới 1,6 đối với sinh viên trình độ năm thứ ba hoặc dưới 1,8 đối với sinh viên các năm tiếp theo.'}) - (Hình_thức_xử_lý:Cảnh Báo Học Tập)
+
+(Hoạt_động: Xử Lý Kết Quả Học Tập) - (ĐỐI_VỚI: {'cảnh_báo': 'Điểm trung bình học kỳ đạt dưới 0,8 đối với học kỳ đầu của khóa học, dưới 1,0 đối với các học kỳ tiếp theo; Điểm trung bình tích lũy đạt dưới 1,2 đối với sinh viên trình độ năm thứ nhất, dưới 1,4 đối với sinh viên trình độ năm thứ hai, dưới 1,6 đối với sinh viên trình độ năm thứ ba hoặc dưới 1,8 đối với sinh viên các năm tiếp theo.', 'buộc_thôi_học': 'Sinh viên đã bị cảnh báo 2 lần liên tiếp nhưng học kỳ tiếp theo vẫn rơi vào trường hợp nêu ở điểm a Khoản 1 của Điều này; Vượt quá thời gian tối đa được phép học tại Trường quy định tại khoản 5 Điều 2 của Quy chế này.'}) - (Phương_thức_đào_tạo: Đào Tạo Theo Tín Chỉ)
+(Hoạt_động: Xử Lý Kết Quả Học Tập) - (ĐỐI_VỚI: {'cảnh_báo': 'Điểm trung bình học kỳ đạt dưới 0,8 đối với học kỳ đầu của khóa học, dưới 1,0 đối với các học kỳ tiếp theo; Điểm trung bình tích lũy đạt dưới 1,2 đối với sinh viên trình độ năm thứ nhất, dưới 1,4 đối với sinh viên trình độ năm thứ hai, dưới 1,6 đối với sinh viên trình độ năm thứ ba hoặc dưới 1,8 đối với sinh viên các năm tiếp theo.', 'buộc_thôi_học': 'Sinh viên đã bị cảnh báo 2 lần liên tiếp nhưng học kỳ tiếp theo vẫn rơi vào trường hợp nêu ở điểm a Khoản 1 của Điều này; Vượt quá thời gian tối đa được phép học tại Trường quy định tại khoản 5 Điều 2 của Quy chế này.'}) - (Phương_thức_đào_tạo: Đào Tạo Theo Tín Chỉ)
+(Đơn_vị: Phòng Công Tác Chính Trị Và Sinh Viên) - (THÔNG_BÁO:{'lý_do': 'Chậm nhất là một tháng sau khi có quyết định buộc thôi học'}) - (Chủ_thể:Gia Đình Sinh Viên)
+(Chủ_thể: Sinh Viên) - (ĐẠT:{'điều_kiện': 'Điểm trung bình năm học đạt từ 1,0 trở lên đối với năm học thứ nhất, từ 1,2 trở lên đối với năm thứ hai và từ 1,4 đối với năm thứ ba trở đi; Số tín chỉ nợ đọng từ đầu khóa không vượt quá 16.'}) - (Trạng_thái:Tiến Độ Học Tập Bình Thường)
+(Hoạt_động: Xử Lý Kết Quả Học Tập) - (ĐỐI_VỚI: {'bị_thôi_học': 'Điểm trung bình năm học đạt dưới 0,8; Điểm trung bình tích lũy đạt dưới 1,2 sau 2 năm học, dưới 1,4 sau 3 năm học và dưới 1,6 từ sau 4 năm học trở đi; Thời gian học tập vượt quá giới hạn theo quy định tại khoản 5 Điều 2 của Quy chế này.'}) - (Phương_thức_đào_tạo: Đào Tạo Theo Niên Chế)
+
+Điều 20:
+Điều - Điều 20 - {'tiêu_đề': 'Công nhận kết quả học tập và chuyển đổi tín chỉ'}
+
+Điều 21:
+
+(Chủ_thể: Sinh Viên) - (ĐƯỢC: {}) - (Hoạt động: Điều kiện xét tốt nghiệp và công nhận tốt nghiệp)
+(Hoạt động: Điều kiện xét tốt nghiệp và công nhận tốt nghiệp) - (GỒM: {}) - (PHẢI_HOÀN_THÀNH:{'yêu_cầu': 'Tích lũy đủ học phần, số tín chỉ và hoàn thành các nội dung bắt buộc'}) - (Khái_niệm:Chương Trình Đào Tạo)
+(Hoạt động: Điều kiện xét tốt nghiệp và công nhận tốt nghiệp) - (PHẢI_ĐẠT:{'giá_trị_tối_thiểu': '2.00'}) - (Khái_niệm:Điểm Trung Bình Chung Tích Lũy)
+(Hoạt động: Điều kiện xét tốt nghiệp và công nhận tốt nghiệp) - (KHÔNG_BỊ:{}) - (Khái_niệm:Truy Cứu Trách Nhiệm Hình Sự)
+(Hoạt động: Điều kiện xét tốt nghiệp và công nhận tốt nghiệp) - (KHÔNG_BỊ:{}) - (Khái_niệm:Đình Chỉ Học Tập)
+(Hoạt động: Điều kiện xét tốt nghiệp và công nhận tốt nghiệp) - (GỬI_ĐƠN:{'nội_dung': 'Đề nghị xét tốt nghiệp sớm trong trường hợp đủ điều kiện tốt nghiệp sớm so với thời gian đào tạo.'}) - (Chủ_thể:Phòng Đào Tạo Đại Học)
+
+Điều 22:
+Khái_niệm: Cấp bằng tốt nghiệp - {}
+(Khái_niệm: Thời Gian Học Tập Tối Đa) - {}
+
+(Khái_niệm:Điểm Trung Bình Tích Lũy) - (THAM_CHIẾU: {}) - (Điều: Điều 18)
+(Chủ_thể: Sinh Viên) - (ĐƯỢC: 'thời_gian': 'trong thời hạn 03 tháng tính từ thời điểm sinh viên đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành nghĩa vụ với Trường.') - (Khái_niệm: Cấp bằng tốt nghiệp)
+(Chủ_thể: Sinh Viên) - (HẾT: {}) - (Khái_niệm: Thời Gian Học Tập Tối Đa)
+
+(Chủ_thể: Sinh Viên) - (ĐƯỢC_CẤP:{'nội_dung': 'về các học phần đã học trong chương trình đào tạo của Trường. Những sinh viên này nếu có nguyện vọng, được quyền làm đơn xin chuyển qua các chương trình khác theo quy định tại khoản 3 Điều 24 của Quy chế này.'}) - (Khái_niệm:Giấy Chứng Nhận)
+
+Điều 23:
+Quy_trình - Thủ Tục Cho Thôi Học - {'yêu_cầu': 'có thể làm đơn xin thôi học và nộp cho Phòng Đào tạo đại học. Hiệu trưởng quyết định cho từng trường hợp cụ thể.'}
+
+(Hoạt_động:Bảo Lưu Kết Quả Đã Học) - (TRONG_TRƯỜNG_HỢP:{}) - (Chủ_thể:Lực Lượng Vũ Trang)
+(Hoạt_động:Bảo Lưu Kết Quả Đã Học) - (TRONG_TRƯỜNG_HỢP:{}) - (Chủ_thể:Cơ Quan Có Thẩm Quyền)
+(Hoạt_động:Bảo Lưu Kết Quả Đã Học) - (TRONG_TRƯỜNG_HỢP:{}) - (Chủ_thể:Đại Diện Quốc Gia)
+(Hoạt_động:Bảo Lưu Kết Quả Đã Học) - (TRONG_TRƯỜNG_HỢP:{}) - (Sự_kiện:Kỳ Thi, Giải Đấu Quốc Tế)
+(Hoạt_động:Bảo Lưu Kết Quả Đã Học) - (TRONG_TRƯỜNG_HỢP:{}) - (Tình_trạng:Ốm, Thai Sản Hoặc Tai Nạn)
+(Hoạt_động:Bảo Lưu Kết Quả Đã Học) - (TRONG_TRƯỜNG_HỢP:{}) - (Tổ_chức:Cơ Sở Khám Bệnh, Chữa Bệnh)
+(Hoạt_động:Bảo Lưu Kết Quả Đã Học) - (TRONG_TRƯỜNG_HỢP:{}) - (Lý_do:Lý Do Cá Nhân)
+(Hoạt_động:Bảo Lưu Kết Quả Đã Học) - (TRONG_TRƯỜNG_HỢP:{'điều_kiện': 'đã học tối thiểu 01 học kỳ ở Trường'}) - (Khái_niệm:Học Kỳ)
+(Quy_trình: Thủ Tục Xin Trở Lại Học) - (YÊU_CẦU:{'điều_kiện': 'trước khi bắt đầu học kỳ mới ít nhất một tuần, phải viết đơn nộp cho Phòng Đào tạo đại học để trình Hiệu trưởng quyết định.'}) - (Tổ_chức:Phòng Đào Tạo Đại Học)
+
+Điều 24:
+Điều - Điều 24 - {'tiêu_đề': 'Chuyển ngành, chuyển nơi học, chuyển trường, chuyển hình thức học'}
+Tài_liêu: hồ sơ xin chuyển trường
+(Chủ_thể: Sinh Viên) - (ĐƯỢC_XEM_XÉT:{'điều_kiện': 'Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định tại khoản 5 Điều 2 của Quy chế này; Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo, của Trường trong cùng khóa tuyển sinh; Trường có đủ điều kiện bảo đảm chất lượng, chưa vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo; Được sự đồng ý của Trưởng các đơn vị chuyên môn phụ trách chương trình, ngành đào tạo và của Hiệu trưởng'}) - (Hoạt_động:Chuyển Ngành)
+(Chủ_thể: Sinh Viên) - (ĐƯỢC_XEM_XÉT:{'điều_kiện': 'Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định tại khoản 5 Điều 2 của Quy chế này; Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại trường xin chuyển đến; Trường hợp chuyển đến, chỉ được tiếp nhận khi Trường có đủ điều kiện bảo đảm chất lượng, chưa vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo; Được sự đồng ý của Hiệu trưởng trường xin chuyển đi và trường xin chuyển đến'}) - (Hoạt_động:Chuyển Trường)
+
+(Khái_niệm: Hình Thức Chính Quy) - (CHUYỂN_ĐỔI:{'điều_kiện': 'nếu còn đủ thời gian học tập theo quy định đối với hình thức chuyển đến.'}) - (Khái_niệm:Hình Thức Vừa Làm Vừa Học)
+(Hoạt_động:Thủ Tục Chuyển Trường) - (GỒM) - (Tài_liêu: hồ sơ xin chuyển trường)
+
+
+Điều 25:
+Điều - Điều 25 - {'tiêu_đề': 'Trao đổi sinh viên và hợp tác trong đào tạo'}
+Quy_định - Quy Định Về Công Nhận Lẫn Nhau - {'vai_trò': 'sinh viên của Trường có thể đăng ký thực hiện học một số học phần tại trường khác, nếu được Hiệu trưởng của hai trường đồng ý với số lượng tín chỉ mà sinh viên tích lũy tại cơ sở đào tạo khác (nếu có) không vượt quá 25% tổng khối lượng của chương trình đào tạo.'}
+
+Điều 26:
+Điều - Điều 26 - {'tiêu_đề': 'Học cùng lúc hai chương trình'}
+(Điều: Điều 2)
+
+(Hoạt_động: Học Cùng Lúc Hai Chương Trình) - (DÀNH_CHO:{'vai_trò': 'sinh viên có nhu cầu đăng ký học thêm một chương trình để khi tốt nghiệp được cấp hai văn bằng.'}) - (Chủ_thể:Sinh Viên)
+(Chủ_thể: Sinh Viên) - (ĐĂNG_KÝ:{'điều_kiện': 'khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất; Học lực tính theo điểm trung bình tích lũy xếp loại trung bình trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh.'}) - (Chương_trình_đào_tạo:Chương Trình Thứ Hai)
+(Chủ_thể: Sinh Viên) - (BUỘC_DỪNG_HOC:{'điều_kiện': 'điểm trung bình tích lũy của chương trình thứ nhất đạt dưới điểm trung bình hoặc thuộc diện cảnh báo kết quả học tập thì phải dừng học chương trình thứ hai ở học kỳ tiếp theo; sinh viên sẽ bị loại khỏi danh sách đã đăng ký học chương trình thứ hai.'}) - (Chương_trình_đào_tạo:Chương Trình Thứ Hai)
+(Chủ_thể: Sinh Viên) - (HOC:{'ưu_đãi': 'được công nhận kết quả của những học phần có nội dung và khối lượng kiến thức tương đương có trong chương trình thứ nhất.'}) - (Chương_trình_đào_tạo:Chương Trình Thứ Hai)
+(Chủ_thể: Sinh Viên) - (ĐƯỢC_XÉT_TỐT_NGHIỆP:{'điều_kiện': 'nếu có đủ điều kiện tốt nghiệp ở chương trình thứ nhất và đã đăng ký muộn nhất 02 năm trước thời điểm xét tốt nghiệp chương trình thứ hai.'}) - (Chương_trình_đào_tạo:Chương Trình Thứ Hai)
+(Khái_niêm: Thời hạn học tập tối đa) - (THAM_CHIẾU) - (Điều: Điều 2)
+
+Điều 27:
+Điều: Điều 27 - {'tiêu_đề': 'Học liên thông đối với người có văn bằng khác'}
+
+(Chủ_thể: Người Đã Tốt Nghiệp Đại Học) - (HỌC_LIÊN_THÔNG:{'điều_kiện': 'khi Trường đã áp dụng thống nhất phương thức đào tạo theo tín chỉ và đã tuyển sinh được tối thiểu 03 khóa theo ngành đào tạo và hình thức đào tạo mà người học lựa chọn.'}) - (Khái_niệm:Ngành Đào Tạo Khác)
+(Chủ_thể: Người Học Liên Thông) - (CÙNG_HÌNH_THỨC_ĐÀO_TẠO:{'nội_dung': 'chung như các sinh viên khác cùng hình thức đào tạo'}) - (Chủ_thể:Sinh Viên)
+
+Điều 28:
+Điều: Điều 28 - {'tiêu_đề': 'Xử lý vi phạm đối với sinh viên'}
+
+Điều 29:
+Đơn_vị - Phòng Thanh Tra Pháp Chế - {'nhiệm_vụ': 'ổ chức kiểm tra, thanh tra theo kế hoạch hoặc đột xuất, báo cáo Hiệu trưởng về việc thực hiện Quy chế.'}
+Đơn_vị - Các Đơn Vị Chức Năng - {'nhiệm_vụ': 'ổ chức kiểm tra, thanh tra theo kế hoạch hoặc đột xuất, báo cáo Hiệu trưởng về việc thực hiện Quy chế.'}
+
+
+(Đơn_vị: Phòng Đào Tạo Đại Học) - (HƯỚNG_DẪN:{'đối_tượng': 'sinh viên, giảng viên, viên chức, các tổ chức, cá nhân liên quan đến quá trình đào tạo của Trường Đại học Quy Nhơn'}) - (Văn_bản: Quy chế)
+(Đơn_vị:Các Khoa) - (HƯỚNG_DẪN:{'đối_tượng': 'sinh viên, giảng viên, viên chức, các tổ chức, cá nhân liên quan đến quá trình đào tạo của Trường Đại học Quy Nhơn'}) - (Văn_bản: Quy chế)
+(Đơn_vị:Các Đơn Vị Liên Quan) - (HƯỚNG_DẪN:{'đối_tượng': 'sinh viên, giảng viên, viên chức, các tổ chức, cá nhân liên quan đến quá trình đào tạo của Trường Đại học Quy Nhơn'}) - (Văn_bản: Quy chế)
+(Đơn_vị: Các Đơn Vị Chức Năng) - (THAM_MƯU:{'dựa_vào': 'quy chế'}) - (Tổ_chức:Nhà Trường)
+(Đơn_vị: Các Đơn Vị Liên Quan) - (PHẢN_ÁNH:{'điều_kiện': 'nếu có vướng mắc, để xem xét, điều chỉnh cho phù hợp.'}) - (Tổ_chức:Nhà Trường)
+
+
+
+--------------------------------------------------------------
+Quy định học phí
+Điều 1:
+Điều: Điều 1 - {'tiêu_đề': 'Phạm vi và đối tượng áp dụng'}
+
+(Chủ_thể: Sinh Viên Đại Học Hệ Chính Quy) - (ĐĂNG_KÝ:{'điều_kiện': 'phải đọc và hiểu rõ các mức học phí'}) - (Khái_niệm:Chương Trình Học)
+(Chủ_thể: Sinh Viên Đại Học Hệ Chính Quy) - (TUÂN_THỦ:{}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Sinh Viên Đại Học Hệ Chính Quy) - (TUÂN_THỦ:{'liên_quan_đến': 'học phí'}) - (Khái_niệm:Hình Thức Kỷ Luật)
+
+Điều 2:
+Điều: Điều 2 - {'tiêu_đề': 'Học phí'}
+Khái_niệm: Học phí của từng học kỳ - {'mô_tả': 'Học phí từng học kỳ của mỗi sinh viên sẽ không giống nhau vì phụ thuộc vào số lượng tín chỉ theo học phần đã đăng ký và mức học phí theo tín chỉ của từng ngành học.'}
+
+(Chủ_thể: Trường Đại Học Quy Nhơn) - (QUY_ĐỊNH_MỨC:{'phục_vụ': 'cho cả khóa học của từng ngành học vào đầu mỗi khóa học.'}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Nhà Nước) - (QUY_ĐỊNH_MỨC:{'ngoại_lệ': 'Nếu Nhà nước chưa quy định mức học phí sau năm học 2020 - 2021, thì mức học phí các năm học sau đó sẽ được quy định theo mức học phí năm học 2020 - 2021 và có điều chỉnh tăng 10% theo từng năm (theo đúng lộ trình tăng của Nghị định 86/2015/NĐ-CP).'}) - (Khái_niệm:Học Phí)
+(Khái_niệm: Học Phí) - (THEO_TÍN_CHỈ:{'mô_tả': 'Học phần học lần đầu có mức học phí một tín chỉ bằng (=) Tổng học phí toàn khóa học đã công bố theo quy định chia (/) Tổng số tín chỉ toàn khóa học (theo khung chương trình đào tạo). Học phần học lại, học cải thiện điểm: Thực hiện theo quy định của nhà trường cho từng năm học. }) - (Khái_niệm:Tín Chỉ)
+(Khái_niệm: Học Phần Học Lại )- (THEO_QUY_ĐỊNH: {}) - (Chủ_thể: Trường Đại Học Quy Nhơn)
+(Khái_niệm: Học Cải Thiện Điểm) - (THEO_QUY_ĐỊNH: {}) - (Chủ_thể: Trường Đại Học Quy Nhơn)
+(Chủ_thể: Trường Đại Học Quy Nhơn) - (CÓ) - (Khái_niệm:Khung Chương Trình Đào Tạo)
+
+Điều 3:
+Điều - Điều 3 - {'tiêu_đề': 'Nghĩa vụ nộp học phí của sinh'}
+Thông_báo: Nộp học phí - {}
+
+(Chủ_thể: Sinh Viên) - (THEO_DÕI:{'thời_gian': 'Trước đầu kỳ học 01 tháng'}) - (Thông_báo: Nộp học phí)
+(Chủ_thể: Sinh Viên) - (THEO_DÕI:{'mô_tả': 'thông báo về danh sách sinh viên chưa hoàn thành học phí và phản hồi cho Phòng Kế hoạch - Tài chính nếu có sai sót trước ngày hết hạn nộp học phí ít nhất 10 ngày.'}) - (Tài_liệu:Danh Sách Sinh Viên Chưa Hoàn Thành Học Phí)
+(Chủ_thể: Trường) - (CÔNG_BỐ:{}) - (Tài_liệu:Danh Sách Sinh Viên Chưa Hoàn Thành Học Phí)
+(Chủ_thể: Sinh Viên) - (PHẢN_HỒI:{'điều_kiện': 'nếu có sai sót', 'thời_hạn': 'ít_nhất 10 ngày'}) - (Bộ_phận:Phòng Kế Hoạch - Tài Chính) 
+'
+Điều 4:
+Điều - Điều 4 - {'tiêu_đề': 'Phân kỳ nộp học phí'}
+
+Điều 5:
+Điều - Điều 5 - {'tiêu_đề': 'Thời hạn đóng học phí'}
+
+Điều 6:
+Điều - Điều 6 - {'tiêu_đề': 'Phương thức đóng học phí'}
+Tỉnh - Bình Định - {}
+
+(Phương_thức: Nộp Qua Ngân Hàng) - (CÓ_TÀI_KHOẢN:{}) - (Tài_khoản:5801 000 111 8348) - sai
+Ngân_hàng - Ngân Hàng Tmcp Đầu Tư & Phát Triển Việt Nam) - (CHI_NHÁNH) - (Tỉnh - Bình Định)
+
+Điều 7:
+Điều - Điều 7 - {'tiêu_đề': 'Miễn giảm học phí '}
+(Khái_niệm: Khi Nhập Học) - {}
+(Khái_niệm: Trong Quá Trình Học Tập) - {}
+Khái_niêm: Nhà nước 
+Phương_thức_đào_tạo: Đào tạo niên chế
+Phương_thức_đào_tạo: Đào tạo tín chỉ
+
+(Hoạt_động: Thủ Tục Miễn Giảm) - (ĐỐI_VỚI: {'nội_dung': 'sinh viên xuất trình hồ sơ miễn giảm theo quy định cho Phòng Công tác chính trị - Sinh viên. Sau khi có xác nhận của Phòng Công tác chính trị - Sinh viên về đối tượng và mức miễn giảm, Phòng Kế hoạch - Tài chính tạm giảm trừ trực tiếp khi thu học phí. Sau khi có Quyết định miễn, giảm học phí, Phòng Kế hoạch - Tài chính sẽ điều chỉnh lại số tiền đã tạm miễn, giảm cho sinh viên. Nếu thừa học phí, nhà trường sẽ chi trả hoặc bảo lưu cho sinh viên vào học kỳ sau. Nếu thiếu, sinh viên phải đóng phần học phí còn lại sau khi đã được miễn giảm.  '}) - (Khái_niệm: Khi Nhập Học)
+(Hoạt_động: Thủ Tục Miễn Giảm) - (ĐỐI_VỚI: {'nội_dung': 'Theo quy định của Nhà nước, miễn giảm học phí theo mức niên chế theo từng năm học. Nhưng sinh viên học theo tín chỉ, học phí được tính trên số lượng tín chỉ và mức thu/tín chỉ để xác định học phí phải nộp theo kỳ. Do đó, có sự chênh lệch thừa hoặc thiếu giữa số được miễn, giảm và học phí phải nộp trong kỳ. Nếu thừa học phí, nhà trường sẽ chi trả hoặc bảo lưu cho sinh viên vào học kỳ sau. Nếu thiếu, sinh viên phải đóng phần học phí còn lại sau khi đã được miễn giảm.'}) - (Khái_niệm: Trong Quá Trình Học Tập)
+
+(Khái_niêm: Nhà nước) - (MIỄN_GIẢM_HỌC_PHÍ: {'thời_gian': 'theo từng năm học}) - (Phương_thức_đào_tạo: Đào tạo niên chế)
+(Khái_niêm: Nhà nước) - (MIỄN_GIẢM_HỌC_PHÍ: {'nội dung': 'học phí được tính trên số lượng tín chỉ và mức thu/tín chỉ để xác định học phí phải nộp theo kỳ. Do đó, có sự chênh lệch thừa hoặc thiếu giữa số được miễn, giảm và học phí phải nộp trong kỳ. Nếu thừa học phí, nhà trường sẽ chi trả hoặc bảo lưu cho sinh viên vào học kỳ sau. Nếu thiếu, sinh viên phải đóng phần học phí còn lại sau khi đã được miễn giảm.'}) - (Phương_thức_đào_tạo: Đào tạo tín chỉ)
+(Bộ_phận:Phòng Công Tác Chính Trị - Sinh Viên) - (XÁC_NHẬN:{}) - (Hoạt_động: Thủ Tục Miễn Giảm)
+(Bộ_phận:Phòng Công Tác Chính Trị - Sinh Viên) - (THỰC_HIỆN:{}) - (Hoạt_động: Thủ Tục Miễn Giảm)
+
+
+Điều 8:
+Điều - Điều 8 - {'tiêu_đề': 'Rút học phí hoặc bảo lưu học phí đã nộp'}
+
+(Chủ_thể:Sinh Viên Mới Nhập Học) - (YÊU_CẦU: {'điều_kiện': 'đã hoàn tất thủ tục nhập học, nhưng vì nhiều lí do có nguyện vọng nghỉ học; Sinh viên rút hồ sơ nhập học trong thời gian 30 ngày tính từ ngày nộp tiền sẽ bị trừ 1 tháng học phí (tính theo mức thu của Nghị định 86/2015/NĐ-CP ngày 02/10/2015 của Chính phủ). Sinh viên rút hồ sơ nhập học trong thời gian trên 30 ngày đến 60 ngày tính từ ngày nộp tiền sẽ bị trừ 2 tháng học phí (tính theo mức thu của Nghị định 86/2015/NĐ-CP ngày 02/10/2015 của Chính phủ).Nếu quá 60 ngày kể từ ngày nộp tiền, nhà trường sẽ không hoàn trả lại tiền học phí sinh viên đã nộp.; Đối với sinh viên xin nghỉ học vì lí do khách quan như: gia cảnh khó khăn do cha, mẹ hoặc người nuôi dưỡng trực tiếp qua đời hoặc do thiên tai (có xác nhận của UBND quận, huyện trở lên) hoặc bị bệnh nặng (có xác nhận của cơ quan y tế cấp quận, huyện); bản thân bị ốm đau hoặc tai nạn buộc phải điều trị với thời gian dài có giấy xác nhận của cơ quan y tế cấp quận, huyện trở lên, thì được hoàn trả 100% học phí đã nộp.'}) - (Hoạt_động: Rút Học Phí)
+(Chủ_thể:Sinh Viên Đang Theo Học) - (YÊU_CẦU: {'điều_kiện': 'Sinh viên tạm dừng học tập hoặc xin thôi học vì lí do khách quan như: gia cảnh khó khăn do cha mẹ hoặc người nuôi dưỡng trực tiếp qua đời hoặc do thiên tai (có xác nhận của UBND quận, huyện trở lên) hoặc bị bệnh nặng (có xác nhận của cơ quan y tế cấp quận, huyện); bản thân bị ốm đau hoặc tai nạn buộc phải điều trị với thời gian dài có giấy xác nhận của cơ quan y tế cấp quận, huyện trở lên, thì được hoàn trả 100% học phí đã nộp hoặc bảo lưu.; tạm dừng học tập hoặc xin thôi học vì công việc cá nhân thì sẽ bị trừ học phí đã nộp như sau: Đến 60 ngày kể từ ngày học đầu tiên sẽ được hoàn trả 100% học phí đã nộp hoặc được bảo lưu. Trên 60 ngày đến 75 ngày kể từ ngày học đầu tiên sẽ được hoàn trả 50% học phí đã nộp hoặc được bảo lưu. Trên 75 ngày kể từ ngày học đầu tiên sẽ không được hoàn trả học phí đã nộp.', 'thủ_tục': 'Trường hợp xin thôi học: Bản chính Biên lai (Hóa đơn) thu tiền học phí của nhà trường. Thẻ sinh viên hoặc Giấy CMND photo. Giấy xác nhận đã hoàn trả giáo trình. Bản chính và bản photo quyết định thôi học. Trường hợp đang học nhưng xin hoàn số thừa học phí: Bản photo Biên lai (Hóa đơn) thu tiền học phí của nhà trường (nếu có). Bản photo Thẻ sinh viên hoặc Giấy CMND. Đơn xin hoàn học phí.'}) - (Hoạt_động: Rút Học Phí)
+(Chủ_thể: Sinh Viên Mới Nhập Học) - (CẦN_CÓ:{'điều_kiện': 'có xác nhận của Phòng Đào tạo đại học và được Hiệu trưởng phê duyệt.'}) - (Tài_liệu:Đơn Xin Thôi Học)
+
+(Chủ_thể: Nhà Trường) - (HOÀN_TRẢ:{'điều_kiện': 'Sinh viên rút hồ sơ nhập học trong thời gian 30 ngày', 'mức_trừ': '1 tháng học phí', 'đối_với': 'sinh viên mới nhập học'}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Nhà Trường) - (HOÀN_TRẢ:{'điều_kiện': 'Sinh viên rút hồ sơ nhập học trong thời gian trên 30 ngày đến 60 ngày', 'mức_trừ': '2 tháng học phí', 'đối_với': 'sinh viên mới nhập học'}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Nhà Trường) - (KHÔNG_HOÀN_TRẢ:{'điều_kiện': 'Quá 60 ngày kể từ ngày nộp tiền', 'đối_với': 'sinh viên mới nhập học'}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Nhà Trường) - (HOÀN_TRẢ_100%:{'điều_kiện': 'Sinh viên xin nghỉ học vì lí do khách quan', 'đối_với': 'sinh viên mới nhập học'}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Nhà Trường) - (HOÀN_TRẢ_100%_HOẶC_BẢO_LƯU:{'điều_kiện': 'Sinh viên tạm dừng học tập hoặc xin thôi học vì lí do khách quan', 'đối_với': 'sinh viên đang theo học tại Trường'}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Nhà Trường) - (HOÀN_TRẢ_100%_HOẶC_BẢO_LƯU:{'điều_kiện': 'Đến 60 ngày kể từ ngày học đầu tiên', 'đối_với': 'sinh viên đang theo học tại Trường'}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Nhà Trường) - (HOÀN_TRẢ_50%_HOẶC_BẢO_LƯU:{'điều_kiện': 'Trên 60 ngày đến 75 ngày kể từ ngày học đầu tiên', 'đối_với': 'sinh viên đang theo học tại Trường'}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Nhà Trường) - (KHÔNG_HOÀN_TRẢ:{'điều_kiện': 'Trên 75 ngày kể từ ngày học đầu tiên', 'đối_với': 'sinh viên đang theo học tại Trường'}) - (Khái_niệm:Học Phí)
+(Chủ_thể: Nhà Trường) - (HOÀN_TRẢ_100%_HOẶC_BẢO_LƯU:{'điều_kiện': 'Các lớp học phần bị hủy bởi nhà trường', 'đối_với': 'sinh viên đang theo học tại Trường'}) - (Khái_niệm:Học Phí)
+
+Điều 9: 
+Điều - Điều 9 - {'tiêu_đề': 'Xử lý đối với trường hợp sinh viên còn nợ học phí hoặc quá hạn nộp học phí'}
+
+(Chủ_thể: Nhà Trường) - (XÓA:{'điều_kiện': 'nếu hết thời hạn thu học phí, nhưng sinh viên vẫn chưa nộp; học kỳ chính: trong vòng 60 ngày kể từ ngày học đầu tiên của kỳ học.; ọc kỳ phụ: trong vòng 15 ngày kể từ ngày kết thúc đăng ký các học phần của kỳ phụ.'}) - (Khái_niệm:Học Phần Đã Đăng Ký)
+(Chủ_thể: Sinh Viên Còn Nợ Học Phí) - (ẢNH_HƯỞNG:{'nội_dung': 'vì nợ học phí sẽ tính vào thời gian đào tạo tối đa của sinh viên theo Quy chế.'}) - (Khái_niệm:Thời Gian Đào Tạo Tối Đa)
+
+Điều 10:
+Điều - Điều 10 - {'tiêu_đề': 'Tổ chức thực hiện'}
+
+
+
+--------------------------------------------------------------
+Chuẩn đầu ra tin học 
+Điều: Điều 1 - {'tiêu_đề': 'Phạm vi và đối tượng áp dụng'}
+Điều: Điều 2 - {'tiêu_đề': 'Chuẩn đầu ra ngoại ngữ'}
+Điều: Điều 3 - {'tiêu_đề': 'Tổ chức thực hiện'}
+Khái_niệm: Các trường hợp khác - {}
+(Khái_niêm: Các đơn vị)
+(Ngoại_ngữ: Ngoại Ngữ 1)
+(Ngoại_ngữ: Ngoại Ngữ 2)
+
+(Quy_định: Chuẩn Đầu Ra Ngoại Ngữ) - (BAO_GỒM: {}) - (Điều: Điều 1)
+(Quy_định: Chuẩn Đầu Ra Ngoại Ngữ) - (BAO_GỒM: {}) - (Điều: Điều 2)
+(Quy_định: Chuẩn Đầu Ra Ngoại Ngữ) - (BAO_GỒM: {}) - (Điều: Điều 3)
+
+(Ngành_đào_tạo: Sư Phạm Tiếng Anh) - (YÊU_CẦU:{'bậc': '5/6', 'ngoại_ngữ': 'Tiếng Anh'}) - (Ngoại_ngữ: Ngoại Ngữ 1)
+(Ngành_đào_tạo: Sư Phạm Tiếng Anh) - (YÊU_CẦU:{'bậc': '3/6', 'ngoại_ngữ': 'Tiếng Pháp và Tiếng Trung'}) - (Ngoại_ngữ: Ngoại Ngữ 2)
+(Chủ_thể: Sinh Viên Đại Học Hệ Chính Quy) - (ĐÁP_ỨNG: {'điều_kiện': 'khi có một trong các chứng nhận, chứng chỉ ngoại ngữ theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc chứng chỉ quốc tế tương đương được quy định tại Phụ lục kèm theo Quy định này.'}) - (Chuẩn_đầu_ra: Ngoại Ngữ)
+(Khái_niệm: Các trường hợp khác) - (QUYẾT_ĐỊNH_BỞI: {}) - (Chủ_thể: Hiệu Trưởng)
+(Chủ_thể: Trưởng Phòng Khảo Thí Và Bảo Đảm Chất Lượng) - (TRIỄN_KHAI:{}) - (Quy_định:Chuẩn Đầu Ra Ngoại Ngữ)
+(Chủ_thể: Trưởng Phòng Đào Tạo Đại Học) - (TRIỄN_KHAI:{}) - (Quy_định:Chuẩn Đầu Ra Ngoại Ngữ)
+(Chủ_thể: Trưởng Phòng Công Tác Chính Trị Và Sinh Viên) - (TRIỄN_KHAI:{}) - (Quy_định:Chuẩn Đầu Ra Ngoại Ngữ)
+
+(Khái_niêm: Các đơn vị) - (ĐỀ_XUẤT: {'vấn_đề': 'Nếu có vấn đề chưa phù hợp'}) - (Tổ_chức: Phòng Khảo Thí Và Bảo Đảm Chất Lượng)

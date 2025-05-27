@@ -4,12 +4,12 @@ Tên quy định: Quy định về học phí của sinh viên đại học hệ
 2. Sinh viên khi đăng ký tham gia các chương trình học được hiểu là đã đọc và hiểu rõ các mức học phí, đồng thời có trách nhiệm tuân thủ nghiêm túc các điều khoản quy định về học phí và những hình thức kỷ luật liên quan đến học phí của chương trình đào tạo.  
 
 Điều 2. Học phí  
-1. Học phí là khoản tiền người học phải nộp để đảm bảo chi phí cho các hoạt động đào tạo.  
-2. Học phí được xây dựng dựa trên quy định của Nhà nước và khung chương trình đào tạo của Trường Đại học Quy Nhơn. Nhà trường quy định mức học phí cho cả khóa học của từng ngành học vào đầu mỗi khóa học.  
-a) Mức học phí theo tín chỉ của mỗi ngành học có thể khác nhau nhưng tổng mức học phí theo nhóm ngành của cả khóa học thì bằng nhau và không thay đổi trong toàn khóa học.  
+1. Học phí là khoản tiền người học phải nộp để đảm bảo chi phí cho các hoạt động đào tạo.
+2. Học phí được xây dựng dựa trên quy định của Nhà nước và khung chương trình đào tạo của Trường Đại học Quy Nhơn. Nhà trường quy định mức học phí cho cả khóa học của từng ngành học vào đầu mỗi khóa học.
+a) Mức học phí theo tín chỉ của mỗi ngành học có thể khác nhau nhưng tổng mức học phí theo nhóm ngành của cả khóa học thì bằng nhau và không thay đổi trong toàn khóa học.
 b) Học phí công bố nêu trên không bao gồm học phí các học phần học lại, học cải thiện điểm, học phí các học phần ngoài khung chương trình đào tạo.  
-3. Trường hợp Nhà nước chưa quy định mức học phí sau năm học 2020 - 2021, thì mức học phí các năm học sau đó sẽ được quy định theo mức học phí năm học 2020 - 2021 và có điều chỉnh tăng 10% theo từng năm (theo đúng lộ trình tăng của Nghị định 86/2015/NĐ-CP).  
-4. Học phí của từng học kỳ  
+3. Trường hợp Nhà nước chưa quy định mức học phí sau năm học 2020 - 2021, thì mức học phí các năm học sau đó sẽ được quy định theo mức học phí năm học 2020 - 2021 và có điều chỉnh tăng 10% theo từng năm (theo đúng lộ trình tăng của Nghị định 86/2015/NĐ-CP).
+4. Học phí của từng học kỳ
 Học phí từng học kỳ của mỗi sinh viên sẽ không giống nhau vì phụ thuộc vào số lượng tín chỉ theo học phần đã đăng ký và mức học phí theo tín chỉ của từng ngành học.  
 5. Mức học phí theo tín chỉ  
 a) Đối với các học phần học lần đầu trong khung chương trình đào tạo:  
@@ -31,7 +31,7 @@ a) Nộp 100% học phí theo các học phần đã đăng ký trong kỳ học
 b) Đối với các học phần học lại, học cải thiện điểm: nộp 100% học phí theo các học phần đã đăng ký theo mức học phí/tín chỉ do nhà trường thông báo vào đầu năm học.  
 c) Thông báo nộp học phí cho mỗi học kỳ sẽ được đăng trên website của Trường và trên các bảng tin của khoa và Phòng Kế hoạch - Tài chính.  
 
-Điều 5. Thời hạn đóng học phí  
+Điều 5. Thời hạn đóng học phí
 1. Đối với các học phần học trong học kỳ chính: trong vòng 60 ngày kể từ ngày học đầu tiên của học kỳ, sinh viên phải nộp đủ học phí theo các học phần đã đăng ký.  
 2. Đối với các học phần học trong học kỳ phụ: trong vòng 15 ngày kể từ ngày kết thúc đăng ký các học phần, sinh viên phải nộp đủ học phí theo các học phần đã đăng ký.
 
@@ -51,7 +51,7 @@ Tên ngân hàng: Ngân hàng TMCP Đầu tư & Phát triển Việt Nam – Chi
 1. Sinh viên thuộc diện được miễn, giảm học phí; mức miễn, giảm; hồ sơ, thủ tục miễn, giảm.  
 Thực hiện theo Thông tư Liên tịch số 09/2016/TTLT-BGDĐT-BTC-BLĐTBXH ngày 30/3/2016 của Liên Bộ Giáo dục và Đào tạo, Bộ Tài chính, Bộ Lao động - Thương binh và Xã hội về việc hướng dẫn thực hiện một số điều của Nghị định số 86/2015/NĐ-CP ngày 02/10/2015 của Thủ tướng Chính phủ Quy định về cơ chế thu, quản lý học phí đối với cơ sở giáo dục thuộc hệ thống giáo dục quốc dân và chính sách miễn, giảm học phí, hỗ trợ chi phí học tập từ năm học 2015 - 2016 đến năm học 2020 - 2021.  
 2. Thủ tục miễn giảm
-a) Khi nhập học: sinh viên xuất trình hồ sơ miễn giảm theo quy định cho Phòng Công tác chính trị - Sinh viên. Sau khi có xác nhận của Phòng Công tác chính trị - Sinh viên về đối tượng và mức miễn giảm, Phòng Kế hoạch - Tài chính tạm giảm trừ trực tiếp khi thu học phí. Sau khi có Quyết định miễn, giảm học phí, Phòng Kế hoạch - Tài chính sẽ điều chỉnh lại số tiền đã tạm miễn, giảm cho sinh viên. Nếu thừa học phí, nhà trường sẽ chi trả hoặc bảo lưu cho sinh viên vào học kỳ sau. Nếu thiếu, sinh viên phải đóng phần học phí còn lại sau khi đã được miễn giảm.  
+a) Khi nhập học: sinh viên xuất trình hồ sơ miễn giảm theo quy định cho Phòng Công tác chính trị - Sinh viên. Sau khi có xác nhận của Phòng Công tác chính trị - Sinh viên về đối tượng và mức miễn giảm, Phòng Kế hoạch - Tài chính tạm giảm trừ trực tiếp khi thu học phí. Sau khi có Quyết định miễn, giảm học phí, Phòng Kế hoạch - Tài chính sẽ điều chỉnh lại số tiền đã tạm miễn, giảm cho sinh viên. Nếu thừa học phí, nhà trường sẽ chi trả hoặc bảo lưu cho sinh viên vào học kỳ sau. Nếu thiếu, sinh viên phải đóng phần học phí còn lại sau khi đã được miễn giảm.
 b) Trong quá trình học tập: Theo quy định của Nhà nước, miễn giảm học phí theo mức niên chế theo từng năm học. Nhưng sinh viên học theo tín chỉ, học phí được tính trên số lượng tín chỉ và mức thu/tín chỉ để xác định học phí phải nộp theo kỳ. Do đó, có sự chênh lệch thừa hoặc thiếu giữa số được miễn, giảm và học phí phải nộp trong kỳ. Nếu thừa học phí, nhà trường sẽ chi trả hoặc bảo lưu cho sinh viên vào học kỳ sau. Nếu thiếu, sinh viên phải đóng phần học phí còn lại sau khi đã được miễn giảm.
 
 Điều 8. Rút học phí hoặc bảo lưu học phí đã nộp
