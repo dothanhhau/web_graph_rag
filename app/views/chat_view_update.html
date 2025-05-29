@@ -401,8 +401,10 @@
 
           buffer += decoder.decode(value, { stream: true });
           let lines = buffer.split('\n');
-
+          console.log('line: ' + lines);
+          console.log('buffer: ' + buffer);
           if(buffer.startsWith('$@%123')) {
+            console.log('ok')
             thinkingText = buffer.split('$@%123')[1];
             buffer = lines.pop();
           }
@@ -431,6 +433,7 @@
         
         // Hiển thị kết quả cuối bên dưới
         finalAnswer.textContent = "";
+        console.log('thingkingtext: ' + thinkingText);
         await appendChars(finalAnswer, thinkingText.trim(), 5);
 
         chatBox.scrollTop = chatBox.scrollHeight;

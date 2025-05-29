@@ -1,15 +1,10 @@
 from flask import Blueprint, render_template, request, jsonify, Response
 from app.models.chat_model import get_chat_response, generate_cypher, query_neo4j, generate_answer
-import time
 
 chat_bp = Blueprint('chat', __name__)
 
 @chat_bp.route('/')
 def index():
-    return render_template('chat_view.html')
-
-@chat_bp.route('/chatupdate')
-def chatupdate():
     return render_template('chat_view_update.html')
 
 @chat_bp.route('/chat', methods=['POST'])
