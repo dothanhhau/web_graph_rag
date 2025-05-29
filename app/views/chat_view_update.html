@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GraphRAG</title>
+    <style>
+      input[type="text"] {
+        flex: 1;
+        padding: 8px;
+        font-size: 1rem;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+      }
+      button {
+        padding: 8px 16px;
+        font-size: 1rem;
+        border-radius: 6px;
+        border: none;
+        background-color: #2196f3;
+        color: white;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #1976d2;
+      }
+
+      .thinking-wrapper {
+        display: flex;
+        flex-direction: column;
+        border: 1px dashed #aaa;
+        background: #f9f9f9;
+        border-radius: 10px;
+        /* max-width: 60%; */
+        width: 100%;
+        cursor: pointer;
+        user-select: none;
+      }
+      .thinking-header {
+        background: #ddd;
+        padding: 4px 8px;
+        font-size: 0.85rem;
+        color: #555;
+        border-radius: 10px 10px 0 0;
+        font-family: monospace;
+      }
+      .thinking-content {
+        max-height: 260px;
+        overflow-y: auto;
+        padding: 10px 12px;
+        font-family: monospace;
+        white-space: pre-wrap;
+        transition: max-height 0.3s ease;
+        overflow-y: auto;
+        scrollbar-width: none;
+        text-align: justify;
+        -ms-overflow-style: none;
+      }
+      .thinking-wrapper.closed .thinking-content {
+        max-height: 28px;
+        overflow: hidden;
+        padding: 4px 12px;
+      }
+
+      .final-answer {
+        /* max-width: 60%; */
+        width: 100%;
+        margin-top: 16px;
+        /* background: #dcedc8;
+        border: 1px solid #c5e1a5; */
+        /* padding: 12px 14px; */
+        /* border-radius: 12px; */
+        font-size: 1rem;
+        line-height: 1.8rem;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        align-self: flex-start;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        /* background: #f9f9f9; */
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Container chat */
+      .chat-container {
+        width: 100%;
+        max-width: 800px;
+        height: 100vh;
+        background: #ffffff;
+        border-radius: 12px;
+        /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        /* padding-bottom: 30px; */
+      }
+
+      /* Header */
+      .chat-header {
+        padding: 20px 24px;
+        background: #ffffff;
+        /* border-bottom: 1px solid #e0e0e0; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .chat-header img {
+        height: 24px;
+        margin-right: 12px;
+      }
+      .chat-header h1 {
+        font-size: 1.25rem;
+        color: #111;
+        font-weight: 600;
+      }
+
+      /* Chat messages area */
+      .chat-messages {
+        flex: 1;
+        padding: 24px;
+        overflow-y: auto;
+        scrollbar-width: none;
+        text-align: justify;
+        -ms-overflow-style: none;
+        /* background: #f9f9f9; */
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+      }
+      .message {
+        /* max-width: 80%; */
+        border-radius: 16px;
+        position: relative;
+        line-height: 1.5;
+        word-break: break-word;
+        font-size: 0.95rem;
+      }
+      .message.user {
+        align-self: flex-end;
+        background: #f4f4f4;
+        padding: 14px 18px;
+
+        /* color: #fff; */
+        border-bottom-right-radius: 4px;
+      }
+      .message.bot {
+        align-self: flex-start;
+        /* background: #e5e5ea; */
+        color: #111;
+        border-bottom-left-radius: 4px;
+        width: 100%;
+      }
+
+      /* Input area */
+      .chat-input {
+        display: flex;
+        align-items: center;
+        padding: 16px 24px;
+        background: #ffffff;
+        border-radius: 25px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+      }
+      .chat-input textarea {
+        flex: 1;
+        padding: 12px 16px;
+        /* border: 1px solid #d1d1d6; */
+        border-radius: 8px;
+        font-size: 1rem;
+        outline: none;
+        /* background: #f2f2f7; */
+        color: #111;
+        border: none;
+      }
+      .chat-input button {
+        margin-left: 12px;
+        padding: 10px 15px;
+        border: none;
+        background: #212121;
+        color: #fff;
+        font-size: 1rem;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background 0.2s ease;
+      }
+      .chat-input button:disabled {
+        background: #212121;
+        cursor: default;
+      }
+
+      /* Scrollbar tùy chỉnh */
+      .chat-messages::-webkit-scrollbar {
+        width: 8px;
+        display: none;
+      }
+      .chat-messages::-webkit-scrollbar-thumb {
+        background: #c4c4c4;
+        border-radius: 4px;
+      }
+      .logo-group {
+        display: flex;
+        align-items: center;
+      }
+      .logo-group img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+      textarea {
+        width: 300px;
+        min-height: 40px;
+        max-height: 150px; /* chiều cao tối đa */
+        overflow-y: auto; /* hiển thị scroll khi vượt quá max-height */
+        resize: none; /* tắt resize thủ công nếu muốn */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        <div class="logo-group">
+          <a href="https://qnu.edu.vn/" target="_blank">
+            <img src="./../static/image/logo_qnu.png" alt="Logo QNU" />
+          </a>
+          <a href="https://kcntt.qnu.edu.vn/" target="_blank">
+            <img src="./../static/image/logo_kcntt.png" alt="Logo CNTT" />
+          </a>
+          <h1>GraphRAG</h1>
+        </div>
+        <div style="float: right">
+          <a href="/huongdan" target="_blank"
+            >Hướng dẫn truy vấn trực tiếp với ngôn ngữ Cypher</a
+          >
+        </div>
+      </div>
+      <div class="chat-messages" id="chatBox"></div>
+      <div class="chat-input">
+        <textarea id="autoResize" placeholder="Nhập câu hỏi của bạn..."></textarea>
+        <button id="sendBtn">Gửi</button>
+      </div>
+      <p
+        style="
+          text-align: center;
+          margin: 15px 0 5px 0;
+          font-size: 12px;
+          color: #afafaf;
+        "
+      >
+        Made with by
+        <a
+          style="color: #afafaf"
+          href="https://www.facebook.com/dothanhhauqnu"
+          target="_blank"
+          >Đỗ Thành Hậu</a
+        >
+      </p>
+    </div>
+
+    <script>
+      const chatBox = document.getElementById("chatBox");
+      const userInput = document.getElementById("autoResize");
+      const sendBtn = document.getElementById("sendBtn");
+      const textarea = document.getElementById("autoResize");
+      textarea.addEventListener("input", () => {
+        textarea.style.height = "auto"; // reset chiều cao
+        textarea.style.height = textarea.scrollHeight + "px"; // đặt chiều cao theo nội dung
+      });
+      function appendMessage(text, sender) {
+        const msgDiv = document.createElement("div");
+        msgDiv.classList.add("message", sender);
+        if (sender === "user") msgDiv.textContent = text;
+        else msgDiv.appendChild(text);
+        chatBox.appendChild(msgDiv);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
+
+      async function sendMessage() {
+        const text = userInput.value.trim();
+        if (!text) return;
+        appendMessage(text, "user");
+        userInput.value = "";
+        userInput.disabled = true;
+        sendBtn.disabled = true;
+
+        try {
+          const { wrapper, header, content } = createThinkingBox();
+          const wrapper_bot = document.createElement("div");
+          const finalAnswer = document.createElement("div");
+          finalAnswer.className = "final-answer";
+
+          wrapper_bot.appendChild(wrapper);
+          wrapper_bot.appendChild(finalAnswer);
+          appendMessage(wrapper_bot, "bot");
+
+          // Scroll xuống dưới mỗi khi thêm phần mới
+          wrapper.scrollIntoView({ behavior: "smooth" });
+          finalAnswer.scrollIntoView({ behavior: "smooth" });
+          // Gọi hàm chạy streaming
+          runStreamingRequest(text, header, content, finalAnswer);
+        } catch {
+          const loading = document.querySelector(".message.bot:last-child");
+          if (loading) loading.remove();
+          appendMessage("Lỗi kết nối. Vui lòng thử lại.", "bot");
+        } finally {
+          userInput.disabled = false;
+          sendBtn.disabled = false;
+          userInput.focus();
+        }
+      }
+
+      sendBtn.addEventListener("click", sendMessage);
+      userInput.addEventListener("keypress", (e) => {
+        if (e.key === "Enter" && !sendBtn.disabled) sendMessage();
+      });
+
+      // Tạo 1 ô "đang suy nghĩ" mới
+      function createThinkingBox() {
+        const wrapper = document.createElement("div");
+        wrapper.className = "thinking-wrapper open";
+
+        const header = document.createElement("div");
+        header.className = "thinking-header";
+        header.textContent = "⏱ Đang xử lý... 0.000 giây";
+
+        const content = document.createElement("div");
+        content.className = "thinking-content";
+        content.textContent = "";
+
+        wrapper.appendChild(header);
+        wrapper.appendChild(content);
+
+        // Click toggle mở rộng / thu gọn
+        wrapper.addEventListener("click", () => {
+          if (wrapper.classList.contains("closed")) {
+            wrapper.classList.remove("closed");
+            wrapper.classList.add("open");
+          } else {
+            wrapper.classList.remove("open");
+            wrapper.classList.add("closed");
+          }
+        });
+
+        return { wrapper, header, content };
+      }
+
+      // Hiển thị từng ký tự ra container với delay
+      async function appendChars(container, text, delay) {
+        for (let i = 0; i < text.length; i++) {
+          container.textContent += text[i];
+          // container.innerHTML += text[i];
+          container.scrollTop = container.scrollHeight; // auto scroll xuống dưới
+          await new Promise((r) => setTimeout(r, delay));
+        }
+      }
+
+      // Hàm chạy request và xử lý streaming
+      async function runStreamingRequest(
+        question,
+        header,
+        content,
+        finalAnswer
+      ) {
+        header.textContent = "⏱ Đang xử lý... 0.000 giây";
+        content.textContent = "";
+        finalAnswer.textContent = "";
+
+        let startTime = performance.now();
+
+        // Cập nhật thời gian liên tục mỗi 50ms
+        const timerInterval = setInterval(() => {
+          let now = performance.now();
+          let diff = ((now - startTime) / 1000).toFixed(2);
+          header.textContent = `⏱ Đang xử lý... ${diff} giây`;
+        }, 50);
+
+        // Gửi fetch request streaming (giả lập endpoint)
+        const response = await fetch("/api/stream", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ question: question }),
+        });
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = "";
+        let thinkingText = '';
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+          let lines = buffer.split('\n');
+
+          if(buffer.startsWith('$@%123')) {
+            thinkingText = buffer.split('$@%123')[1];
+            buffer = lines.pop();
+          }
+          else {
+            buffer = lines.pop();
+  
+            for (const line of lines) {
+              // Hiển thị từng ký tự ra thinking content
+              await appendChars(content, line.trim() + "\n", 5);
+              chatBox.scrollTop = chatBox.scrollHeight;
+            }
+          }
+        }
+
+        clearInterval(timerInterval);
+
+        // Kết thúc: cập nhật thời gian cuối cùng và thu gọn thinking box
+        
+        // Thu gọn thinking box
+        content.parentElement.classList.remove("open");
+        content.parentElement.classList.add("closed");
+        
+        let endTime = performance.now();
+        let totalTime = ((endTime - startTime) / 1000).toFixed(2);
+        header.textContent = `⏱ ${totalTime} giây`;
+        
+        // Hiển thị kết quả cuối bên dưới
+        finalAnswer.textContent = "";
+        await appendChars(finalAnswer, thinkingText.trim(), 5);
+
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
+
+      function handleSubmit(event) {
+        event.preventDefault();
+        const question = userInput.value.trim();
+        if (!question) return;
+
+        // Thêm câu hỏi user vào chat
+        const userBubble = document.createElement("div");
+        userBubble.className = "bubble user";
+        userBubble.textContent = "User: " + question;
+        chatArea.appendChild(userBubble);
+
+        // Tạo thinking box và final answer box
+        const { wrapper, header, content } = createThinkingBox();
+        const finalAnswer = document.createElement("div");
+        finalAnswer.className = "final-answer";
+
+        chatArea.appendChild(wrapper);
+        chatArea.appendChild(finalAnswer);
+
+        // Scroll xuống dưới mỗi khi thêm phần mới
+        wrapper.scrollIntoView({ behavior: "smooth" });
+        finalAnswer.scrollIntoView({ behavior: "smooth" });
+
+        // Gọi hàm chạy streaming
+        runStreamingRequest(question, header, content, finalAnswer);
+
+        userInput.value = "";
+        userInput.placeholder = "Nhập câu hỏi của bạn...";
+      }
+    </script>
+  </body>
+</html>
